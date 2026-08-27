@@ -1,0 +1,7 @@
+{
+  "id": "template",
+  "name": "Template",
+  "subtitle": "Replace with your certification's name",
+  "color": "#d97757",
+  "path": "certs/template/index.html"
+}

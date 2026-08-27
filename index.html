@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cert Prep</title>
+<style>
+  :root{ --bg:#faf6f1; --card:#ffffff; --ink:#1f1b16; --muted:#6b6258; --line:#e7ded3; }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;}
+  .wrap{max-width:960px;margin:0 auto;padding:40px 18px 90px;}
+  h1{font-size:1.8rem;margin:0 0 6px;}
+  p.sub{color:var(--muted);margin:0 0 28px;}
+  .cert-grid{display:grid;grid-template-columns:1fr;gap:16px;}
+  @media(min-width:640px){.cert-grid{grid-template-columns:1fr 1fr;}}
+  .cert-card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;text-decoration:none;color:var(--ink);border-top:5px solid #d97757;}
+  .cert-card h2{margin:0 0 4px;font-size:1.15rem;}
+  .cert-card .subtitle{color:var(--muted);font-size:0.85rem;margin:0;}
+  .empty{color:var(--muted);font-size:0.9rem;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Cert Prep</h1>
+  <p class="sub">Pick a certification to start studying.</p>
+  <div class="cert-grid" id="certGrid"><p class="empty">Loading…</p></div>
+</div>
+
+<script>
+  // Manually maintained registry — GitHub Pages has no directory listing,
+  // so adding a certification means appending its id here.
+  var CERT_IDS = ["cca-f"];
+
+  var grid = document.getElementById('certGrid');
+
+  Promise.all(CERT_IDS.map(function(id){
+    return fetch('certs/' + id + '/meta.json')
+      .then(function(res){ return res.json(); })
+      .catch(function(){ return null; });
+  })).then(function(certs){
+    grid.innerHTML = '';
+    certs.filter(Boolean).forEach(function(meta){
+      var a = document.createElement('a');
+      a.className = 'cert-card';
+      a.href = meta.path;
+      a.style.borderTopColor = meta.color || '#d97757';
+      a.innerHTML = '<h2>' + meta.name + '</h2><p class="subtitle">' + meta.subtitle + '</p>';
+      grid.appendChild(a);
+    });
+    if (!grid.children.length) {
+      grid.innerHTML = '<p class="empty">No certifications found.</p>';
+    }
+  });
+</script>
+</body>
+</html>

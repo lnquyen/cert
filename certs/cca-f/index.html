@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CCA-F: Exam Prep</title>
+<script>(function(){try{var t=localStorage.getItem('cert-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="stylesheet" href="../../core/css/style.css">
+<link rel="stylesheet" href="theme.css">
+<noscript><style>.tab-panel{display:block !important;}</style></noscript>
+</head>
+<body>
+<header class="top">
+  <div class="inner">
+    <div>
+      <h1>CCA‑F: Exam Prep</h1>
+      <div class="sub">Claude Certified Architect · Foundations</div>
+    </div>
+    <div class="nav-toggle-group">
+      <span class="current-tab-label" id="navToggleLabel">Plan</span>
+      <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="tocNav">
+        <span class="hamburger">☰</span> Menu
+      </button>
+    </div>
+    <nav class="toc" id="tocNav">
+      <button type="button" class="tab-btn" data-tab="plan">Plan</button>
+      <button type="button" class="tab-btn" data-tab="d1" data-label="Domain 1" style="--tab-c:var(--d1)">D1</button>
+      <button type="button" class="tab-btn" data-tab="d2" data-label="Domain 2" style="--tab-c:var(--d2)">D2</button>
+      <button type="button" class="tab-btn" data-tab="d3" data-label="Domain 3" style="--tab-c:var(--d3)">D3</button>
+      <button type="button" class="tab-btn" data-tab="d4" data-label="Domain 4" style="--tab-c:var(--d4)">D4</button>
+      <button type="button" class="tab-btn" data-tab="d5" data-label="Domain 5" style="--tab-c:var(--d5)">D5</button>
+      <button type="button" class="tab-btn" data-tab="cheat">Cheat‑sheet</button>
+      <button type="button" class="tab-btn" data-tab="tips">Tips &amp; Tricks</button>
+      <button type="button" class="tab-btn" data-tab="checklist">Checklist</button>
+      <button type="button" class="tab-btn" data-tab="quizzes">Quizzes</button>
+      <label class="hint-toggle"><input type="checkbox" class="theme-toggle-input"> 🌙 Dark</label>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section class="tab-panel" data-tab="plan" id="tab-plan">
+  <div class="hero">
+    <h1>Study in English, with a Vietnamese safety net</h1>
+    <p>Since your exam is in English, everything below is written in English — the same language you'll see on test day. Two hover mechanisms give you Vietnamese meaning without switching languages:</p>
+    <div class="legend">
+      <b>1) Dotted‑underline words</b> — these are glossary terms. Hover over one to see its Vietnamese meaning in a small tooltip.<br>
+      <b>2) 🇻🇳 VI badge</b> — appears at the end of most paragraphs, rows, and list items. <b>Click it</b> to insert a Vietnamese translation directly below the original text (click again to hide it). Technical keywords (subagent, MCP, CLAUDE.md, tool_choice, etc.) are kept in English inside the translation, since that's how they'll appear on the real exam.
+    </div>
+    <p>Score weight per domain (based on the 77‑question Study Guide):</p>
+    <div class="weights">
+      <div class="weight-chip w1">D1 · 27%<small>Agentic Architecture</small></div>
+      <div class="weight-chip w2">D2 · 18%<small>Tool &amp; MCP</small></div>
+      <div class="weight-chip w3">D3 · 20%<small>Claude Code</small></div>
+      <div class="weight-chip w4">D4 · 20%<small>Prompt &amp; Structured Output</small></div>
+      <div class="weight-chip w5">D5 · 15%<small>Context &amp; Reliability</small></div>
+    </div>
+    <div class="callout">
+      <p class="glossary-zone" style="margin:0;">Strategy: study D1 first (highest weight and most questions — 22), then D2+D3+D4 (similar weight each), then D5 last — it only has 3 questions in the bank but still counts for 15% of the real exam, so 3 focused principles are enough. <span class="vi-icon" data-vi="Chiến lược: học D1 trước (trọng số cao nhất và nhiều câu nhất — 22 câu), rồi đến D2+D3+D4 (trọng số tương đương nhau), và D5 học cuối cùng — nó chỉ có 3 câu trong ngân hàng nhưng vẫn chiếm 15% đề thi thật, nên chỉ cần 3 nguyên tắc trọng tâm là đủ.">VI</span></p>
+    </div>
+  </div>
+
+  <h2 class="section-title" id="plan">📅 Study Plan</h2>
+  <p class="section-desc">Roughly 3–4 hours per phase. Use the three quiz files you already have for practice after reading each phase's theory.</p>
+  <div class="plan-grid">
+    <div class="phase-card" style="border-top-color:var(--d1)">
+      <h3>Phase 1</h3>
+      <div class="focus">Focus: D1 + D2 (45% of the exam)</div>
+      <ul>
+        <li class="glossary-zone">Read all 21 <b>Agentic Architecture &amp; Orchestration</b> principles below — the heaviest‑weighted domain. <span class="vi-icon" data-vi="Đọc hết 21 nguyên tắc Agentic Architecture & Orchestration bên dưới — domain nặng nhất.">VI</span></li>
+        <li class="glossary-zone">Read all 15 <b>Tool Design &amp; MCP Integration</b> principles. <span class="vi-icon" data-vi="Đọc hết 15 nguyên tắc Tool Design & MCP Integration.">VI</span></li>
+        <li class="glossary-zone">Practice: open <b><a href="quizzes/quiz1.html">Quiz 1</a></b>, complete it, and cross‑check the explanations in this lecture for every wrong answer. <span class="vi-icon" data-vi="Luyện tập: mở Quiz 1, làm hết, đối chiếu phần giải thích trong bài giảng này khi sai.">VI</span></li>
+        <li class="glossary-zone">Keep a personal "weak spots" list of missed questions to review again in Phase 3. <span class="vi-icon" data-vi="Ghi chú riêng các câu bạn sai vào danh sách điểm yếu để ôn lại ở Phase 3.">VI</span></li>
+      </ul>
+    </div>
+    <div class="phase-card" style="border-top-color:var(--d3)">
+      <h3>Phase 2</h3>
+      <div class="focus">Focus: D3 + D4 (40% of the exam)</div>
+      <ul>
+        <li class="glossary-zone">Read all 16 <b>Claude Code Configuration &amp; Workflows</b> principles (flags, sessions, CLAUDE.md, exploration). <span class="vi-icon" data-vi="Đọc hết 16 nguyên tắc Claude Code Configuration & Workflows (flags, sessions, CLAUDE.md, khám phá code).">VI</span></li>
+        <li class="glossary-zone">Read all 12 <b>Prompt Engineering &amp; Structured Output</b> principles (schema design, few‑shot, batch vs. real‑time). <span class="vi-icon" data-vi="Đọc hết 12 nguyên tắc Prompt Engineering & Structured Output (thiết kế schema, few-shot, batch vs real-time).">VI</span></li>
+        <li class="glossary-zone">Practice: open <b><a href="quizzes/quiz2.html">Interactive Quiz</a></b>, complete it, and revisit D1/D2 if your score is still low. <span class="vi-icon" data-vi="Luyện tập: mở Interactive Quiz, làm hết, ôn lại D1/D2 nếu điểm còn thấp.">VI</span></li>
+        <li class="glossary-zone">Review the Cheat‑sheet table to memorize the quick "decision rules." <span class="vi-icon" data-vi="Xem lại bảng Cheat-sheet để nhớ nhanh các quy tắc quyết định.">VI</span></li>
+      </ul>
+    </div>
+    <div class="phase-card" style="border-top-color:var(--d5)">
+      <h3>Phase 3</h3>
+      <div class="focus">Focus: D5 + full review + mock exam</div>
+      <ul>
+        <li class="glossary-zone">Read all 3 <b>Context Management &amp; Reliability</b> principles (Batch API, chunking context errors). <span class="vi-icon" data-vi="Đọc hết 3 nguyên tắc Context Management & Reliability (Batch API, xử lý lỗi context bằng chunking).">VI</span></li>
+        <li class="glossary-zone">Quickly review all 5 domains using the Cheat‑sheet and the final Checklist. <span class="vi-icon" data-vi="Ôn nhanh toàn bộ 5 domain bằng bảng Cheat-sheet và Checklist cuối bài.">VI</span></li>
+        <li class="glossary-zone">Take the full mock exam: <b><a href="quizzes/exam.html">Practice Exam</a></b> — time yourself like the real thing. <span class="vi-icon" data-vi="Làm thi thử đầy đủ: Practice Exam — canh giờ như thi thật.">VI</span></li>
+        <li class="glossary-zone">Only re‑fix the weak spots noted from Phases 1–2 — don't restart from scratch. <span class="vi-icon" data-vi="Chỉ sửa lại các điểm yếu đã ghi chú từ Phase 1-2 — không học lại từ đầu.">VI</span></li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+<section class="tab-panel" data-tab="d1" id="tab-d1">
+  <!-- DOMAIN 1 -->
+  <div class="domain-block" id="d1">
+    <div class="domain-head" style="border-left-color:var(--d1)">
+      <div class="kicker">Domain 1 · 27% of the exam · 22 questions in the bank</div>
+      <h2>Agentic Architecture &amp; Orchestration</h2>
+      <div class="meta">Multi-agent orchestration, coordinator–subagent patterns, task decomposition, parallel execution</div>
+    </div>
+    <div class="domain-body">
+      <div class="bigpic">
+        <p class="cap">🗺️ <b>Big picture, from the source</b> — this is a faithful redraw of Anthropic's own published multi-agent Research architecture, not something invented from the quiz questions. Component names (LeadResearcher, Subagents, Memory, CitationAgent) are Anthropic's actual names. Click any number to jump to that principle below.</p>
+        <blockquote style="margin:0 0 12px;padding:10px 14px;border-left:3px solid var(--d1);background:var(--card);font-size:0.82rem;color:var(--muted);font-style:italic;">"Our Research system uses a multi-agent architecture with an orchestrator-worker pattern, where a lead agent coordinates the process while delegating to specialized subagents that operate in parallel." — Anthropic Engineering, "How we built our multi-agent research system," Jun 2025</blockquote>
+        <svg width="100%" viewBox="0 0 700 620" role="img" aria-label="Domain 1 architecture diagram, redrawn from Anthropic's official multi-agent research system post">
+        <defs>
+          <marker id="d1arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--d1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <style>
+          .d1box{fill:var(--card);stroke:var(--d1);stroke-width:1.3;}
+          .d1box-back{fill:var(--card);stroke:var(--line);stroke-width:1;}
+          .d1hub{fill:var(--d1);}
+          .d1store{fill:var(--card);stroke:var(--muted);stroke-width:1;stroke-dasharray:3 2;}
+          .d1t{font-size:13px;fill:var(--ink);font-weight:700;}
+          .d1t-w{font-size:13px;fill:#fff;font-weight:700;}
+          .d1s{font-size:10.5px;fill:var(--muted);}
+          .d1s-w{font-size:10.5px;fill:#fff;opacity:0.9;}
+          .d1line{stroke:var(--d1);stroke-width:1.4;fill:none;}
+          .d1dash{stroke:var(--muted);stroke-width:1.2;fill:none;stroke-dasharray:4 3;}
+          .badge{fill:var(--d1);}
+          .badge-w{fill:#fff;}
+          .badge-t{font-size:10px;fill:#fff;font-weight:700;}
+          .badge-t-w{font-size:10px;fill:var(--d1);font-weight:700;}
+        </style>
+
+        <!-- User query -->
+        <rect class="d1box" x="250" y="20" width="200" height="32" rx="16"/>
+        <text class="d1t" x="350" y="41" text-anchor="middle" style="font-size:12px;">User query</text>
+        <line x1="350" y1="52" x2="350" y2="80" class="d1line" marker-end="url(#d1arrow)"/>
+
+        <!-- LeadResearcher (orchestrator) -->
+        <rect class="d1box d1hub" x="170" y="80" width="360" height="130" rx="12"/>
+        <text class="d1t-w" x="350" y="104" text-anchor="middle">LeadResearcher — the orchestrator</text>
+        <text class="d1s-w" x="350" y="122" text-anchor="middle">thinks &amp; plans the approach first</text>
+        <text class="d1s-w" x="350" y="136" text-anchor="middle">sizes subagent count to task complexity</text>
+        <text class="d1s-w" x="350" y="150" text-anchor="middle">hands off with goals, not scripts</text>
+        <a href="#d1-p2" class="badge-link"><circle class="badge-w" cx="310" cy="176" r="10"/><text class="badge-t-w" x="310" y="180" text-anchor="middle">2</text></a>
+        <a href="#d1-p3" class="badge-link"><circle class="badge-w" cx="337" cy="176" r="10"/><text class="badge-t-w" x="337" y="180" text-anchor="middle">3</text></a>
+        <a href="#d1-p4" class="badge-link"><circle class="badge-w" cx="364" cy="176" r="10"/><text class="badge-t-w" x="364" y="180" text-anchor="middle">4</text></a>
+        <a href="#d1-p7" class="badge-link"><circle class="badge-w" cx="391" cy="176" r="10"/><text class="badge-t-w" x="391" y="180" text-anchor="middle">7</text></a>
+        <a href="#d1-p13" class="badge-link"><circle class="badge-w" cx="310" cy="197" r="10"/><text class="badge-t-w" x="310" y="201" text-anchor="middle">13</text></a>
+        <a href="#d1-p14" class="badge-link"><circle class="badge-w" cx="337" cy="197" r="10"/><text class="badge-t-w" x="337" y="201" text-anchor="middle">14</text></a>
+        <a href="#d1-p17" class="badge-link"><circle class="badge-w" cx="364" cy="197" r="10"/><text class="badge-t-w" x="364" y="201" text-anchor="middle">17</text></a>
+        <a href="#d1-p19" class="badge-link"><circle class="badge-w" cx="391" cy="197" r="10"/><text class="badge-t-w" x="391" y="201" text-anchor="middle">19</text></a>
+
+        <!-- Memory (side) -->
+        <line x1="530" y1="145" x2="580" y2="145" class="d1dash"/>
+        <rect class="d1store" x="580" y="108" width="104" height="76" rx="8"/>
+        <text class="d1t" x="632" y="128" text-anchor="middle" style="font-size:12px;">Memory</text>
+        <text class="d1s" x="632" y="144" text-anchor="middle">plan persisted</text>
+        <text class="d1s" x="632" y="157" text-anchor="middle">(200K token limit)</text>
+        <a href="#d1-p5" class="badge-link"><circle class="badge" cx="632" cy="172" r="9"/><text class="badge-t" x="632" y="175" text-anchor="middle" style="font-size:9px;">5</text></a>
+
+        <!-- spawn / findings -->
+        <line x1="350" y1="210" x2="350" y2="250" class="d1line" marker-start="url(#d1arrow)" marker-end="url(#d1arrow)"/>
+        <text class="d1s" x="440" y="222" text-anchor="middle">spawn ⇄ return findings</text>
+        <a href="#d1-p6" class="badge-link"><circle class="badge" cx="465" cy="238" r="10"/><text class="badge-t" x="465" y="242" text-anchor="middle">6</text></a>
+
+        <!-- Subagents stack -->
+        <rect class="d1box-back" x="182" y="262" width="340" height="90" rx="10"/>
+        <rect class="d1box" x="170" y="250" width="340" height="90" rx="10"/>
+        <text class="d1t" x="350" y="272" text-anchor="middle">Subagents (3–5, parallel)</text>
+        <text class="d1s" x="350" y="288" text-anchor="middle">own context &amp; own tools</text>
+        <text class="d1s" x="350" y="302" text-anchor="middle">interleaved thinking refines each query</text>
+        <a href="#d1-p1" class="badge-link"><circle class="badge" cx="310" cy="322" r="10"/><text class="badge-t" x="310" y="326" text-anchor="middle">1</text></a>
+        <a href="#d1-p8" class="badge-link"><circle class="badge" cx="337" cy="322" r="10"/><text class="badge-t" x="337" y="326" text-anchor="middle">8</text></a>
+        <a href="#d1-p15" class="badge-link"><circle class="badge" cx="364" cy="322" r="10"/><text class="badge-t" x="364" y="326" text-anchor="middle">15</text></a>
+        <a href="#d1-p16" class="badge-link"><circle class="badge" cx="391" cy="322" r="10"/><text class="badge-t" x="391" y="326" text-anchor="middle">16</text></a>
+
+        <!-- External store (side) -->
+        <line x1="510" y1="296" x2="580" y2="300" class="d1dash"/>
+        <rect class="d1store" x="580" y="270" width="104" height="76" rx="8"/>
+        <text class="d1t" x="632" y="290" text-anchor="middle" style="font-size:12px;">External store</text>
+        <text class="d1s" x="632" y="306" text-anchor="middle">full output saved</text>
+        <text class="d1s" x="632" y="319" text-anchor="middle">only a reference returns</text>
+        <a href="#d1-p11" class="badge-link"><circle class="badge" cx="632" cy="334" r="9"/><text class="badge-t" x="632" y="337" text-anchor="middle" style="font-size:9px;">11</text></a>
+
+        <!-- feedback loop -->
+        <path d="M170,295 C 90,295 90,145 170,145" class="d1dash" marker-end="url(#d1arrow)"/>
+        <text class="d1s" x="52" y="220" text-anchor="middle" transform="rotate(-90 52 220)">gap found → spawn again</text>
+        <a href="#d1-p10" class="badge-link"><circle class="badge" cx="52" cy="260" r="10"/><text class="badge-t" x="52" y="264" text-anchor="middle">10</text></a>
+
+        <!-- to CitationAgent -->
+        <line x1="350" y1="340" x2="350" y2="378" class="d1line" marker-end="url(#d1arrow)"/>
+        <text class="d1s" x="490" y="362" text-anchor="middle">loop exits → hand off</text>
+
+        <rect class="d1box" x="210" y="380" width="280" height="90" rx="10"/>
+        <text class="d1t" x="350" y="402" text-anchor="middle">CitationAgent</text>
+        <text class="d1s" x="350" y="420" text-anchor="middle">matches every claim to its source document</text>
+        <a href="#d1-p9" class="badge-link"><circle class="badge" cx="323" cy="450" r="10"/><text class="badge-t" x="323" y="454" text-anchor="middle">9</text></a>
+        <a href="#d1-p18" class="badge-link"><circle class="badge" cx="350" cy="450" r="10"/><text class="badge-t" x="350" y="454" text-anchor="middle">18</text></a>
+        <a href="#d1-p20" class="badge-link"><circle class="badge" cx="377" cy="450" r="10"/><text class="badge-t" x="377" y="454" text-anchor="middle">20</text></a>
+
+        <line x1="350" y1="470" x2="350" y2="505" class="d1line" marker-end="url(#d1arrow)"/>
+
+        <!-- Final result -->
+        <rect class="d1box" x="220" y="505" width="260" height="36" rx="18"/>
+        <text class="d1t" x="350" y="527" text-anchor="middle" style="font-size:12px;">Cited answer → User</text>
+        <a href="#d1-p12" class="badge-link"><circle class="badge" cx="330" cy="558" r="9"/><text class="badge-t" x="330" y="561" text-anchor="middle" style="font-size:9px;">12</text></a>
+        <a href="#d1-p21" class="badge-link"><circle class="badge" cx="370" cy="558" r="9"/><text class="badge-t" x="370" y="561" text-anchor="middle" style="font-size:9px;">21</text></a>
+        </svg>
+        <p class="cap" style="margin-top:6px;">Notice: only LeadResearcher talks to Subagents, Memory, and CitationAgent — subagents never call each other directly, and none of them spawn further children. That flat, hub‑and‑spoke shape is exactly what principles 8 and 19 describe.</p>
+        <p class="cap" style="margin-top:8px;">Read it yourself: <a href="https://www.anthropic.com/engineering/multi-agent-research-system" target="_blank" rel="noopener" style="color:var(--d1);font-weight:600;">How we built our multi-agent research system ↗</a> · <a href="https://www.anthropic.com/engineering/building-effective-agents" target="_blank" rel="noopener" style="color:var(--d1);font-weight:600;">Building Effective Agents ↗</a></p>
+      </div>
+
+<div class="principle" id="d1-p1"><span class="num" style="background:var(--d1)">1</span><h4>Agentic search over static context</h4><span class="vi-icon" data-vi="Khi lỗi xuất phát từ việc thiếu context (ví dụ: nơi gọi hàm nằm trong file không thay đổi nên không được đưa vào prompt tĩnh), cách sửa đúng là biến task thành agentic task để model tự đọc file và tìm kiếm trong codebase qua tool — không phải thêm chain-of-thought hay mở rộng prompt bằng static analysis.">VI</span>
+        <p class="glossary-zone">When the failure is a missing-context problem (e.g., a caller in an unchanged file isn't included in a static prompt), the fix is to turn the task into an agentic one where the model can read files and search the codebase via tools — not add chain-of-thought instructions or expand the prompt with static analysis.</p>
+      </div>
+
+      <div class="principle" id="d1-p2"><span class="num" style="background:var(--d1)">2</span><h4>Decomposing open-ended tasks</h4><span class="vi-icon" data-vi="Dùng Glob và Grep để lập bản đồ cấu trúc codebase, ưu tiên các vùng ảnh hưởng lớn và liên kết chặt, lập kế hoạch rồi điều chỉnh khi phát hiện dependency mới — không đọc hết mọi file, không chia đều theo thư mục, không làm ngẫu nhiên.">VI</span>
+        <p class="glossary-zone">Use Glob and Grep to map the codebase structure, prioritize high-impact and heavily-coupled areas, create a plan, and revise it as new dependencies are discovered — don't read every file exhaustively, split effort evenly by directory, or proceed arbitrarily.</p>
+      </div>
+
+      <div class="principle" id="d1-p3"><span class="num" style="background:var(--d1)">3</span><h4>Multi-phase workflows (analyze → propose → implement → review)</h4><span class="vi-icon" data-vi="Cấu trúc này có giá trị nhất với các yêu cầu mở, đòi hỏi phán đoán (vd cải thiện xử lý lỗi). Task máy móc, rõ ràng (vd đổi tên hàm) không được lợi nhiều từ các bước bổ sung.">VI</span>
+        <p class="glossary-zone">This structure is most valuable for open-ended, judgment-heavy requests (e.g., "improve error handling"). Mechanical, well-defined tasks (e.g., a straightforward rename) gain little from the extra phases.</p>
+      </div>
+
+      <div class="principle" id="d1-p4"><span class="num" style="background:var(--d1)">4</span><h4>Three decomposition patterns: prompt chaining, routing, orchestrator-workers</h4><span class="vi-icon" data-vi="Prompt chaining phù hợp khi quy trình cố định, giống nhau mỗi lần. Routing phù hợp khi input rơi vào các loại khác nhau cần xử lý khác nhau. Orchestrator-workers phù hợp khi subtask thay đổi không đoán trước được và cần một LLM trung tâm quyết định linh hoạt.">VI</span>
+        <p class="glossary-zone">Prompt chaining fits a fixed, identical sequence of subtasks every time. Routing fits inputs that fall into distinct categories needing different handling. Orchestrator-workers fits subtasks that vary unpredictably per input and must be decided dynamically by a central LLM.</p>
+      </div>
+
+      <div class="principle" id="d1-p5"><span class="num" style="background:var(--d1)">5</span><h4>Restoring state after a crash</h4><span class="vi-icon" data-vi="Cho mỗi agent lưu một bản export có cấu trúc tại vị trí cố định; khi resume, coordinator đọc manifest và chỉ tiêm phần state liên quan vào prompt của từng subagent — không dựa vào toàn bộ conversation log thô (quá tải context) hay semantic vector search (dễ mất/méo thông tin).">VI</span>
+        <p class="glossary-zone">Have each agent persist a structured export to a known location; on resume, the coordinator loads a manifest and injects only the relevant state into each subagent's prompt — don't rely on a full raw conversation log (too much context) or semantic vector search (lossy, may miss findings).</p>
+      </div>
+
+      <div class="principle" id="d1-p6"><span class="num" style="background:var(--d1)">6</span><h4>True parallel subagent execution</h4><span class="vi-icon" data-vi="Coordinator phải phát ra nhiều lệnh gọi Task tool trong cùng một message — đây là cơ chế duy nhất khiến harness chạy các subagent song song thật sự. Đổi sang model rẻ hơn, thêm hạ tầng async bên ngoài, hay chỉ dặn model chạy song song đều không đảm bảo điều này.">VI</span>
+        <p class="glossary-zone">The coordinator must emit multiple Task tool calls within a single assistant message — that's the only mechanism that makes the harness run subagents concurrently. Switching to a cheaper model, adding external async infrastructure, or simply instructing the model to "run in parallel" does not guarantee this.</p>
+      </div>
+
+      <div class="principle" id="d1-p7"><span class="num" style="background:var(--d1)">7</span><h4>"Task" must be in allowedTools</h4><span class="vi-icon" data-vi="Nếu coordinator đã cấu hình AgentDefinitions đầy đủ nhưng nói về việc delegate mà không có subagent nào thực sự chạy (và không có lỗi), nguyên nhân khả dĩ nhất là Task không nằm trong allowedTools — model chỉ nói về việc delegate mà không có cơ chế thực sự gọi nó.">VI</span>
+        <p class="glossary-zone">If a coordinator with fully configured AgentDefinitions reasons about delegating but no subagent ever actually executes (with no errors logged), the most likely cause is that "Task" is missing from allowedTools — the model can talk about delegation but has no mechanism to invoke it.</p>
+      </div>
+
+      <div class="principle" id="d1-p8"><span class="num" style="background:var(--d1)">8</span><h4>Flat, non-recursive hierarchies</h4><span class="vi-icon" data-vi="Để giảm latency mà vẫn giữ khả năng giám sát/debug tập trung, hãy để chính coordinator spawn các subagent song song và tổng hợp kết quả — tránh kiến trúc phân cấp lồng nhau/đệ quy (subagent tự spawn subagent con) vì làm giảm khả năng quan sát nghiêm trọng.">VI</span>
+        <p class="glossary-zone">To cut latency while keeping monitoring and debugging centralized, have the coordinator itself spawn parallel subagents and aggregate results — avoid nested/recursive agent hierarchies (subagents spawning their own subagents), which severely hurt observability.</p>
+      </div>
+
+      <div class="principle" id="d1-p9"><span class="num" style="background:var(--d1)">9</span><h4>Preserve attribution with structured data</h4><span class="vi-icon" data-vi="Để tránh mất thông tin claim nào đến từ nguồn nào khi tổng hợp, bắt các subagent xuất ra structured claim-source mapping và synthesis agent phải giữ nguyên nó — không dùng prefix trong text tự do, không phân tích log sau, không dùng semantic similarity để đoán lại.">VI</span>
+        <p class="glossary-zone">To avoid losing which claim came from which source during synthesis, require subagents to emit explicit structured claim-source mappings that the synthesis agent must preserve — not inline text-prefix conventions, post-hoc log analysis, or unreliable semantic-similarity reconstruction.</p>
+      </div>
+
+      <div class="principle" id="d1-p10"><span class="num" style="background:var(--d1)">10</span><h4>Closed feedback loops for gap detection</h4><span class="vi-icon" data-vi="Khi agent phân tích phát hiện một khoảng trống cụ thể (vd thiếu chi tiết về token refresh), nó cần báo cho coordinator để coordinator kích hoạt tìm kiếm bổ sung có mục tiêu và chạy lại phân tích đến khi đủ độ phủ — không chỉ gắn cờ confidence rồi dừng lại.">VI</span>
+        <p class="glossary-zone">When an analysis agent identifies a specific gap (e.g., "missing details on token refresh"), it should report that gap to the coordinator, which triggers targeted follow-up searches and re-runs analysis until coverage is sufficient — not just attach a confidence score and stop, or add an upfront planning agent.</p>
+      </div>
+
+      <div class="principle" id="d1-p11"><span class="num" style="background:var(--d1)">11</span><h4>Passing context between subagents</h4><span class="vi-icon" data-vi="Dùng reference/ID trỏ tới một nơi lưu chung thay vì nhét toàn bộ nội dung thô vào prompt (làm phình context, dễ mất thông tin) hay dựa vào callback/context kế thừa tự động (không tồn tại trong kiến trúc này).">VI</span>
+        <p class="glossary-zone">Use reference identifiers pointing to a shared store rather than inlining full raw content into the prompt (bloats context, risks information loss) or relying on callbacks/automatic context inheritance (neither exists in this architecture).</p>
+      </div>
+
+      <div class="principle" id="d1-p12"><span class="num" style="background:var(--d1)">12</span><h4>Format-aware synthesis</h4><span class="vi-icon" data-vi="Agent tổng hợp nên hiển thị mỗi loại nội dung theo đúng bản chất của nó — bảng cho so sánh số liệu tài chính, văn xuôi cho tin tức — thay vì ép tất cả về một định dạng đồng nhất như bullet points.">VI</span>
+        <p class="glossary-zone">The synthesis agent should render each content type in its natural form — tables for financial comparisons, prose for news narratives — rather than flattening everything into one uniform format like bullet points.</p>
+      </div>
+
+      <div class="principle" id="d1-p13"><span class="num" style="background:var(--d1)">13</span><h4>Dynamic, LLM-judged query routing</h4><span class="vi-icon" data-vi="Với phân bố câu hỏi đa dạng và liên tục thay đổi, hãy để LLM coordinator tự đánh giá và quyết định linh hoạt bao nhiêu và loại subagent nào cần gọi cho mỗi câu hỏi — fast-path tĩnh, routing theo luật cứng, hay classifier cần huấn luyện lại định kỳ đều không theo kịp.">VI</span>
+        <p class="glossary-zone">With a diverse and evolving query distribution, let the coordinator's LLM judgment decide dynamically how many and which subagents to invoke per query — static fast-paths, hand-coded pattern routing, and a classifier requiring periodic retraining all break down as patterns evolve.</p>
+      </div>
+
+      <div class="principle" id="d1-p14"><span class="num" style="background:var(--d1)">14</span><h4>Delegate with goals, not scripts</h4><span class="vi-icon" data-vi="Chỉ định mục tiêu nghiên cứu và tiêu chí chất lượng (độ phủ, đa dạng nguồn, tính mới) thay vì hướng dẫn từng bước chi tiết — điều này giúp subagent tự thích nghi chiến lược thay vì thất bại cứng nhắc khi cách tiếp cận định sẵn không hiệu quả.">VI</span>
+        <p class="glossary-zone">Specify research goals and quality criteria (coverage breadth, source diversity, recency) rather than prescriptive step-by-step instructions — this lets a capable subagent adapt its own strategy instead of failing rigidly when a pre-specified approach doesn't work.</p>
+      </div>
+
+      <div class="principle" id="d1-p15"><span class="num" style="background:var(--d1)">15</span><h4>Purpose-specific tools over one generic tool</h4><span class="vi-icon" data-vi="Khi một tool đa năng (input tự do) cho ra định dạng output không nhất quán giữa các loại nhiệm vụ khác nhau, hãy tách nó thành các tool phạm vi hẹp với input/output contract rõ ràng thay vì thêm tham số enum, mô tả tốt hơn, hay phân loại trước.">VI</span>
+        <p class="glossary-zone">When a single free-text tool produces inconsistent output formats across different task types, split it into narrowly-scoped tools with explicit input/output contracts (e.g., extract_data_points, summarize_content, verify_claim_against_source) rather than adding an enum parameter, better descriptions, or pre-classification.</p>
+      </div>
+
+      <div class="principle" id="d1-p16"><span class="num" style="background:var(--d1)">16</span><h4>No automatic context sharing between subagent calls</h4><span class="vi-icon" data-vi="Mỗi lệnh gọi subagent là một API call độc lập (stateless) với context riêng biệt — coordinator phải chủ động chèn output của các agent trước vào prompt của subagent tiếp theo, nếu không subagent đó sẽ báo là không có thông tin gì cả.">VI</span>
+        <p class="glossary-zone">Each subagent invocation is a stateless API call with its own isolated context — the coordinator must explicitly inject the prior agents' outputs into the next subagent's prompt, or that subagent will report having no information at all.</p>
+      </div>
+
+      <div class="principle" id="d1-p17"><span class="num" style="background:var(--d1)">17</span><h4>Don't spawn a subagent when the coordinator already has the context</h4><span class="vi-icon" data-vi="Nếu coordinator đã có sẵn toàn bộ dữ liệu cần thiết trong context của nó, hãy xử lý trực tiếp một yêu cầu tiếp theo đơn giản (như tóm tắt) thay vì spawn subagent và truyền lại hàng chục nghìn token — đó là chi phí latency thuần tuý không cần thiết.">VI</span>
+        <p class="glossary-zone">If the coordinator already holds all the needed findings in its own context (e.g., from orchestrating prior research), handle a simple follow-up (like summarization) directly rather than spawning a subagent and re-transferring tens of thousands of tokens — that's pure latency overhead.</p>
+      </div>
+
+      <div class="principle" id="d1-p18"><span class="num" style="background:var(--d1)">18</span><h4>A structured source index for the report generator</h4><span class="vi-icon" data-vi="Truyền bản nháp tổng hợp cùng với một source index có cấu trúc ánh xạ các claim quan trọng tới URL và trích đoạn nguồn — đây là cân bằng tốt nhất giữa đầy đủ và hiệu quả, tốt hơn truyền toàn bộ raw content, chỉ gắn tên nguồn, hay khớp trích dẫn sau khi đã tạo báo cáo.">VI</span>
+        <p class="glossary-zone">Pass the synthesis draft together with a structured source index mapping key claims to their source URLs and excerpts — this is the best balance of completeness and efficiency, better than passing all raw content, name-only attribution, or post-hoc citation matching.</p>
+      </div>
+
+      <div class="principle" id="d1-p19"><span class="num" style="background:var(--d1)">19</span><h4>The coordinator is always the hub</h4><span class="vi-icon" data-vi="Trong mô hình orchestrator-worker, các subagent không bao giờ gọi trực tiếp lẫn nhau, không có event bus hay truy cập tự động giữa các sibling — mọi thông tin phải đi qua coordinator, nơi chủ động chuyển tiếp output liên quan vào prompt của subagent tiếp theo.">VI</span>
+        <p class="glossary-zone">In an orchestrator-worker pattern, subagents never call each other directly, and there's no event bus or automatic sibling access — all information flows through the coordinator, which explicitly forwards relevant output into the next subagent's prompt.</p>
+      </div>
+
+      <div class="principle" id="d1-p20"><span class="num" style="background:var(--d1)">20</span><h4>Include timestamps/metadata in structured output</h4><span class="vi-icon" data-vi="Nếu hai nguồn báo cáo số liệu khác nhau theo thời gian và agent tổng hợp nhầm coi đó là mâu thuẫn, cách sửa là yêu cầu mỗi điểm dữ liệu phải mang theo ngày xuất bản/thu thập của chính nó — giúp synthesis suy luận về xu hướng thay vì cho là xung đột.">VI</span>
+        <p class="glossary-zone">If two sources report different numbers over time (e.g., 2022 vs. 2024) and the synthesis agent wrongly flags them as "contradictory," the fix is requiring every data point to carry its own publication or collection date — that lets synthesis reason about trends instead of conflicts.</p>
+      </div>
+
+      <div class="principle" id="d1-p21"><span class="num" style="background:var(--d1)">21</span><h4>Handling uncertainty through report structure</h4><span class="vi-icon" data-vi="Giữ nguyên đặc trưng nguồn và bối cảnh phương pháp luận, đồng thời cấu trúc báo cáo để tách phần đã được xác lập rõ khỏi phần còn tranh cãi — không lấy trung bình các ước tính khác phương pháp luận, không âm thầm lọc bỏ dữ liệu chưa chắc chắn, không yêu cầu cứng nhắc tối thiểu 2 nguồn.">VI</span>
+        <p class="glossary-zone">Preserve the original source characterization and methodological context, and structure the report to separate well-established findings from contested ones — don't average conflicting estimates that use different methodologies, silently filter out uncertain data, or require a rigid two-source minimum.</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="tab-panel" data-tab="d2" id="tab-d2">
+  <!-- DOMAIN 2 -->
+  <div class="domain-block" id="d2">
+    <div class="domain-head" style="border-left-color:var(--d2)">
+      <div class="kicker">Domain 2 · 18% of the exam · 20 questions in the bank</div>
+      <h2>Tool Design &amp; MCP Integration</h2>
+      <div class="meta">Tool design, built-in tools (Grep/Glob/Bash), MCP servers, tools &amp; resources</div>
+    </div>
+    <div class="domain-body">
+<div class="bigpic">
+  <p class="cap">🗺️ <b>Big picture, from the source</b> — grounded in Anthropic’s official Model Context Protocol architecture (client/server tool calls) plus the standard tool-result and escalation patterns from the CCA-F question bank. Click any number to jump to that principle below.</p>
+  <blockquote style="margin:0 0 12px;padding:10px 14px;border-left:3px solid var(--accent);background:var(--card);font-size:0.82rem;color:var(--muted);font-style:italic;">"The architecture is straightforward: developers can either expose their data through MCP servers or build AI applications (MCP clients) that connect to these servers." — Anthropic, "Introducing the Model Context Protocol," Nov 2024</blockquote>
+  <svg width="100%" viewBox="0 0 800 400" role="img" aria-label="Domain 2 architecture diagram">
+<defs>
+          <marker id="d2arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--d2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <style>
+          .d2box{fill:var(--card);stroke:var(--d2);stroke-width:1.3;}
+          .d2t{font-size:10px;fill:var(--ink);font-weight:600;}
+          .d2line{stroke:var(--d2);stroke-width:1.4;fill:none;}
+          .d2dash{stroke:var(--muted);stroke-width:1.2;fill:none;stroke-dasharray:4 3;}
+          .d2badge{fill:var(--d2);}
+          .d2badge-t{font-size:9px;fill:#fff;font-weight:700;}
+        </style>
+<text x="20" y="34" style="font-size:11px;font-weight:800;fill:var(--d2);text-transform:uppercase;letter-spacing:.05em;">MCP tool-call loop</text>
+<rect class="d2box" x="20" y="53" width="110" height="42" rx="8"/>
+<text class="d2t" x="75" y="72" text-anchor="middle">Claude</text>
+<text class="d2t" x="75" y="84" text-anchor="middle">(agent)</text>
+<a href="#d2-p13" class="badge-link"><circle class="d2badge" cx="64" cy="110" r="9"/><text class="d2badge-t" x="64" y="113" text-anchor="middle" style="font-size:9px;">13</text></a>
+<a href="#d2-p11" class="badge-link"><circle class="d2badge" cx="86" cy="110" r="9"/><text class="d2badge-t" x="86" y="113" text-anchor="middle" style="font-size:9px;">11</text></a>
+<line x1="130" y1="74" x2="144" y2="74" class="d2line" marker-end="url(#d2arrow)"/>
+<rect class="d2box" x="144" y="53" width="100" height="42" rx="8"/>
+<text class="d2t" x="194" y="78" text-anchor="middle">MCP Client</text>
+<line x1="244" y1="74" x2="258" y2="74" class="d2line" marker-end="url(#d2arrow)"/>
+<rect class="d2box" x="258" y="53" width="150" height="42" rx="8"/>
+<text class="d2t" x="333" y="72" text-anchor="middle">MCP Server(s)</text>
+<text class="d2t" x="333" y="84" text-anchor="middle">Jira / Docs / …</text>
+<a href="#d2-p1" class="badge-link"><circle class="d2badge" cx="300" cy="110" r="9"/><text class="d2badge-t" x="300" y="113" text-anchor="middle" style="font-size:9px;">1</text></a>
+<a href="#d2-p2" class="badge-link"><circle class="d2badge" cx="322" cy="110" r="9"/><text class="d2badge-t" x="322" y="113" text-anchor="middle" style="font-size:9px;">2</text></a>
+<a href="#d2-p3" class="badge-link"><circle class="d2badge" cx="344" cy="110" r="9"/><text class="d2badge-t" x="344" y="113" text-anchor="middle" style="font-size:9px;">3</text></a>
+<a href="#d2-p4" class="badge-link"><circle class="d2badge" cx="366" cy="110" r="9"/><text class="d2badge-t" x="366" y="113" text-anchor="middle" style="font-size:9px;">4</text></a>
+<line x1="408" y1="74" x2="422" y2="74" class="d2line" marker-end="url(#d2arrow)"/>
+<rect class="d2box" x="422" y="53" width="140" height="42" rx="8"/>
+<text class="d2t" x="492" y="72" text-anchor="middle">Tool result</text>
+<text class="d2t" x="492" y="84" text-anchor="middle">isError+category</text>
+<a href="#d2-p12" class="badge-link"><circle class="d2badge" cx="492" cy="110" r="9"/><text class="d2badge-t" x="492" y="113" text-anchor="middle" style="font-size:9px;">12</text></a>
+<path d="M 562 96 C 562 130, 75 130, 75 96" fill="none" class="d2dash" marker-end="url(#d2arrow)"/>
+<text x="330" y="140" text-anchor="middle" style="font-size:9.5px;fill:var(--muted);">reasons over tool_result, turn by turn</text>
+<text x="20" y="178" style="font-size:11px;font-weight:800;fill:var(--d2);text-transform:uppercase;letter-spacing:.05em;">Conversation reliability</text>
+<rect class="d2box" x="20" y="197" width="160" height="42" rx="8"/>
+<text class="d2t" x="100" y="216" text-anchor="middle">Stateless API</text>
+<text class="d2t" x="100" y="228" text-anchor="middle">resend full messages[]</text>
+<a href="#d2-p11" class="badge-link"><circle class="d2badge" cx="100" cy="254" r="9"/><text class="d2badge-t" x="100" y="257" text-anchor="middle" style="font-size:9px;">11</text></a>
+<rect class="d2box" x="190" y="197" width="170" height="42" rx="8"/>
+<text class="d2t" x="275" y="216" text-anchor="middle">Stale session resume</text>
+<text class="d2t" x="275" y="228" text-anchor="middle">fresh + inject summary</text>
+<a href="#d2-p5" class="badge-link"><circle class="d2badge" cx="275" cy="254" r="9"/><text class="d2badge-t" x="275" y="257" text-anchor="middle" style="font-size:9px;">5</text></a>
+<rect class="d2box" x="370" y="197" width="185" height="42" rx="8"/>
+<text class="d2t" x="462" y="216" text-anchor="middle">Long multi-issue chat</text>
+<text class="d2t" x="462" y="228" text-anchor="middle">summarize resolved, keep active</text>
+<a href="#d2-p14" class="badge-link"><circle class="d2badge" cx="462" cy="254" r="9"/><text class="d2badge-t" x="462" y="257" text-anchor="middle" style="font-size:9px;">14</text></a>
+<rect class="d2box" x="565" y="197" width="160" height="42" rx="8"/>
+<text class="d2t" x="645" y="216" text-anchor="middle">40+ field result</text>
+<text class="d2t" x="645" y="228" text-anchor="middle">prune to relevant fields</text>
+<a href="#d2-p15" class="badge-link"><circle class="d2badge" cx="645" cy="254" r="9"/><text class="d2badge-t" x="645" y="257" text-anchor="middle" style="font-size:9px;">15</text></a>
+<text x="20" y="292" style="font-size:11px;font-weight:800;fill:var(--d2);text-transform:uppercase;letter-spacing:.05em;">Escalation &amp; degradation</text>
+<rect class="d2box" x="20" y="311" width="170" height="42" rx="8"/>
+<text class="d2t" x="105" y="330" text-anchor="middle">Escalate?</text>
+<text class="d2t" x="105" y="342" text-anchor="middle">human ask / policy / stuck</text>
+<a href="#d2-p6" class="badge-link"><circle class="d2badge" cx="105" cy="368" r="9"/><text class="d2badge-t" x="105" y="371" text-anchor="middle" style="font-size:9px;">6</text></a>
+<line x1="190" y1="332" x2="204" y2="332" class="d2line" marker-end="url(#d2arrow)"/>
+<rect class="d2box" x="204" y="311" width="170" height="42" rx="8"/>
+<text class="d2t" x="289" y="330" text-anchor="middle">Structured handoff</text>
+<text class="d2t" x="289" y="342" text-anchor="middle">ID+cause+amount+action</text>
+<a href="#d2-p7" class="badge-link"><circle class="d2badge" cx="278" cy="368" r="9"/><text class="d2badge-t" x="278" y="371" text-anchor="middle" style="font-size:9px;">7</text></a>
+<a href="#d2-p8" class="badge-link"><circle class="d2badge" cx="300" cy="368" r="9"/><text class="d2badge-t" x="300" y="371" text-anchor="middle" style="font-size:9px;">8</text></a>
+<rect class="d2box" x="408" y="311" width="175" height="42" rx="8"/>
+<text class="d2t" x="496" y="330" text-anchor="middle">Tool fails, info known</text>
+<text class="d2t" x="496" y="342" text-anchor="middle">explain + ack + offer choice</text>
+<a href="#d2-p9" class="badge-link"><circle class="d2badge" cx="496" cy="368" r="9"/><text class="d2badge-t" x="496" y="371" text-anchor="middle" style="font-size:9px;">9</text></a>
+<rect class="d2box" x="597" y="311" width="175" height="42" rx="8"/>
+<text class="d2t" x="684" y="330" text-anchor="middle">Customer wants human,</text>
+<text class="d2t" x="684" y="342" text-anchor="middle">issue simple → offer fix</text>
+<a href="#d2-p10" class="badge-link"><circle class="d2badge" cx="684" cy="368" r="9"/><text class="d2badge-t" x="684" y="371" text-anchor="middle" style="font-size:9px;">10</text></a>
+</svg>
+  <p class="cap" style="margin-top:8px;">Read it yourself: <a href="https://www.anthropic.com/news/model-context-protocol" target="_blank" rel="noopener" style="color:var(--d2);font-weight:600;">Introducing the Model Context Protocol ↗</a> · <a href="https://www.anthropic.com/engineering/writing-tools-for-agents" target="_blank" rel="noopener" style="color:var(--d2);font-weight:600;">Writing effective tools for agents ↗</a></p>
+</div>
+
+      <div class="principle" id="d2-p1"><span class="num" style="background:var(--d2)">1</span><h4>Choosing the right built-in tool</h4><span class="vi-icon" data-vi="Grep tìm kiếm nội dung file theo pattern — đây là lựa chọn đúng bất cứ khi nào task liên quan đến nội dung, không phải tên file. Glob khớp theo tên/đường dẫn file, Read mở một file đã biết, Bash thực thi lệnh.">VI</span>
+        <p class="glossary-zone">Grep searches file contents for a pattern (e.g., every call site of eval() or every import of a package) — this is the right choice whenever the task is about content, not filenames. Glob matches file names/paths, Read opens a known file, and Bash executes commands.</p>
+      </div>
+
+      <div class="principle" id="d2-p2"><span class="num" style="background:var(--d2)">2</span><h4>Use an existing MCP server for standard services</h4><span class="vi-icon" data-vi="Với dữ liệu từ một dịch vụ bên thứ ba phổ biến (như Jira), hãy tích hợp MCP server có sẵn — nó cung cấp tool có kiểu dữ liệu rõ ràng, dễ khám phá, và quản lý xác thực sẵn — xây server riêng, export ra markdown, hay dùng curl thô đều là lựa chọn kém hơn.">VI</span>
+        <p class="glossary-zone">For data from a common third-party service (like Jira), integrate an existing MCP server, which provides discoverable, typed tools with managed authentication — building a custom server, exporting to markdown, or using ad-hoc curl calls are all worse fits when a standard integration already exists.</p>
+      </div>
+
+      <div class="principle" id="d2-p3"><span class="num" style="background:var(--d2)">3</span><h4>MCP Resources reduce exploratory tool-call round trips</h4><span class="vi-icon" data-vi="Khi agent phải gọi 8-10 tool tuần tự vì không biết server có nội dung gì, hãy expose catalog nội dung của mỗi server dưới dạng MCP resource để agent duyệt trước khi hành động — không gộp các server thành một khối, không thêm keyword-based routing.">VI</span>
+        <p class="glossary-zone">When an agent makes 8-10 sequential tool calls because it has no visibility into what each server contains, expose each server's content catalog as MCP resources (issue summaries, doc hierarchies, schemas) so the agent can browse before acting — don't consolidate servers into a monolith or add keyword-based routing.</p>
+      </div>
+
+      <div class="principle" id="d2-p4"><span class="num" style="background:var(--d2)">4</span><h4>Fewer tools improves tool selection accuracy</h4><span class="vi-icon" data-vi="Độ chính xác chọn tool giảm khi số lượng tool khả dụng (đặc biệt các tool không liên quan) tăng lên. Chỉ nên giới hạn mỗi subagent chuyên biệt với 4-5 tool liên quan đến vai trò của nó.">VI</span>
+        <p class="glossary-zone">Tool selection accuracy degrades as the number of available (especially irrelevant) tools grows. Scope each specialized subagent to only 4-5 role-relevant tools rather than exposing all tools to every agent.</p>
+      </div>
+
+      <div class="principle" id="d2-p5"><span class="num" style="background:var(--d2)">5</span><h4>Stale tool results in a resumed session</h4><span class="vi-icon" data-vi="Khi resume một session cũ có kết quả tool đã lỗi thời, hãy bắt đầu session mới, tiêm một bản tóm tắt có cấu trúc, rồi gọi lại tool để lấy dữ liệu mới trước khi trả lời — không lọc bỏ tool_result giữa transcript, không chỉ dặn model ưu tiên kết quả mới nhất.">VI</span>
+        <p class="glossary-zone">When resuming an old session whose tool results are now outdated (e.g., an order status that has since changed), start a fresh session, inject a structured summary of the prior interaction, and make fresh tool calls before responding — don't strip tool_results from mid-transcript (creates inconsistency) or just instruct the model to "prefer the latest result" (unreliable).</p>
+      </div>
+
+      <div class="principle" id="d2-p6"><span class="num" style="background:var(--d2)">6</span><h4>Escalation logic based on natural-language judgment</h4><span class="vi-icon" data-vi="Tiêu chí escalate đáng tin cậy nhất là: khách hàng yêu cầu người thật, vấn đề cần ngoại lệ chính sách, hoặc agent không thể tiến triển thêm — cách này tốt hơn đếm số lần retry cố định, phân tích cảm xúc, hay dùng rules engine cứng nhắc.">VI</span>
+        <p class="glossary-zone">The most reliable escalation criteria are: the customer explicitly requests a human, the issue requires a policy exception, or the agent cannot make meaningful progress — this outperforms a hard retry-count threshold, sentiment analysis, or a rigid rules engine.</p>
+      </div>
+
+      <div class="principle" id="d2-p7"><span class="num" style="background:var(--d2)">7</span><h4>A structured handoff for human agents</h4><span class="vi-icon" data-vi="Khi escalate, hãy truyền một bản tóm tắt có cấu trúc — customer ID, nguyên nhân gốc, số tiền, hành động đề xuất — không phải nguyên transcript hay chỉ lời phàn nàn gốc của khách.">VI</span>
+        <p class="glossary-zone">When escalating, pass a structured summary — customer ID, root cause, amount, and recommended action — not the raw transcript or just the customer's original complaint, so the human can act immediately without re-investigating.</p>
+      </div>
+
+      <div class="principle" id="d2-p8"><span class="num" style="background:var(--d2)">8</span><h4>Compliance-critical rules require a deterministic hook, not a prompt</h4><span class="vi-icon" data-vi="Nếu một quy tắc không được để model tự quyết (vd hoàn tiền trên 500 đô luôn phải escalate), hãy thực thi nó bằng một hook can thiệp và chặn tool call — kể cả system prompt viết mạnh mẽ đến đâu vẫn có tỷ lệ lỗi khác 0 và không đạt chuẩn compliance.">VI</span>
+        <p class="glossary-zone">If a rule "cannot be left to model discretion" (e.g., refunds over $500 must always escalate), enforce it with a hook that intercepts the tool call and blocks it — even a strongly worded system prompt still has a nonzero failure rate and is not compliance-grade.</p>
+      </div>
+
+      <div class="principle" id="d2-p9"><span class="num" style="background:var(--d2)">9</span><h4>Graceful degradation when a tool fails</h4><span class="vi-icon" data-vi="Khi một hành động ở backend thất bại nhưng các thông tin khác đã biết, hãy giải thích điều đã hiểu, thừa nhận thất bại một cách trung thực, và để khách hàng lựa chọn — không hứa hẹn một kết quả chưa xảy ra.">VI</span>
+        <p class="glossary-zone">When a backend action fails (e.g., a refund times out) but other information is already known, explain what's understood, acknowledge the failure honestly, and offer the customer a choice (escalate or retry) — don't promise an outcome that hasn't happened, and don't escalate immediately while ignoring the value already delivered.</p>
+      </div>
+
+      <div class="principle" id="d2-p10"><span class="num" style="background:var(--d2)">10</span><h4>Respect the customer's stated preference</h4><span class="vi-icon" data-vi="Nếu một khách hàng bực bội yêu cầu gặp người thật nhưng vấn đề thực ra đơn giản, hãy thừa nhận sự bực bội, cho biết có thể giải quyết ngay, và để khách lựa chọn — không tự ý hành động trái với mong muốn đã nêu của khách.">VI</span>
+        <p class="glossary-zone">If a frustrated customer explicitly asks for a human but the issue is actually simple and resolvable in one tool call, acknowledge the frustration, state that it can be resolved now, and let the customer choose — don't unilaterally act against their stated preference, and don't escalate unnecessarily for a trivial fix.</p>
+      </div>
+
+      <div class="principle" id="d2-p11"><span class="num" style="background:var(--d2)">11</span><h4>The API is stateless</h4><span class="vi-icon" data-vi="Nếu agent quên thông tin giữa luồng xử lý, nguyên nhân gần như luôn là lịch sử hội thoại đầy đủ không được gửi kèm trong request mới nhất — không có giới hạn trí nhớ mặc định 2 lượt nào cả.">VI</span>
+        <p class="glossary-zone">If the agent "forgets" information mid-flow, the cause is almost always that the full conversation history wasn't included in the latest request — not a missing "remember this" instruction, and not some default two-turn memory limit (no such limit exists).</p>
+      </div>
+
+      <div class="principle" id="d2-p12"><span class="num" style="background:var(--d2)">12</span><h4>The standard MCP error pattern</h4><span class="vi-icon" data-vi="Trả về thông báo lỗi trong trường content của tool result với isError = true, lý tưởng nhất là kèm theo errorCategory và cờ isRetryable — không throw exception, không trả về kết quả rỗng một cách im lặng, không dùng field status tự chế.">VI</span>
+        <p class="glossary-zone">Return the error message in the tool result's content field with isError set to true, ideally enriched with a structured errorCategory (transient/validation/permission) and an isRetryable flag — not a thrown exception, not a silent empty result, and not an ad-hoc "status" field.</p>
+      </div>
+
+      <div class="principle" id="d2-p13"><span class="num" style="background:var(--d2)">13</span><h4>The agentic loop reasons turn by turn</h4><span class="vi-icon" data-vi="Model quyết định hành động tiếp theo bằng cách suy luận trên tool_result vừa được thêm vào hội thoại — không có tầng orchestration ngầm routing theo giá trị field, không có decision tree cứng, không có chuỗi tool call được lên kế hoạch cố định từ đầu.">VI</span>
+        <p class="glossary-zone">The model decides its next action by reasoning over the tool_result just appended to the conversation — there is no implicit orchestration layer routing by field value, no hard-coded decision tree, and no pre-planned sequence of tool calls fixed at the start.</p>
+      </div>
+
+      <div class="principle" id="d2-p14"><span class="num" style="background:var(--d2)">14</span><h4>Managing context in long, multi-issue conversations</h4><span class="vi-icon" data-vi="Tóm tắt các chủ đề đã giải quyết thành mô tả tường thuật, đồng thời giữ nguyên toàn bộ lịch sử tin nhắn chỉ cho vấn đề đang được xử lý — một sliding window đơn thuần có nguy cơ âm thầm loại bỏ một vấn đề trước đó.">VI</span>
+        <p class="glossary-zone">Summarize resolved topics into a narrative description while keeping full message history only for the currently active issue — a plain sliding window risks silently dropping an earlier issue the customer later asks about again.</p>
+      </div>
+
+      <div class="principle" id="d2-p15"><span class="num" style="background:var(--d2)">15</span><h4>Pruning bulky tool output</h4><span class="vi-icon" data-vi="Khi kết quả trả về từ tool có tới 40+ trường, chỉ trích xuất các trường liên quan đến nhiệm vụ hiện tại và bỏ phần còn lại — cách này đáng tin cậy hơn diễn giải lại thành văn xuôi hay dựng một vector database.">VI</span>
+        <p class="glossary-zone">When a tool response includes 40+ fields, extract only the fields relevant to the current task and drop the rest — this is more reliable than paraphrasing into prose (loses precision on exact values) or standing up a vector database (overkill for a simple pruning problem).</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="tab-panel" data-tab="d3" id="tab-d3">
+  <!-- DOMAIN 3 -->
+  <div class="domain-block" id="d3">
+    <div class="domain-head" style="border-left-color:var(--d3)">
+      <div class="kicker">Domain 3 · 20% of the exam · 18 questions in the bank</div>
+      <h2>Claude Code Configuration &amp; Workflows</h2>
+      <div class="meta">Claude Code flags, CLAUDE.md, sessions, permissions, developer workflows</div>
+    </div>
+    <div class="domain-body">
+<div class="bigpic">
+  <p class="cap">🗺️ <b>Big picture, from the source</b> — grounded in Anthropic’s official Claude Code best-practices guide (the Explore → Plan → Implement → Commit loop, CLAUDE.md, hooks vs. advisory instructions, subagents). Click any number to jump to that principle below.</p>
+  <blockquote style="margin:0 0 12px;padding:10px 14px;border-left:3px solid var(--accent);background:var(--card);font-size:0.82rem;color:var(--muted);font-style:italic;">"Unlike CLAUDE.md instructions which are advisory, hooks are deterministic and guarantee the action happens." — Anthropic, "Best practices for Claude Code"</blockquote>
+  <svg width="100%" viewBox="0 0 730 400" role="img" aria-label="Domain 3 architecture diagram">
+<defs>
+          <marker id="d3arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--d3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <style>
+          .d3box{fill:var(--card);stroke:var(--d3);stroke-width:1.3;}
+          .d3t{font-size:10px;fill:var(--ink);font-weight:600;}
+          .d3line{stroke:var(--d3);stroke-width:1.4;fill:none;}
+          .d3dash{stroke:var(--muted);stroke-width:1.2;fill:none;stroke-dasharray:4 3;}
+          .d3badge{fill:var(--d3);}
+          .d3badge-t{font-size:9px;fill:#fff;font-weight:700;}
+        </style>
+<text x="20" y="34" style="font-size:11px;font-weight:800;fill:var(--d3);text-transform:uppercase;letter-spacing:.05em;">Core dev loop</text>
+<rect class="d3box" x="20" y="53" width="118" height="42" rx="8"/>
+<text class="d3t" x="79" y="72" text-anchor="middle">CLAUDE.md</text>
+<text class="d3t" x="79" y="84" text-anchor="middle">standards+examples</text>
+<a href="#d3-p2" class="badge-link"><circle class="d3badge" cx="79" cy="110" r="9"/><text class="d3badge-t" x="79" y="113" text-anchor="middle" style="font-size:9px;">2</text></a>
+<line x1="138" y1="74" x2="150" y2="74" class="d3line" marker-end="url(#d3arrow)"/>
+<rect class="d3box" x="150" y="53" width="118" height="42" rx="8"/>
+<text class="d3t" x="209" y="72" text-anchor="middle">Explore</text>
+<text class="d3t" x="209" y="84" text-anchor="middle">Grep/Glob/Read</text>
+<a href="#d3-p15" class="badge-link"><circle class="d3badge" cx="187" cy="110" r="9"/><text class="d3badge-t" x="187" y="113" text-anchor="middle" style="font-size:9px;">15</text></a>
+<a href="#d3-p8" class="badge-link"><circle class="d3badge" cx="209" cy="110" r="9"/><text class="d3badge-t" x="209" y="113" text-anchor="middle" style="font-size:9px;">8</text></a>
+<a href="#d3-p5" class="badge-link"><circle class="d3badge" cx="231" cy="110" r="9"/><text class="d3badge-t" x="231" y="113" text-anchor="middle" style="font-size:9px;">5</text></a>
+<line x1="268" y1="74" x2="280" y2="74" class="d3line" marker-end="url(#d3arrow)"/>
+<rect class="d3box" x="280" y="53" width="118" height="42" rx="8"/>
+<text class="d3t" x="339" y="72" text-anchor="middle">Plan Mode</text>
+<text class="d3t" x="339" y="84" text-anchor="middle">(open-ended only)</text>
+<a href="#d3-p16" class="badge-link"><circle class="d3badge" cx="339" cy="110" r="9"/><text class="d3badge-t" x="339" y="113" text-anchor="middle" style="font-size:9px;">16</text></a>
+<line x1="398" y1="74" x2="410" y2="74" class="d3line" marker-end="url(#d3arrow)"/>
+<rect class="d3box" x="410" y="53" width="110" height="42" rx="8"/>
+<text class="d3t" x="465" y="72" text-anchor="middle">Implement</text>
+<text class="d3t" x="465" y="84" text-anchor="middle">Edit/Write</text>
+<a href="#d3-p14" class="badge-link"><circle class="d3badge" cx="465" cy="110" r="9"/><text class="d3badge-t" x="465" y="113" text-anchor="middle" style="font-size:9px;">14</text></a>
+<line x1="520" y1="74" x2="532" y2="74" class="d3line" marker-end="url(#d3arrow)"/>
+<rect class="d3box" x="532" y="53" width="90" height="42" rx="8"/>
+<text class="d3t" x="577" y="78" text-anchor="middle">Commit</text>
+<text x="20" y="178" style="font-size:11px;font-weight:800;fill:var(--d3);text-transform:uppercase;letter-spacing:.05em;">Session &amp; context management</text>
+<rect class="d3box" x="20" y="197" width="104" height="42" rx="8"/>
+<text class="d3t" x="72" y="216" text-anchor="middle">--continue vs</text>
+<text class="d3t" x="72" y="228" text-anchor="middle">--resume &lt;name&gt;</text>
+<a href="#d3-p3" class="badge-link"><circle class="d3badge" cx="72" cy="254" r="9"/><text class="d3badge-t" x="72" y="257" text-anchor="middle" style="font-size:9px;">3</text></a>
+<rect class="d3box" x="132" y="197" width="104" height="42" rx="8"/>
+<text class="d3t" x="184" y="216" text-anchor="middle">fork_session</text>
+<text class="d3t" x="184" y="228" text-anchor="middle">parallel branches</text>
+<a href="#d3-p9" class="badge-link"><circle class="d3badge" cx="184" cy="254" r="9"/><text class="d3badge-t" x="184" y="257" text-anchor="middle" style="font-size:9px;">9</text></a>
+<rect class="d3box" x="244" y="197" width="104" height="42" rx="8"/>
+<text class="d3t" x="296" y="216" text-anchor="middle">Interrupted, told</text>
+<text class="d3t" x="296" y="228" text-anchor="middle">what changed</text>
+<a href="#d3-p6" class="badge-link"><circle class="d3badge" cx="285" cy="254" r="9"/><text class="d3badge-t" x="285" y="257" text-anchor="middle" style="font-size:9px;">6</text></a>
+<a href="#d3-p10" class="badge-link"><circle class="d3badge" cx="307" cy="254" r="9"/><text class="d3badge-t" x="307" y="257" text-anchor="middle" style="font-size:9px;">10</text></a>
+<rect class="d3box" x="356" y="197" width="115" height="42" rx="8"/>
+<text class="d3t" x="414" y="216" text-anchor="middle">Context degrades →</text>
+<text class="d3t" x="414" y="228" text-anchor="middle">summarize → new subagent</text>
+<a href="#d3-p7" class="badge-link"><circle class="d3badge" cx="414" cy="254" r="9"/><text class="d3badge-t" x="414" y="257" text-anchor="middle" style="font-size:9px;">7</text></a>
+<rect class="d3box" x="479" y="197" width="104" height="42" rx="8"/>
+<text class="d3t" x="531" y="216" text-anchor="middle">Scratchpad file</text>
+<text class="d3t" x="531" y="228" text-anchor="middle">durable memory</text>
+<a href="#d3-p11" class="badge-link"><circle class="d3badge" cx="531" cy="254" r="9"/><text class="d3badge-t" x="531" y="257" text-anchor="middle" style="font-size:9px;">11</text></a>
+<rect class="d3box" x="591" y="197" width="115" height="42" rx="8"/>
+<text class="d3t" x="648" y="216" text-anchor="middle">Subagent deep-dive,</text>
+<text class="d3t" x="648" y="228" text-anchor="middle">main keeps overview</text>
+<a href="#d3-p12" class="badge-link"><circle class="d3badge" cx="648" cy="254" r="9"/><text class="d3badge-t" x="648" y="257" text-anchor="middle" style="font-size:9px;">12</text></a>
+<text x="20" y="292" style="font-size:11px;font-weight:800;fill:var(--d3);text-transform:uppercase;letter-spacing:.05em;">Headless &amp; debugging style</text>
+<rect class="d3box" x="20" y="311" width="150" height="42" rx="8"/>
+<text class="d3t" x="95" y="330" text-anchor="middle">--max-turns</text>
+<text class="d3t" x="95" y="342" text-anchor="middle">--max-budget-usd</text>
+<a href="#d3-p1" class="badge-link"><circle class="d3badge" cx="95" cy="368" r="9"/><text class="d3badge-t" x="95" y="371" text-anchor="middle" style="font-size:9px;">1</text></a>
+<rect class="d3box" x="184" y="311" width="170" height="42" rx="8"/>
+<text class="d3t" x="269" y="330" text-anchor="middle">Adaptive debugging</text>
+<text class="d3t" x="269" y="342" text-anchor="middle">step from findings</text>
+<a href="#d3-p13" class="badge-link"><circle class="d3badge" cx="269" cy="368" r="9"/><text class="d3badge-t" x="269" y="371" text-anchor="middle" style="font-size:9px;">13</text></a>
+<rect class="d3box" x="368" y="311" width="190" height="42" rx="8"/>
+<text class="d3t" x="463" y="330" text-anchor="middle">Vague tool description</text>
+<text class="d3t" x="463" y="342" text-anchor="middle">→ built-in used instead</text>
+<a href="#d3-p4" class="badge-link"><circle class="d3badge" cx="463" cy="368" r="9"/><text class="d3badge-t" x="463" y="371" text-anchor="middle" style="font-size:9px;">4</text></a>
+</svg>
+  <p class="cap" style="margin-top:8px;">Read it yourself: <a href="https://code.claude.com/docs/en/best-practices" target="_blank" rel="noopener" style="color:var(--d3);font-weight:600;">Best practices for Claude Code ↗</a></p>
+</div>
+
+      <div class="principle" id="d3-p1"><span class="num" style="background:var(--d3)">1</span><h4>Cap iterations and spend with native Claude Code flags</h4><span class="vi-icon" data-vi="--max-turns giới hạn số vòng lặp agentic và --max-budget-usd giới hạn chi phí mỗi lần chạy, cả hai đều được Claude Code thực thi trực tiếp ở chế độ headless — một timeout ở tầng CI job hay dashboard chỉ giám sát từ bên ngoài và không thực sự ép buộc giới hạn nào.">VI</span>
+        <p class="glossary-zone">--max-turns caps the number of agentic iterations and --max-budget-usd caps the dollar spend per invocation, both enforced natively by Claude Code in headless (claude -p) mode — a CI job timeout or a passive dashboard only monitors from the outside and doesn't enforce either limit directly.</p>
+      </div>
+
+      <div class="principle" id="d3-p2"><span class="num" style="background:var(--d3)">2</span><h4>CLAUDE.md shapes output quality at the source</h4><span class="vi-icon" data-vi="Để giảm output kém chất lượng được sinh ra, hãy ghi lại tiêu chuẩn của team, quy ước fixture, và các ví dụ đúng/sai vào CLAUDE.md — sửa tận gốc ngay lúc sinh ra luôn tốt hơn lọc bỏ output tệ sau khi đã tạo.">VI</span>
+        <p class="glossary-zone">To reduce low-value generated output (e.g., trivial tests), document team standards, fixture conventions, and good-vs-bad examples in CLAUDE.md — fixing the root cause at generation time beats filtering bad output after the fact.</p>
+      </div>
+
+      <div class="principle" id="d3-p3"><span class="num" style="background:var(--d3)">3</span><h4>--resume &lt;name&gt; vs. --continue</h4><span class="vi-icon" data-vi="--resume session-name nạp đúng session được đặt tên cụ thể cùng toàn bộ context đã tích luỹ. --continue chỉ tiếp tục hội thoại gần nhất, có thể không phải cái bạn muốn nếu đã làm việc khác từ đó.">VI</span>
+        <p class="glossary-zone">--resume session-name loads that exact named session with all its accumulated context. --continue only resumes the most recent conversation, which may not be the one you want if you've worked on other things since.</p>
+      </div>
+
+      <div class="principle" id="d3-p4"><span class="num" style="background:var(--d3)">4</span><h4>Tool descriptions are the primary lever for tool selection</h4><span class="vi-icon" data-vi="Nếu agent liên tục dùng built-in tool thay vì một MCP tool chuyên biệt, nguyên nhân thường là mô tả MCP tool quá mơ hồ — hãy viết mô tả chi tiết về khả năng, đầu ra, và khi nào nên dùng nó, thay vì xoá built-in tool hay thêm luật routing cứng nhắc.">VI</span>
+        <p class="glossary-zone">If an agent keeps using a built-in tool (like Grep or sed) instead of a specialized MCP tool, the root cause is usually a vague MCP tool description — write a detailed description of capabilities, outputs, and when to use it, rather than removing built-in tools or adding brittle routing rules.</p>
+      </div>
+
+      <div class="principle" id="d3-p5"><span class="num" style="background:var(--d3)">5</span><h4>Functions re-exported under different names</h4><span class="vi-icon" data-vi="Trước khi grep tìm mọi nơi gọi một hàm được re-export qua các module wrapper dưới tên khác nhau, hãy đọc thư viện gốc và các wrapper để liệt kê hết các bí danh — chỉ grep theo tên gốc sẽ bỏ sót các nơi gọi qua tên khác.">VI</span>
+        <p class="glossary-zone">Before grepping for every caller of a function that's re-exported through wrapper modules under different names, first read the library and wrappers to enumerate every exposed alias — grepping only the original name will miss aliased callers.</p>
+      </div>
+
+      <div class="principle" id="d3-p6"><span class="num" style="background:var(--d3)">6</span><h4>Resuming an interrupted subagent with a small update</h4><span class="vi-icon" data-vi="Khi một phiên khám phá bị gián đoạn và có một thay đổi nhỏ xảy ra trong lúc đó, hãy resume từ transcript đã lưu và báo rõ cho agent về thay đổi cụ thể đó — không bắt đầu lại từ đầu, không resume một cách im lặng mà bỏ qua thay đổi.">VI</span>
+        <p class="glossary-zone">When an exploration session is interrupted and a small change occurred in the meantime (e.g., a renamed function), resume from the saved transcript (keeps the accumulated context) and explicitly inform the agent of that specific change — don't restart from scratch, and don't resume silently while ignoring the change.</p>
+      </div>
+
+      <div class="principle" id="d3-p7"><span class="num" style="background:var(--d3)">7</span><h4>Context degradation in long sessions</h4><span class="vi-icon" data-vi="Khi câu trả lời trở nên chung chung thay vì nhắc đến các class/hàm cụ thể đã khám phá trước đó, hãy tóm tắt các phát hiện chính rồi spawn một subagent cho nhiệm vụ tiếp theo với bản tóm tắt đó làm context khởi đầu — không chỉ /clear, không tiếp tục trong context đã suy giảm.">VI</span>
+        <p class="glossary-zone">When responses become generic ("typical patterns") instead of referencing the specific classes/functions discovered earlier, summarize the key findings, then spawn a subagent for the next task with that summary as its starting context — don't just /clear (loses everything) or keep going in the degraded context.</p>
+      </div>
+
+      <div class="principle" id="d3-p8"><span class="num" style="background:var(--d3)">8</span><h4>Building understanding of a large module</h4><span class="vi-icon" data-vi="Xác định class/interface cơ sở trước, đọc nó để hiểu abstraction chung, rồi truy vết các implementation cụ thể liên quan đến nhiệm vụ — hiệu quả hơn đọc tuần tự tất cả file, ưu tiên theo kích thước file, hay chỉ grep từ khoá.">VI</span>
+        <p class="glossary-zone">Identify the base class/interface first, read it to understand the shared abstraction, then trace the specific implementations relevant to the task — more effective than reading every file sequentially, prioritizing by file size, or only grepping keywords.</p>
+      </div>
+
+      <div class="principle" id="d3-p9"><span class="num" style="background:var(--d3)">9</span><h4>fork_session for independent parallel exploration</h4><span class="vi-icon" data-vi="Để so sánh hai cách tiếp cận xuất phát từ cùng một baseline phân tích, dùng fork_session để tạo các nhánh riêng biệt — tránh khám phá tuần tự trong cùng một thread (gây nhiễu lẫn nhau) hay tái tạo context thủ công trong session mới.">VI</span>
+        <p class="glossary-zone">To compare two approaches (e.g., two testing strategies) starting from the same analysis baseline, use fork_session to create separate branches — this avoids exploring sequentially in one thread (cross-contamination) or manually recreating context in fresh sessions.</p>
+      </div>
+
+      <div class="principle" id="d3-p10"><span class="num" style="background:var(--d3)">10</span><h4>Files changed during a session gap</h4><span class="vi-icon" data-vi="Resume session (giữ hiệu quả) và báo rõ cho agent những file cụ thể nào đã thay đổi để đọc lại có mục tiêu (giữ độ chính xác) — không đọc lại toàn bộ, không bắt đầu mới, không resume một cách im lặng.">VI</span>
+        <p class="glossary-zone">Resume the session (keeps efficiency) and explicitly tell the agent which specific files changed for targeted re-reading (keeps accuracy) — don't re-read everything, don't start fresh, and don't resume silently.</p>
+      </div>
+
+      <div class="principle" id="d3-p11"><span class="num" style="background:var(--d3)">11</span><h4>A scratchpad file for durable "memory"</h4><span class="vi-icon" data-vi="Khi agent bắt đầu trả lời không nhất quán sau 30+ phút khám phá, hãy để nó duy trì một file scratchpad ghi lại các phát hiện chính và tham chiếu lại nó về sau — ổn định hơn chuyển sang model lớn hơn, xoá context theo định kỳ, hay tóm tắt trước toàn bộ file nguồn.">VI</span>
+        <p class="glossary-zone">When an agent starts giving inconsistent answers after 30+ minutes of exploration, have it maintain a scratchpad file recording key findings and reference it going forward — more stable than switching to a bigger model, clearing context on a timer, or pre-summarizing every source file upfront.</p>
+      </div>
+
+      <div class="principle" id="d3-p12"><span class="num" style="background:var(--d3)">12</span><h4>Subagents for deep dives, main agent keeps the overview</h4><span class="vi-icon" data-vi="Khi codebase quá lớn để nằm gọn trong một context window, hãy giao các câu hỏi có phạm vi rõ ràng cho subagent với context mới, trong khi agent chính giữ hiểu biết kiến trúc tổng thể — đây là mô hình để mở rộng khả năng khám phá vượt quá giới hạn của một context window.">VI</span>
+        <p class="glossary-zone">When a codebase is too large to fit in one context window (e.g., 45 files), delegate well-scoped questions to subagents with fresh context while the main agent retains the high-level architectural understanding — this is the pattern for scaling exploration beyond a single context window.</p>
+      </div>
+
+      <div class="principle" id="d3-p13"><span class="num" style="background:var(--d3)">13</span><h4>Debugging is adaptive, not pre-planned</h4><span class="vi-icon" data-vi="Hãy để agent tự sinh ra bước điều tra tiếp theo dựa trên những gì nó vừa phát hiện — lập kế hoạch toàn bộ đường đi trước khi khám phá gì hay chạy song song nhiều worker trên mọi lớp khi chưa biết lớp nào liên quan đều lãng phí công sức.">VI</span>
+        <p class="glossary-zone">Let the agent dynamically generate its next investigation step based on what it just discovered — planning the entire path before any exploration (planning blind) or fanning out parallel workers across every layer when you don't yet know which layer is involved both waste effort.</p>
+      </div>
+
+      <div class="principle" id="d3-p14"><span class="num" style="background:var(--d3)">14</span><h4>When Edit fails on a non-unique old_string</h4><span class="vi-icon" data-vi="Trong một file có các đoạn lặp lại, cách dự phòng đáng tin cậy là: Read toàn bộ file, chỉnh sửa trong bộ nhớ, rồi Write lại — không phải kéo dài chuỗi khớp, không dùng replace_all, không append vào cuối file.">VI</span>
+        <p class="glossary-zone">In a file with repetitive patterns (similar docstrings, variable names), the reliable fallback is: Read the whole file, make the change in memory, then Write it back — not a longer match string (still fragile), not replace_all (corrupts other matches), and not appending to the end (wrong location).</p>
+      </div>
+
+      <div class="principle" id="d3-p15"><span class="num" style="background:var(--d3)">15</span><h4>Exploring an unfamiliar, large codebase</h4><span class="vi-icon" data-vi="Dùng Grep để tìm các điểm vào cụ thể rồi truy vết ra ngoài theo các cạnh import/function-call thực tế một cách dần dần — đọc mọi file chứa từ khoá chung chung trên 800+ file sẽ làm ngập context trong nhiễu.">VI</span>
+        <p class="glossary-zone">Use Grep to find concrete entry points (login, middleware) and trace outward following real import/function-call edges incrementally — reading every file containing broad keywords ("auth", "token") across 800+ files drowns the context in noise.</p>
+      </div>
+
+      <div class="principle" id="d3-p16"><span class="num" style="background:var(--d3)">16</span><h4>A localized bug doesn't need Plan Mode</h4><span class="vi-icon" data-vi="Khi stack trace đã chỉ thẳng đến một khu vực cụ thể, hãy thực thi trực tiếp ngay — đọc trace, đọc code liên quan, sửa khi tìm ra nguyên nhân gốc. Plan Mode chỉ nên dùng cho các vấn đề thực sự mở hoặc phức tạp về kiến trúc.">VI</span>
+        <p class="glossary-zone">When a stack trace already points to a specific area, go straight to direct execution — read the trace, read the relevant code, fix the root cause once found. Plan Mode is reserved for genuinely open-ended or architecturally complex problems, not an already-localized bug.</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="tab-panel" data-tab="d4" id="tab-d4">
+  <!-- DOMAIN 4 -->
+  <div class="domain-block" id="d4">
+    <div class="domain-head" style="border-left-color:var(--d4)">
+      <div class="kicker">Domain 4 · 20% of the exam · 14 questions in the bank</div>
+      <h2>Prompt Engineering &amp; Structured Output</h2>
+      <div class="meta">Prompt engineering, few-shot examples, structured output, confidence &amp; severity metadata</div>
+    </div>
+    <div class="domain-body">
+<div class="bigpic">
+  <p class="cap">🗺️ <b>Big picture, from the source</b> — grounded in Anthropic’s official structured-outputs and output-consistency documentation (schema-constrained decoding, few-shot examples, retries). Click any number to jump to that principle below.</p>
+  <blockquote style="margin:0 0 12px;padding:10px 14px;border-left:3px solid var(--accent);background:var(--card);font-size:0.82rem;color:var(--muted);font-style:italic;">"Structured outputs constrain Claude’s responses to follow a specific schema, ensuring valid, parseable output for downstream processing." — Anthropic, "Structured outputs" documentation</blockquote>
+  <svg width="100%" viewBox="0 0 740 400" role="img" aria-label="Domain 4 architecture diagram">
+<defs>
+          <marker id="d4arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--d4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <style>
+          .d4box{fill:var(--card);stroke:var(--d4);stroke-width:1.3;}
+          .d4t{font-size:10px;fill:var(--ink);font-weight:600;}
+          .d4line{stroke:var(--d4);stroke-width:1.4;fill:none;}
+          .d4dash{stroke:var(--muted);stroke-width:1.2;fill:none;stroke-dasharray:4 3;}
+          .d4badge{fill:var(--d4);}
+          .d4badge-t{font-size:9px;fill:#fff;font-weight:700;}
+        </style>
+<text x="20" y="34" style="font-size:11px;font-weight:800;fill:var(--d4);text-transform:uppercase;letter-spacing:.05em;">Two-stage extraction pipeline</text>
+<rect class="d4box" x="20" y="53" width="140" height="42" rx="8"/>
+<text class="d4t" x="90" y="72" text-anchor="middle">Find stage</text>
+<text class="d4t" x="90" y="84" text-anchor="middle">(coverage, flag all)</text>
+<a href="#d4-p1" class="badge-link"><circle class="d4badge" cx="90" cy="110" r="9"/><text class="d4badge-t" x="90" y="113" text-anchor="middle" style="font-size:9px;">1</text></a>
+<line x1="160" y1="74" x2="174" y2="74" class="d4line" marker-end="url(#d4arrow)"/>
+<rect class="d4box" x="174" y="53" width="135" height="42" rx="8"/>
+<text class="d4t" x="242" y="72" text-anchor="middle">Filter stage</text>
+<text class="d4t" x="242" y="84" text-anchor="middle">(apply threshold)</text>
+<a href="#d4-p1" class="badge-link"><circle class="d4badge" cx="242" cy="110" r="9"/><text class="d4badge-t" x="242" y="113" text-anchor="middle" style="font-size:9px;">1</text></a>
+<line x1="309" y1="74" x2="323" y2="74" class="d4line" marker-end="url(#d4arrow)"/>
+<rect class="d4box" x="323" y="53" width="130" height="42" rx="8"/>
+<text class="d4t" x="388" y="72" text-anchor="middle">Segment-level</text>
+<text class="d4t" x="388" y="84" text-anchor="middle">accuracy check</text>
+<a href="#d4-p4" class="badge-link"><circle class="d4badge" cx="388" cy="110" r="9"/><text class="d4badge-t" x="388" y="113" text-anchor="middle" style="font-size:9px;">4</text></a>
+<line x1="453" y1="74" x2="467" y2="74" class="d4line" marker-end="url(#d4arrow)"/>
+<rect class="d4box" x="467" y="53" width="150" height="42" rx="8"/>
+<text class="d4t" x="542" y="72" text-anchor="middle">Field confidence +</text>
+<text class="d4t" x="542" y="84" text-anchor="middle">calibrated threshold</text>
+<a href="#d4-p12" class="badge-link"><circle class="d4badge" cx="542" cy="110" r="9"/><text class="d4badge-t" x="542" y="113" text-anchor="middle" style="font-size:9px;">12</text></a>
+<text x="20" y="178" style="font-size:11px;font-weight:800;fill:var(--d4);text-transform:uppercase;letter-spacing:.05em;">Schema design for messy reality</text>
+<rect class="d4box" x="20" y="197" width="104" height="42" rx="8"/>
+<text class="d4t" x="72" y="216" text-anchor="middle">Nullable field +</text>
+<text class="d4t" x="72" y="228" text-anchor="middle">'return null' instr.</text>
+<a href="#d4-p7" class="badge-link"><circle class="d4badge" cx="72" cy="254" r="9"/><text class="d4badge-t" x="72" y="257" text-anchor="middle" style="font-size:9px;">7</text></a>
+<rect class="d4box" x="130" y="197" width="112" height="42" rx="8"/>
+<text class="d4t" x="186" y="216" text-anchor="middle">Versioned values →</text>
+<text class="d4t" x="186" y="228" text-anchor="middle">multiple+source+date</text>
+<a href="#d4-p5" class="badge-link"><circle class="d4badge" cx="186" cy="254" r="9"/><text class="d4badge-t" x="186" y="257" text-anchor="middle" style="font-size:9px;">5</text></a>
+<rect class="d4box" x="248" y="197" width="112" height="42" rx="8"/>
+<text class="d4t" x="304" y="216" text-anchor="middle">Calculated vs stated</text>
+<text class="d4t" x="304" y="228" text-anchor="middle">→ flag discrepancies</text>
+<a href="#d4-p9" class="badge-link"><circle class="d4badge" cx="304" cy="254" r="9"/><text class="d4badge-t" x="304" y="257" text-anchor="middle" style="font-size:9px;">9</text></a>
+<rect class="d4box" x="366" y="197" width="115" height="42" rx="8"/>
+<text class="d4t" x="424" y="216" text-anchor="middle">Evolving categories →</text>
+<text class="d4t" x="424" y="228" text-anchor="middle">enum 'other'+detail</text>
+<a href="#d4-p11" class="badge-link"><circle class="d4badge" cx="424" cy="254" r="9"/><text class="d4badge-t" x="424" y="257" text-anchor="middle" style="font-size:9px;">11</text></a>
+<rect class="d4box" x="487" y="197" width="112" height="42" rx="8"/>
+<text class="d4t" x="543" y="216" text-anchor="middle">tool_choice forces</text>
+<text class="d4t" x="543" y="228" text-anchor="middle">order, that turn only</text>
+<a href="#d4-p10" class="badge-link"><circle class="d4badge" cx="543" cy="254" r="9"/><text class="d4badge-t" x="543" y="257" text-anchor="middle" style="font-size:9px;">10</text></a>
+<rect class="d4box" x="605" y="197" width="112" height="42" rx="8"/>
+<text class="d4t" x="661" y="216" text-anchor="middle">Batch (50% cheaper,</text>
+<text class="d4t" x="661" y="228" text-anchor="middle">≤24h) vs real-time</text>
+<a href="#d4-p2" class="badge-link"><circle class="d4badge" cx="661" cy="254" r="9"/><text class="d4badge-t" x="661" y="257" text-anchor="middle" style="font-size:9px;">2</text></a>
+<text x="20" y="292" style="font-size:11px;font-weight:800;fill:var(--d4);text-transform:uppercase;letter-spacing:.05em;">Fixing extraction errors</text>
+<rect class="d4box" x="20" y="311" width="280" height="42" rx="8"/>
+<text class="d4t" x="160" y="330" text-anchor="middle">Inconsistent format →</text>
+<text class="d4t" x="160" y="342" text-anchor="middle">few-shot canonical examples</text>
+<a href="#d4-p3" class="badge-link"><circle class="d4badge" cx="149" cy="368" r="9"/><text class="d4badge-t" x="149" y="371" text-anchor="middle" style="font-size:9px;">3</text></a>
+<a href="#d4-p8" class="badge-link"><circle class="d4badge" cx="171" cy="368" r="9"/><text class="d4badge-t" x="171" y="371" text-anchor="middle" style="font-size:9px;">8</text></a>
+<rect class="d4box" x="320" y="311" width="280" height="42" rx="8"/>
+<text class="d4t" x="460" y="330" text-anchor="middle">Missing info truly absent →</text>
+<text class="d4t" x="460" y="342" text-anchor="middle">retry can't invent it</text>
+<a href="#d4-p6" class="badge-link"><circle class="d4badge" cx="460" cy="368" r="9"/><text class="d4badge-t" x="460" y="371" text-anchor="middle" style="font-size:9px;">6</text></a>
+</svg>
+  <p class="cap" style="margin-top:8px;">Read it yourself: <a href="https://platform.claude.com/docs/en/build-with-claude/structured-outputs" target="_blank" rel="noopener" style="color:var(--d4);font-weight:600;">Structured outputs ↗</a> · <a href="https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency" target="_blank" rel="noopener" style="color:var(--d4);font-weight:600;">Increase output consistency ↗</a></p>
+</div>
+
+      <div class="principle" id="d4-p1"><span class="num" style="background:var(--d4)">1</span><h4>Separate "find everything" from "filter it"</h4><span class="vi-icon" data-vi="Một chỉ dẫn như chỉ báo cáo khi độ tin cậy cao sẽ được tuân theo đúng nghĩa đen và làm giảm recall nghiêm trọng. Thay vào đó, hãy tách quy trình thành một giai đoạn tìm kiếm với mục tiêu là độ phủ, và một giai đoạn riêng biệt phía sau áp dụng ngưỡng lọc.">VI</span>
+        <p class="glossary-zone">An instruction like "only report high-confidence issues" is followed literally and kills recall. Instead, split the process into a finding stage where the goal is coverage — flag every potential issue with confidence and severity metadata — and a separate downstream stage that applies the threshold.</p>
+      </div>
+
+      <div class="principle" id="d4-p2"><span class="num" style="background:var(--d4)">2</span><h4>Batch API vs. the real-time Messages API</h4><span class="vi-icon" data-vi="Batch API rẻ hơn 50% nhưng bất đồng bộ (có thể tới 24 giờ) — chỉ phù hợp khi độ trễ đó vẫn chấp nhận được với workflow của bạn. Công việc nhạy cảm về thời gian với SLA chặt phải dùng real-time Messages API thay thế.">VI</span>
+        <p class="glossary-zone">The Batch API is 50% cheaper but asynchronous (up to a 24-hour window) — appropriate only when that latency remains acceptable for your workflow. Time-sensitive work with a tight SLA (e.g., alerts within 30 minutes) must use the real-time Messages API instead.</p>
+      </div>
+
+      <div class="principle" id="d4-p3"><span class="num" style="background:var(--d4)">3</span><h4>Few-shot examples fix extraction consistency</h4><span class="vi-icon" data-vi="Khi các cụm từ ghép bị tách không nhất quán, độ dài mảng dao động thất thường, hay định dạng output khác nhau mỗi lần, hãy thêm ví dụ few-shot minh hoạ đúng định dạng chuẩn bạn muốn — hiệu quả hơn đặt giới hạn số lượng cứng, dùng model lớn hơn, hay đặt temperature = 0.">VI</span>
+        <p class="glossary-zone">When compound phrases are split inconsistently, array lengths vary wildly, or output formats differ each time, add few-shot examples demonstrating the exact canonical format you want — more effective than hard count caps, a bigger model, or setting temperature to 0.</p>
+      </div>
+
+      <div class="principle" id="d4-p4"><span class="num" style="background:var(--d4)">4</span><h4>Check accuracy by segment before automating</h4><span class="vi-icon" data-vi="Độ chính xác tổng hợp có thể che giấu một loại tài liệu hay field có độ chính xác thấp hơn nhiều. Luôn phân tích độ chính xác theo từng loại tài liệu và từng field trước khi tự động hoá quyết định dựa trên ngưỡng confidence.">VI</span>
+        <p class="glossary-zone">Aggregate accuracy (e.g., 97% overall) can hide a document type or field where accuracy is much lower. Always analyze accuracy by document type and field before automating decisions based on a confidence threshold.</p>
+      </div>
+
+      <div class="principle" id="d4-p5"><span class="num" style="background:var(--d4)">5</span><h4>Schema design for versioned or conflicting values</h4><span class="vi-icon" data-vi="Với các field có thể được sửa đổi theo thời gian, hãy lưu nhiều giá trị kèm vị trí nguồn và ngày hiệu lực — không ép về một giá trị, không hard-code giá trị mới nhất luôn thắng, không xoá phá huỷ các phần đã bị thay thế.">VI</span>
+        <p class="glossary-zone">For fields that can be amended over time (e.g., a contract clause changed by a later amendment), capture multiple values each with a source location and effective date — don't force one value, hard-code "the latest always wins," or destructively strip superseded sections.</p>
+      </div>
+
+      <div class="principle" id="d4-p6"><span class="num" style="background:var(--d4)">6</span><h4>Retry-with-error-feedback cannot invent missing information</h4><span class="vi-icon" data-vi="Retry sửa được đáng tin cậy các lỗi định dạng và cấu trúc mà model lẽ ra đã có thể làm đúng. Nhưng nó không thể sửa trường hợp thông tin cần thiết thực sự không tồn tại trong input.">VI</span>
+        <p class="glossary-zone">Retries reliably fix format and structural mistakes the model could have gotten right. They cannot fix a case where the needed information genuinely doesn't exist in the input (e.g., "et al." because the full author list is only in an external document).</p>
+      </div>
+
+      <div class="principle" id="d4-p7"><span class="num" style="background:var(--d4)">7</span><h4>Explicitly instruct "return null, don't guess"</h4><span class="vi-icon" data-vi="Kể cả các field được phép null vẫn có thể bị model bịa ra một giá trị nghe hợp lý nhưng sai. Hãy thêm chỉ dẫn rõ ràng để trả về null khi thông tin không được nêu — không đặt field thành bắt buộc.">VI</span>
+        <p class="glossary-zone">Even nullable fields can still get a plausible-but-wrong value hallucinated by the model. Add an explicit instruction to return null when information isn't stated — don't make the field required (that forces the model to invent a value).</p>
+      </div>
+
+      <div class="principle" id="d4-p8"><span class="num" style="background:var(--d4)">8</span><h4>Few-shot examples across varied real-world formats</h4><span class="vi-icon" data-vi="Khi model bỏ sót thông tin thực sự có trong nguồn nhưng trình bày ở cấu trúc lạ, các ví dụ few-shot trải rộng các định dạng đó giúp tăng recall — xử lý hậu kỳ bằng regex và retry không dạy được model nhận diện cấu trúc mới.">VI</span>
+        <p class="glossary-zone">When the model misses information that's genuinely present but presented in an unfamiliar structure (inline citations vs. bibliography, methodology embedded in an intro), few-shot examples spanning that format variety raise recall — regex post-processing and retries don't teach the model to recognize new structures.</p>
+      </div>
+
+      <div class="principle" id="d4-p9"><span class="num" style="background:var(--d4)">9</span><h4>Surface discrepancies instead of silently fixing them</h4><span class="vi-icon" data-vi="Thêm một field được tính toán song song với field được nêu rõ, và gắn cờ các bản ghi có sự chênh lệch để con người xem xét — không để model hay một lượt xử lý thứ hai âm thầm dung hoà dữ liệu tài chính.">VI</span>
+        <p class="glossary-zone">Add a calculated field (e.g., calculated_total, summed from line items) alongside the stated field (stated_total), and flag records where they differ for human review — don't have the model or a second pass silently reconcile financial data.</p>
+      </div>
+
+      <div class="principle" id="d4-p10"><span class="num" style="background:var(--d4)">10</span><h4>Force tool-call order with tool_choice</h4><span class="vi-icon" data-vi="Khi một tool trong pipeline đôi khi bị gọi trước một tool tiên quyết mà nó phụ thuộc vào, hãy ép tool đúng chạy trước bằng tool_choice cho lượt đó, rồi chuyển lại về auto cho các lượt sau — không dựa vào thứ tự khai báo tool trong danh sách.">VI</span>
+        <p class="glossary-zone">When a pipeline tool is sometimes called before a prerequisite tool it depends on, force the correct one first with tool_choice: {"type": "tool", "name": "..."} for that turn, then switch back to "auto" for subsequent turns — don't rely on the order tools are listed in (no such priority exists).</p>
+      </div>
+
+      <div class="principle" id="d4-p11"><span class="num" style="background:var(--d4)">11</span><h4>An evolving enum needs an "other" escape hatch</h4><span class="vi-icon" data-vi="Khi các giá trị phân loại mới liên tục xuất hiện, hãy thêm một giá trị enum other cùng với một field string chi tiết riêng — cách này giữ được validation chặt chẽ trong khi tránh phải bảo trì enum vô tận hay mất validation khi chuyển sang free text.">VI</span>
+        <p class="glossary-zone">When new categorical values keep appearing (e.g., new property types), add an "other" enum value plus a separate detail string field — this keeps strict validation for common cases while avoiding endless enum maintenance or the validation loss of switching to free text.</p>
+      </div>
+
+      <div class="principle" id="d4-p12"><span class="num" style="background:var(--d4)">12</span><h4>Field-level confidence to prioritize limited review capacity</h4><span class="vi-icon" data-vi="Khi người review chỉ có thể kiểm tra một phần nhỏ kết quả, hãy để model xuất ra điểm confidence theo từng field và hiệu chỉnh ngưỡng review bằng một tập validation đã gán nhãn — hiệu quả hơn nhiều so với lấy mẫu ngẫu nhiên hay các heuristic hẹp.">VI</span>
+        <p class="glossary-zone">When reviewers can only check a fraction of extractions, have the model output field-level confidence scores and calibrate the review threshold using a labeled validation set — this concentrates reviewer attention on errors far more effectively than random sampling or narrow heuristics like "only empty fields."</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="tab-panel" data-tab="d5" id="tab-d5">
+  <!-- DOMAIN 5 -->
+  <div class="domain-block" id="d5">
+    <div class="domain-head" style="border-left-color:var(--d5)">
+      <div class="kicker">Domain 5 · 15% of the exam · 3 questions in the bank (quick to learn, high payoff)</div>
+      <h2>Context Management &amp; Reliability</h2>
+      <div class="meta">Context management, batch/async APIs, retries, reliability</div>
+    </div>
+    <div class="domain-body">
+<div class="bigpic">
+  <p class="cap">🗺️ <b>Big picture, from the source</b> — grounded in Anthropic’s official Batch API and context-window documentation. Only 3 principles here, but they cover 15% of the real exam. Click any number to jump to that principle below.</p>
+  <blockquote style="margin:0 0 12px;padding:10px 14px;border-left:3px solid var(--accent);background:var(--card);font-size:0.82rem;color:var(--muted);font-style:italic;">"You can access batch results when all messages have completed or after 24 hours, whichever comes first. Batches expire if processing does not complete within 24 hours." — Anthropic, "Batch processing" documentation</blockquote>
+  <svg width="100%" viewBox="0 0 700 140" role="img" aria-label="Domain 5 architecture diagram">
+<defs>
+          <marker id="d5arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M2 1L8 5L2 9" fill="none" stroke="var(--d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <style>
+          .d5box{fill:var(--card);stroke:var(--d5);stroke-width:1.3;}
+          .d5t{font-size:10px;fill:var(--ink);font-weight:600;}
+          .d5line{stroke:var(--d5);stroke-width:1.4;fill:none;}
+          .d5dash{stroke:var(--muted);stroke-width:1.2;fill:none;stroke-dasharray:4 3;}
+          .d5badge{fill:var(--d5);}
+          .d5badge-t{font-size:9px;fill:#fff;font-weight:700;}
+        </style>
+<text x="20" y="34" style="font-size:11px;font-weight:800;fill:var(--d5);text-transform:uppercase;letter-spacing:.05em;">Batch reliability decision</text>
+<rect class="d5box" x="20" y="52" width="160" height="44" rx="8"/>
+<text class="d5t" x="100" y="72" text-anchor="middle">Is 24h delay</text>
+<text class="d5t" x="100" y="84" text-anchor="middle">still actionable?</text>
+<a href="#d5-p1" class="badge-link"><circle class="d5badge" cx="100" cy="111" r="9"/><text class="d5badge-t" x="100" y="114" text-anchor="middle" style="font-size:9px;">1</text></a>
+<line x1="180" y1="74" x2="196" y2="74" class="d5line" marker-end="url(#d5arrow)"/>
+<rect class="d5box" x="196" y="52" width="170" height="44" rx="8"/>
+<text class="d5t" x="281" y="72" text-anchor="middle">Safe cadence:</text>
+<text class="d5t" x="281" y="84" text-anchor="middle">window+SLA+margin</text>
+<a href="#d5-p2" class="badge-link"><circle class="d5badge" cx="281" cy="111" r="9"/><text class="d5badge-t" x="281" y="114" text-anchor="middle" style="font-size:9px;">2</text></a>
+<line x1="366" y1="74" x2="382" y2="74" class="d5line" marker-end="url(#d5arrow)"/>
+<rect class="d5box" x="382" y="52" width="250" height="44" rx="8"/>
+<text class="d5t" x="507" y="72" text-anchor="middle">context_length_exceeded →</text>
+<text class="d5t" x="507" y="84" text-anchor="middle">chunk &amp; resubmit failed only</text>
+<a href="#d5-p3" class="badge-link"><circle class="d5badge" cx="507" cy="111" r="9"/><text class="d5badge-t" x="507" y="114" text-anchor="middle" style="font-size:9px;">3</text></a>
+</svg>
+  <p class="cap" style="margin-top:8px;">Read it yourself: <a href="https://platform.claude.com/docs/en/build-with-claude/batch-processing" target="_blank" rel="noopener" style="color:var(--d5);font-weight:600;">Batch processing ↗</a> · <a href="https://platform.claude.com/docs/en/build-with-claude/context-windows" target="_blank" rel="noopener" style="color:var(--d5);font-weight:600;">Context windows ↗</a></p>
+</div>
+
+      <div class="principle" id="d5-p1"><span class="num" style="background:var(--d5)">1</span><h4>The deciding factor for using the Batch API</h4><span class="vi-icon" data-vi="Batch API tiết kiệm 50% chi phí nhưng có thể mất tới 24 giờ. Câu hỏi cốt lõi luôn là liệu kết quả đến trễ tới 24 giờ có còn actionable với workflow của bạn hay không — không phải thứ tự trả kết quả hay việc request có cần tinh chỉnh nhiều lượt hay không.">VI</span>
+        <p class="glossary-zone">The Batch API saves 50% but can take up to 24 hours. The core question is always whether results arriving up to 24 hours later remain actionable for your workflow — not result ordering (already correlated via custom_id) or whether a request needs multi-turn refinement.</p>
+      </div>
+
+      <div class="principle" id="d5-p2"><span class="num" style="background:var(--d5)">2</span><h4>Calculating a safe batching cadence</h4><span class="vi-icon" data-vi="Thời gian chờ tối đa để được gộp vào batch cộng với SLA xử lý batch phải nằm thoải mái trong SLA tổng thể của bạn, kèm biên an toàn. Ví dụ: gộp batch mỗi 4 giờ cộng với cửa sổ xử lý 24 giờ = tối đa 28 giờ, để lại 2 giờ dự phòng trong hạn SLA 30 giờ.">VI</span>
+        <p class="glossary-zone">Worst-case wait-to-be-batched plus the batch processing SLA (up to 24 hours) must fit comfortably within your overall SLA, with a safety margin for reliability. Example: batching every 4 hours plus a 24-hour batch window = a 28-hour worst case, leaving a 2-hour cushion under a 30-hour SLA.</p>
+      </div>
+
+      <div class="principle" id="d5-p3"><span class="num" style="background:var(--d5)">3</span><h4>context_length_exceeded errors: fix only the failed subset</h4><span class="vi-icon" data-vi="Khi một tỷ lệ nhỏ tài liệu trong một batch lớn bị lỗi vì vượt quá độ dài context, cách sửa tiết kiệm chi phí nhất là chia nhỏ và gửi lại chỉ những tài liệu bị lỗi đó, rồi gộp các kết quả từng phần — không xử lý lại toàn bộ batch, và không tăng max_tokens.">VI</span>
+        <p class="glossary-zone">When a small percentage of documents in a large batch fail due to exceeding the context length, the cost-effective fix is to chunk and resubmit only those failed documents, then merge the partial results — not reprocessing the entire batch, and not increasing max_tokens (which controls output length, not input length).</p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<section class="tab-panel" data-tab="cheat" id="tab-cheat">
+  <h2 class="section-title" id="cheat">🧭 Cheat‑sheet — quick decision rules</h2>
+  <p class="section-desc">Quick lookup before you walk into the exam room. Skim this table 5 minutes before your mock exam.</p>
+  <table class="cheat">
+    <tr><th>Situation</th><th>Choose</th></tr>
+    <tr><td class="glossary-zone">Search content/pattern inside files</td><td class="glossary-zone">Grep <span class="vi-icon" data-vi="Tìm nội dung/pattern bên trong file → Grep">VI</span></td></tr>
+    <tr><td class="glossary-zone">Search by file name/path</td><td class="glossary-zone">Glob <span class="vi-icon" data-vi="Tìm theo tên/đường dẫn file → Glob">VI</span></td></tr>
+    <tr><td class="glossary-zone">Two independent subagents need to run in parallel</td><td class="glossary-zone">Emit both Task tool calls in the SAME message <span class="vi-icon" data-vi="Hai subagent độc lập cần chạy song song → Phát cả hai lệnh gọi Task tool trong CÙNG một message">VI</span></td></tr>
+    <tr><td class="glossary-zone">Subtasks vary per input, unpredictable</td><td class="glossary-zone">Orchestrator-workers <span class="vi-icon" data-vi="Subtask thay đổi tuỳ input, không đoán trước được → Orchestrator-workers">VI</span></td></tr>
+    <tr><td class="glossary-zone">Same fixed steps every time</td><td class="glossary-zone">Prompt chaining <span class="vi-icon" data-vi="Các bước cố định giống nhau mỗi lần → Prompt chaining">VI</span></td></tr>
+    <tr><td class="glossary-zone">Inputs fall into distinct categories, handled differently</td><td class="glossary-zone">Routing <span class="vi-icon" data-vi="Input rơi vào các loại rõ rệt, xử lý khác nhau → Routing">VI</span></td></tr>
+    <tr><td class="glossary-zone">Coordinator can't spawn a subagent, no errors</td><td class="glossary-zone">Check whether "Task" is in allowedTools <span class="vi-icon" data-vi="Coordinator không spawn được subagent, không có lỗi → Kiểm tra Task có trong allowedTools không">VI</span></td></tr>
+    <tr><td class="glossary-zone">A mandatory compliance rule (must never be violated)</td><td class="glossary-zone">A deterministic hook blocking the tool call — NOT a prompt <span class="vi-icon" data-vi="Một quy tắc compliance bắt buộc → Một hook deterministic chặn tool call — KHÔNG dùng prompt">VI</span></td></tr>
+    <tr><td class="glossary-zone">When should you escalate to a human?</td><td class="glossary-zone">Customer asks / needs a policy exception / agent is stuck <span class="vi-icon" data-vi="Khi nào nên escalate cho người thật? → Khách yêu cầu / cần ngoại lệ chính sách / agent bị bế tắc (không phải đếm retry hay điểm sentiment)">VI</span></td></tr>
+    <tr><td class="glossary-zone">An MCP tool error</td><td class="glossary-zone">content + isError:true + errorCategory + isRetryable <span class="vi-icon" data-vi="Lỗi từ một MCP tool → content + isError:true + errorCategory + isRetryable">VI</span></td></tr>
+    <tr><td class="glossary-zone">The model "forgets" information mid-conversation</td><td class="glossary-zone">Check whether the full messages array is being sent (API is stateless) <span class="vi-icon" data-vi="Model quên thông tin giữa hội thoại → Kiểm tra xem messages array đầy đủ có được gửi không (API là stateless)">VI</span></td></tr>
+    <tr><td class="glossary-zone">Reduce low-quality output from the start</td><td class="glossary-zone">Write criteria/examples into CLAUDE.md <span class="vi-icon" data-vi="Giảm output kém chất lượng ngay từ đầu → Viết tiêu chí/ví dụ vào CLAUDE.md">VI</span></td></tr>
+    <tr><td class="glossary-zone">Cap cost/iterations per headless run</td><td class="glossary-zone">--max-turns / --max-budget-usd <span class="vi-icon" data-vi="Giới hạn chi phí/số vòng lặp mỗi lần chạy headless → --max-turns / --max-budget-usd">VI</span></td></tr>
+    <tr><td class="glossary-zone">Agent picks a built-in tool over a specialized MCP tool</td><td class="glossary-zone">Write a more detailed MCP tool description <span class="vi-icon" data-vi="Agent chọn built-in tool thay vì MCP tool chuyên biệt → Viết mô tả MCP tool chi tiết hơn">VI</span></td></tr>
+    <tr><td class="glossary-zone">Edit fails because old_string isn't unique</td><td class="glossary-zone">Read the whole file → edit in memory → Write it back <span class="vi-icon" data-vi="Edit thất bại vì old_string không unique → Read cả file → sửa trong bộ nhớ → Write lại">VI</span></td></tr>
+    <tr><td class="glossary-zone">Context degrades after a long session (vague answers)</td><td class="glossary-zone">Summarize, then hand off to a fresh subagent <span class="vi-icon" data-vi="Context suy giảm sau phiên dài → Tóm tắt rồi giao cho subagent mới với context sạch">VI</span></td></tr>
+    <tr><td class="glossary-zone">You want to stop missing bugs ("only report high-confidence")</td><td class="glossary-zone">Split the coverage stage from the threshold stage <span class="vi-icon" data-vi="Muốn tránh bỏ sót bug → Tách giai đoạn tìm-hết (coverage) khỏi giai đoạn lọc (threshold)">VI</span></td></tr>
+    <tr><td class="glossary-zone">Urgent work needing an alert within minutes</td><td class="glossary-zone">Real-time Messages API, NOT Batch <span class="vi-icon" data-vi="Việc gấp cần cảnh báo trong vài phút → Real-time Messages API, KHÔNG dùng Batch">VI</span></td></tr>
+    <tr><td class="glossary-zone">Non-urgent, high-volume, cost-sensitive work</td><td class="glossary-zone">Batch API (50% cheaper, up to 24h) <span class="vi-icon" data-vi="Việc không gấp, khối lượng lớn, cần tiết kiệm chi phí → Batch API (rẻ hơn 50%, tới 24h)">VI</span></td></tr>
+    <tr><td class="glossary-zone">A field may have no information in the source</td><td class="glossary-zone">Instruct: return null instead of guessing (don't require it) <span class="vi-icon" data-vi="Một field có thể không có thông tin trong nguồn → Chỉ dẫn rõ: trả về null thay vì đoán">VI</span></td></tr>
+    <tr><td class="glossary-zone">Can retries fix "missing information not in the input"?</td><td class="glossary-zone">No — only few-shot examples or better source data can help <span class="vi-icon" data-vi="Retry có sửa được thiếu thông tin không có trong input không? → Không — chỉ few-shot examples hoặc nguồn dữ liệu tốt hơn mới giúp được">VI</span></td></tr>
+    <tr><td class="glossary-zone">context_length_exceeded on a few % of documents in a large batch</td><td class="glossary-zone">Chunk and resubmit ONLY the failed documents <span class="vi-icon" data-vi="Lỗi context_length_exceeded trên vài % tài liệu trong một batch lớn → Chunk và gửi lại CHỈ những tài liệu bị lỗi">VI</span></td></tr>
+  </table>
+
+  <div class="callout warn" style="margin-top:16px;">
+    <p class="glossary-zone" style="margin:0;"><b>Tip for scenario-based questions:</b> there is almost always one answer that "sounds reasonable but is really a surface-level patch/workaround" and one answer that "fixes the root cause following Anthropic's best practice." Prefer the answer that (1) puts the decision at the right layer of responsibility (deterministic code vs. model reasoning), (2) doesn't waste context or cost unnecessarily, and (3) doesn't break the stateless/context-isolation principle between agents. <span class="vi-icon" data-vi="Mẹo làm bài dạng tình huống: gần như luôn có 1 đáp án nghe hợp lý nhưng là workaround/patch bề mặt và 1 đáp án sửa đúng gốc rễ theo best practice của Anthropic. Ưu tiên đáp án nào (1) đưa quyết định về đúng tầng chịu trách nhiệm, (2) không lãng phí context/chi phí không cần thiết, (3) không phá vỡ nguyên tắc stateless/context-isolation giữa các agent.">VI</span></p>
+  </div>
+
+</section>
+
+<section class="tab-panel" data-tab="tips" id="tab-tips">
+  <h2 class="section-title" id="tips">💡 Tip &amp; Tricks Ôn Thi CCAF</h2>
+  <p class="section-desc">Người tổng hợp: TRUNGHM6 — mẹo làm bài, quy tắc loại trừ đáp án, và quy trình đăng ký/đi thi thực tế.</p>
+
+  <div class="tip-block">
+    <h3>📚 Tài liệu ôn tập</h3>
+    <ul>
+      <li>Lý thuyết + giới thiệu bài thi: <a href="docs/CCA_Foundations_Study_Guide.pdf">CCA_Foundations_Study_Guide.pdf</a></li>
+      <li>Tài liệu submit chứng chỉ FPT: "How to upload cert evidence to claim your fee v1.0.2.pdf"</li>
+    </ul>
+  </div>
+
+  <div class="tip-block">
+    <h3>🔗 Các trang thi thử</h3>
+    <ul>
+      <li><a href="https://claudecertificationguide.com/mock-exam" target="_blank" rel="noopener">claudecertificationguide.com/mock-exam</a> — Gần nhất với đề thi thật, ôn kĩ là được.</li>
+      <li><a href="https://viehub.io.vn/hoc-tap/ccaf-luyen-thi" target="_blank" rel="noopener">viehub.io.vn/hoc-tap/ccaf-luyen-thi</a> — Gồm một số câu mở rộng, giống phần thi thật các câu về CI/CD Pipeline.</li>
+      <li><a href="https://practice-course.dbdhyf4kc8.workers.dev/" target="_blank" rel="noopener">practice-course.dbdhyf4kc8.workers.dev</a> — Giống đề thi thật các câu tình huống và MCP Tools.</li>
+    </ul>
+  </div>
+
+  <div class="tip-block">
+    <h3>📝 Một số thuật ngữ hay sử dụng</h3>
+    <table class="cheat">
+      <tr><th>Từ</th><th>Nghĩa</th></tr>
+      <tr><td>Dispute</td><td>Tranh chấp, bác bỏ.</td></tr>
+      <tr><td>Accumulate / Accumulated</td><td>Tích lũy, dồn lại.</td></tr>
+      <tr><td>Consolidate / Consolidated</td><td>Tập lại, gộp lại (merge).</td></tr>
+      <tr><td>Amendments</td><td>Chỉnh sửa, điều chỉnh, bổ sung.</td></tr>
+      <tr><td>Reveals</td><td>Tiết lộ, làm lộ ra.</td></tr>
+      <tr><td>Propagate</td><td>Truyền, lan truyền.</td></tr>
+      <tr><td>Leverage</td><td>Tận dụng.</td></tr>
+      <tr><td>Contradictory</td><td>Mâu thuẫn.</td></tr>
+      <tr><td>Hate speech</td><td>Ngôn từ kích động thù ghét.</td></tr>
+    </table>
+  </div>
+
+  <div class="tip-block">
+    <h3>🛠️ Mẹo khi trả lời câu hỏi về tools call</h3>
+    <ul>
+      <li>Tool overlap: Consolidate / merge các tool lại với nhau.</li>
+      <li>Quá nhiều tool: Giảm số lượng tool, dùng tool search.</li>
+      <li>Tool quá generic: Tách thành các purpose-specific tools.</li>
+      <li>Tool nhiều atomic: Gộp thành pipeline.</li>
+      <li>Tool select sai: Cải thiện mô tả (description).</li>
+      <li>Thiết kế tool: Nên ít tham số nhất, tránh quá generic, tạo quá nhiều thì cần merge với nhau.</li>
+      <li>Logic quan trọng: Business logic quan trọng phải được force ngay trong tool / backend services (không phụ thuộc hoàn toàn vào LLM).</li>
+    </ul>
+  </div>
+
+  <div class="tip-block">
+    <h3>💬 Mẹo khi trả lời câu hỏi prompt/context</h3>
+    <ul>
+      <li>Prompt bị quá tải: Chia để trị (Divide and Conquer) — nếu bài cho context bị giảm chất lượng, cần state hoặc summary key‑finding mỗi step.</li>
+      <li>Tập trung cải thiện: Đơn giản hoá, dùng few‑shot, v.v.</li>
+      <li>Nếu áp dụng cùng instruction cho nhiều request: Sử dụng Prompt Caching.</li>
+      <li>Xử lý Attribute (thuộc tính):
+        <ul>
+          <li>Attribute nằm trong prose (văn bản tự do) → dễ bị mất / bỏ sót.</li>
+          <li>Attribute nằm trong structured data → giữ được dữ liệu tốt hơn.</li>
+        </ul>
+      </li>
+      <li>Xử lý tác vụ nhỏ / sub-tasks:
+        <ul>
+          <li>Tác vụ nhỏ (như execution) → nên dùng few‑shot.</li>
+          <li>Trong Claude CLI, nhớ tham số <code>-p</code>, <code>--append-system-prompt</code> — xác định rõ mục tiêu làm gì.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="tip-block">
+    <h3>⚠️ Mẹo trả lời câu hỏi về xử lý lỗi</h3>
+    <ul>
+      <li>503, Timeout, Network error: Thực hiện Retry + Backoff.</li>
+      <li>Invalid input: Return ngay + Validate / Debug.</li>
+      <li>Auth error: Không Retry.</li>
+      <li>Permission error: Return error.</li>
+      <li>Thường có 3 loại lỗi: lỗi system (503, 403, v.v.) — nên retry tự động; lỗi business như không có quyền → không retry, trả về ngay; lỗi validation → return lỗi validation, để orchestration có thể sửa và retry.</li>
+      <li>Các sub-agent luôn phải trả kết quả có cấu trúc (structured results — bao gồm cả source, link, v.v.) khi trả về cho orchestration.</li>
+    </ul>
+  </div>
+
+  <div class="tip-block">
+    <h3>🔒 Mẹo trả lời câu hỏi security và escalate</h3>
+    <ul>
+      <li>Nếu đề cho không được quyết định bởi model → nghĩ đến Hook (PreToolUse, PostToolUse).</li>
+      <li>Bảo mật, chi phí, giới hạn: Xử lý ở backend logic / API code của tool / orchestrator layer.</li>
+      <li>Cần chính xác 100%: Sử dụng code, rule-based, hook, gateway.</li>
+    </ul>
+  </div>
+
+  <div class="tip-block">
+    <h3>🚫 Mẹo / Quy tắc loại trừ đáp án khi làm bài</h3>
+    <ul>
+      <li>Hệ thống enforced mechanism:
+        <ul>
+          <li>Nếu bài yêu cầu enforced mechanism → dùng Settings và Hook.</li>
+        </ul>
+      </li>
+      <li>Bổ sung context: Prompt thêm mã / code khi nói về context (few-shot).</li>
+      <li>Lỗi JSON: Thêm strict schema khi gặp lỗi JSON, thêm few-shot 2-4 ví dụ.</li>
+      <li>Escalate: Escalation nên bao gồm thông tin đang xử lý (customer ID, lỗi gì, v.v.) — không nên hỏi lại để làm rõ (clarify).</li>
+      <li>Sửa tên hàm: Nếu không có tên hàm cụ thể, chỉ cần replace all là được.</li>
+      <li>Không bao giờ chọn đáp án: đổi tier model, chỉnh temperature, tạo async API requests, parallel worker, fine-tuning, v.v.</li>
+      <li>Không cần ưu tiên phương án phức tạp về kiến trúc — đi theo luồng xử lý: Tình huống → có xử lý được bằng prompt không → nếu không → xử lý bằng hook → nếu hook không xử lý được → sub-agent → trả về kết quả. Luôn ưu tiên đáp án đơn giản, hiệu quả.</li>
+      <li>Khi yêu cầu về luồng xử lý lỗi: Grep (tìm string), Glob (tìm file) là hiệu quả nhất.</li>
+    </ul>
+  </div>
+
+  <div class="callout" style="margin-top:16px;">
+    <p style="margin:0 0 8px;"><b>⚡ Flow ôn thi nhanh lẹ</b></p>
+    <ol style="margin:0;padding-left:18px;">
+      <li>Đọc lý thuyết qua ở Study Guide.</li>
+      <li>Vào Link 2 làm tầm 50 câu, hoặc nếu có thời gian thì đảo qua hết các câu ở đó.</li>
+      <li>Vào làm Link 1 vài lần để thi thử giống thật — tầm 2 lần, nếu trên 800 điểm thì đi thi.</li>
+      <li>Đi thi (kể cả giám khảo có ping bạn cũng đừng hoảng).</li>
+    </ol>
+  </div>
+
+  <div class="tip-block">
+    <h3>🎓 Cách đăng ký từng bước và khi thi</h3>
+    <ol>
+      <li>Vào trang: <a href="https://anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification" target="_blank" rel="noopener">anthropic-partners.skilljar.com/claude-certified-architect-foundations-certification</a></li>
+      <li>Tạo account, đăng ký như bình thường, dùng email FPT — nhớ điền đúng tên và họ như trên giấy tờ tuỳ thân (hộ chiếu hoặc bằng lái xe) vì sẽ dùng để đối chiếu khi đi thi.</li>
+      <li>Sau khi đăng ký xong thì cần đăng ký thi.</li>
+      <li>Từ Home → chọn Course trên Top Nav → chọn CCA‑F (FOUNDATION).</li>
+      <li>Click <b>Register for the exam — $125.00</b> → tiến hành thanh toán.</li>
+      <li>Thanh toán xong sẽ có 3 email gửi về: 1 mail bill, 1 mail account, 1 mail password — vì không thi trên nền tảng của Anthropic mà thi qua bên thứ 3 là <b>Pearson</b>.</li>
+      <li>Trong email sẽ có link đăng nhập vào Pearson để đặt lịch thi, thời gian thi.</li>
+      <li>Khi đặt lịch có thể chọn offline hoặc online, và chỉ được đổi lịch trước 48h thi.</li>
+      <li>Trước ngày thi 3 ngày sẽ có email gửi thông tin link check‑in và quy chế thi.</li>
+      <li>Từ email, chọn link test-system để tải phần mềm chạy chẩn đoán trước.</li>
+      <li>Trước giờ thi 30 phút, click vào link check‑in trong email để vào luồng thi (chỉ mở trước giờ thi 30 phút) — sẽ có mã QR để dùng điện thoại quét, chụp ảnh không gian thi.</li>
+      <li>Khi thi cần làm thủ tục: chụp ảnh khu vực thi (trên, dưới, trái, phải, v.v.), submit bằng điện thoại, và có người review.</li>
+      <li>Submit xong tuyệt đối không dùng điện thoại nữa.</li>
+      <li>Trong lúc thi có ô chat — giám khảo (người thật, không phải AI) thỉnh thoảng nhắn về sự cố như rớt mạng, đừng hoảng; cứ chat lại bình thường, hoặc cần trợ giúp thì chat hỏi.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="tab-panel" data-tab="checklist" id="tab-checklist">
+  <h2 class="section-title" id="checklist">✅ Pre-Exam Checklist</h2>
+  <ul class="checklist">
+    <li class="glossary-zone"><input type="checkbox"> Read all 21 Domain 1 principles (Agentic Architecture) — the heaviest-weighted domain. <span class="vi-icon" data-vi="Đã đọc hết 21 nguyên tắc Domain 1 (Agentic Architecture) — domain nặng nhất.">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Read all 15 Domain 2 principles (Tool &amp; MCP). <span class="vi-icon" data-vi="Đã đọc hết 15 nguyên tắc Domain 2 (Tool & MCP).">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Read all 16 Domain 3 principles (Claude Code Config). <span class="vi-icon" data-vi="Đã đọc hết 16 nguyên tắc Domain 3 (Claude Code Config).">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Read all 12 Domain 4 principles (Prompt &amp; Structured Output). <span class="vi-icon" data-vi="Đã đọc hết 12 nguyên tắc Domain 4 (Prompt & Structured Output).">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Read all 3 Domain 5 principles (Context &amp; Reliability). <span class="vi-icon" data-vi="Đã đọc hết 3 nguyên tắc Domain 5 (Context & Reliability).">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Completed <a href="quizzes/quiz1.html">Quiz 1</a> and noted every wrong answer. <span class="vi-icon" data-vi="Đã làm Quiz 1 và ghi lại các câu sai.">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Completed <a href="quizzes/quiz2.html">Interactive Quiz</a> and noted every wrong answer. <span class="vi-icon" data-vi="Đã làm Interactive Quiz và ghi lại các câu sai.">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Completed the full mock exam <a href="quizzes/exam.html">Practice Exam</a>, timed. <span class="vi-icon" data-vi="Đã làm thi thử đầy đủ Practice Exam, có canh giờ.">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Reviewed the Cheat-sheet at least once the night before the exam. <span class="vi-icon" data-vi="Đã đọc lại Cheat-sheet ít nhất 1 lần vào tối trước ngày thi.">VI</span></li>
+    <li class="glossary-zone"><input type="checkbox"> Reviewed every concept you got wrong across the 3 quiz files. <span class="vi-icon" data-vi="Đã ôn lại riêng các khái niệm từng làm sai trong 3 file quiz.">VI</span></li>
+  </ul>
+
+  <h2 class="section-title">📁 Files You Already Have for Practice</h2>
+  <div class="files-list">
+    <div class="glossary-zone"><a href="docs/CCA_Foundations_Study_Guide.pdf">docs/CCA_Foundations_Study_Guide.pdf</a> — the original 77-question bank with full explanations by domain (the source of this lecture). <span class="vi-icon" data-vi="Ngân hàng gốc 77 câu hỏi kèm giải thích đầy đủ theo domain (nguồn của bài giảng này).">VI</span></div>
+    <div class="glossary-zone"><a href="quizzes/quiz1.html">quizzes/quiz1.html</a> — practice quiz, use in Phase 1. <span class="vi-icon" data-vi="Quiz luyện tập, dùng ở Phase 1.">VI</span></div>
+    <div class="glossary-zone"><a href="quizzes/quiz2.html">quizzes/quiz2.html</a> — interactive practice quiz, use in Phase 2. <span class="vi-icon" data-vi="Quiz luyện tập tương tác, dùng ở Phase 2.">VI</span></div>
+    <div class="glossary-zone"><a href="quizzes/exam.html">quizzes/exam.html</a> — full mock exam, use in Phase 3 to simulate the real test. <span class="vi-icon" data-vi="Đề thi thử đầy đủ, dùng ở Phase 3 để mô phỏng thi thật.">VI</span></div>
+  </div>
+
+</section>
+
+<section class="tab-panel" data-tab="quizzes" id="tab-quizzes">
+  <h2 class="section-title" id="quizzes">🎯 Practice Quizzes</h2>
+  <p class="section-desc">Finished reading the principles above? Pick a quiz below and test yourself — each one draws from the same question bank, just in a different format.</p>
+
+  <div class="quiz-grid">
+    <div class="quiz-card">
+      <div class="quiz-card-head">
+        <h3>Quiz 1</h3>
+        <span class="quiz-badge">77 questions</span>
+      </div>
+      <p class="glossary-zone">One question at a time, with an instant right/wrong check and a running score as you go. Best for your first pass through the question bank. <span class="vi-icon" data-vi="Làm từng câu một, biết đúng/sai ngay và có điểm số cập nhật liên tục. Phù hợp để làm lượt đầu tiên qua ngân hàng câu hỏi.">VI</span></p>
+      <a class="quiz-start" href="quizzes/quiz1.html">Start Quiz 1 →</a>
+    </div>
+    <div class="quiz-card">
+      <div class="quiz-card-head">
+        <h3>Interactive Quiz</h3>
+        <span class="quiz-badge">147 questions</span>
+      </div>
+      <p class="glossary-zone">A larger, expanded pool with extra scenario variations. Pick a custom question range to drill, and review every wrong answer at the end. <span class="vi-icon" data-vi="Ngân hàng câu hỏi mở rộng với nhiều biến thể tình huống hơn. Có thể chọn một khoảng câu hỏi tuỳ ý để luyện, và xem lại toàn bộ câu sai ở cuối bài.">VI</span></p>
+      <a class="quiz-start" href="quizzes/quiz2.html">Start Interactive Quiz →</a>
+    </div>
+    <div class="quiz-card">
+      <div class="quiz-card-head">
+        <h3>Practice Exam</h3>
+        <span class="quiz-badge">77 questions</span>
+      </div>
+      <p class="glossary-zone">The full mock exam: every question on one scrollable page, with domain filters and a final score broken down by domain — the closest simulation of test day. <span class="vi-icon" data-vi="Đề thi thử đầy đủ: toàn bộ câu hỏi trên một trang, có bộ lọc theo domain và điểm số cuối cùng chia theo từng domain — mô phỏng gần nhất với ngày thi thật.">VI</span></p>
+      <a class="quiz-start" href="quizzes/exam.html">Start Practice Exam →</a>
+    </div>
+  </div>
+
+  <div class="callout" style="margin-top:16px;">
+    <p class="glossary-zone" style="margin:0;">Suggested order: start with <b>Quiz 1</b> to get comfortable with the format, use the <b>Interactive Quiz</b> for extra reps on your weak spots, then finish with a timed run of the <b>Practice Exam</b> to simulate the real thing. <span class="vi-icon" data-vi="Thứ tự gợi ý: bắt đầu với Quiz 1 để làm quen định dạng, dùng Interactive Quiz để luyện thêm các điểm yếu, rồi kết thúc bằng một lượt Practice Exam có canh giờ để mô phỏng thi thật.">VI</span></p>
+  </div>
+</section>
+
+  <footer>QuyenLN2 · Good luck on your exam! 🎯</footer>
+</div>
+
+<script>window.CERT_ID = "cca-f";</script>
+<script src="data/questions.js"></script>
+<script src="data/vi-translations-setA.js"></script>
+<script src="data/vi-translations-setB.js"></script>
+<script src="question-links.js"></script>
+<script src="../../core/js/theme-toggle.js"></script>
+<script src="../../core/js/app.js"></script>
+
+</body>
+</html>
