@@ -193,20 +193,10 @@
   }
   window.certActivateTab = activateTab;
 
+  // Nav buttons and the mobile menu toggle are rendered and wired by
+  // core/js/site-nav.js (which must run before this script); initTabs()
+  // only decides which tab-panel to show first.
   function initTabs(){
-    document.querySelectorAll('.tab-btn').forEach(function(btn){
-      btn.addEventListener('click', function(){ activateTab(btn.getAttribute('data-tab')); });
-    });
-
-    var navToggle = document.getElementById('navToggle');
-    var tocNav = document.getElementById('tocNav');
-    if(navToggle && tocNav){
-      navToggle.addEventListener('click', function(){
-        var open = tocNav.classList.toggle('open');
-        navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      });
-    }
-
     var initial = 'plan';
     var hash = location.hash.replace('#', '');
     if(hash){

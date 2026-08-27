@@ -120,7 +120,7 @@ body.quiz-practice footer.foot{text-align:center;color:var(--muted);font-size:12
 
 /* ============ Exam mode (exam.html) ============ */
 body.quiz-exam .wrap{max-width:min(960px, 92vw);margin:0 auto;padding:20px 16px 80px;}
-body.quiz-exam header.top{position:sticky;top:0;z-index:50;background:var(--header-bg);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px 16px;margin:0 calc(-50vw + 50%);}
+body.quiz-exam header.top{position:sticky;top:var(--site-nav-h, 60px);z-index:40;background:var(--header-bg);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:10px 16px;margin:0 calc(-50vw + 50%);}
 body.quiz-exam header.top .inner{max-width:min(960px, 92vw);margin:0 auto;}
 body.quiz-exam h1{font-size:1rem;margin:0;font-weight:700;line-height:1.25;flex-shrink:0;}
 body.quiz-exam .header-bar{display:flex;align-items:center;gap:10px 16px;flex-wrap:wrap;}

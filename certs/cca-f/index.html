@@ -10,33 +10,7 @@
 <noscript><style>.tab-panel{display:block !important;}</style></noscript>
 </head>
 <body>
-<header class="top">
-  <div class="inner">
-    <div>
-      <h1>CCA‑F: Exam Prep</h1>
-      <div class="sub">Claude Certified Architect · Foundations</div>
-    </div>
-    <div class="nav-toggle-group">
-      <span class="current-tab-label" id="navToggleLabel">Plan</span>
-      <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="tocNav">
-        <span class="hamburger">☰</span> Menu
-      </button>
-    </div>
-    <nav class="toc" id="tocNav">
-      <button type="button" class="tab-btn" data-tab="plan">Plan</button>
-      <button type="button" class="tab-btn" data-tab="d1" data-label="Domain 1" style="--tab-c:var(--d1)">D1</button>
-      <button type="button" class="tab-btn" data-tab="d2" data-label="Domain 2" style="--tab-c:var(--d2)">D2</button>
-      <button type="button" class="tab-btn" data-tab="d3" data-label="Domain 3" style="--tab-c:var(--d3)">D3</button>
-      <button type="button" class="tab-btn" data-tab="d4" data-label="Domain 4" style="--tab-c:var(--d4)">D4</button>
-      <button type="button" class="tab-btn" data-tab="d5" data-label="Domain 5" style="--tab-c:var(--d5)">D5</button>
-      <button type="button" class="tab-btn" data-tab="cheat">Cheat‑sheet</button>
-      <button type="button" class="tab-btn" data-tab="tips">Tips &amp; Tricks</button>
-      <button type="button" class="tab-btn" data-tab="checklist">Checklist</button>
-      <button type="button" class="tab-btn" data-tab="quizzes">Quizzes</button>
-      <label class="hint-toggle"><input type="checkbox" class="theme-toggle-input"> 🌙 Dark</label>
-    </nav>
-  </div>
-</header>
+<header class="site-nav" id="siteNav"></header>
 
 <div class="wrap">
 
@@ -1060,12 +1034,14 @@
   <footer>QuyenLN2 · Good luck on your exam! 🎯</footer>
 </div>
 
-<script>window.CERT_ID = "cca-f";</script>
+<script>window.CERT_ID = "cca-f"; window.CERT_INDEX_PATH = "";</script>
+<script src="data/nav.js"></script>
 <script src="data/questions.js"></script>
 <script src="data/vi-translations-setA.js"></script>
 <script src="data/vi-translations-setB.js"></script>
 <script src="question-links.js"></script>
 <script src="../../core/js/theme-toggle.js"></script>
+<script src="../../core/js/site-nav.js"></script>
 <script src="../../core/js/app.js"></script>
 
 </body>

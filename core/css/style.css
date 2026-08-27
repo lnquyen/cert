@@ -1,6 +1,7 @@
 :root{
   --radius:14px;
   --page-max:1180px;
+  --site-nav-h:60px;
 }
 
 html{font-size:18px;}
@@ -8,11 +9,11 @@ body{transition:background-color .15s ease, color .15s ease;}
 *{box-sizing:border-box;}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;}
 .wrap{max-width:min(var(--page-max),94vw);margin:0 auto;padding:24px 18px 90px;}
-header.top{position:sticky;top:0;z-index:50;background:var(--header-bg);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:12px 18px;}
-header.top .inner{max-width:min(var(--page-max),94vw);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+.site-nav{position:sticky;top:0;z-index:50;background:var(--header-bg);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);padding:12px 18px;}
+.site-nav .inner{max-width:min(var(--page-max),94vw);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;}
 
-header.top h1{font-size:1.02rem;margin:0;font-weight:800;}
-header.top .sub{color:var(--muted);font-size:0.76rem;margin-top:2px;}
+.site-nav h1{font-size:1.02rem;margin:0;font-weight:800;}
+.site-nav .sub{color:var(--muted);font-size:0.76rem;margin-top:2px;}
 nav.toc{display:flex;gap:6px;flex-wrap:wrap;font-size:0.76rem;align-items:center;}
 nav.toc a{text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);padding:5px 10px;border-radius:20px;font-weight:600;}
 nav.toc a:hover{border-color:var(--accent);}
@@ -31,11 +32,11 @@ nav.toc .tab-btn.active{background:var(--tab-c);border-color:var(--tab-c);color:
    screen (sticky header). Collapse it behind a Menu button (with the current
    tab named alongside it) that expands into the full list on tap. */
 @media(max-width:640px){
-  header.top{padding:10px 14px;}
-  header.top .inner{flex-wrap:wrap;align-items:flex-start;gap:8px;}
-  header.top .inner>div:first-child{flex:1 1 auto;min-width:0;}
-  header.top h1{font-size:0.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
-  header.top .sub{font-size:0.68rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .site-nav{padding:10px 14px;}
+  .site-nav .inner{flex-wrap:wrap;align-items:flex-start;gap:8px;}
+  .site-nav .inner>div:first-child{flex:1 1 auto;min-width:0;}
+  .site-nav h1{font-size:0.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .site-nav .sub{font-size:0.68rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 
   .nav-toggle-group{display:flex;align-items:center;gap:8px;flex-shrink:0;}
   .current-tab-label{font-weight:700;font-size:0.82rem;color:var(--accent);}
