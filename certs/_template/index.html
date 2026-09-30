@@ -7,21 +7,23 @@
 <script>(function(){try{var t=localStorage.getItem('cert-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 <link rel="stylesheet" href="../../core/css/style.css">
 <link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="content.css">
 <noscript><style>.tab-panel{display:block !important;}</style></noscript>
+<script src="../../core/js/access-gate.js"></script>
 </head>
 <body>
 <header class="site-nav" id="siteNav"></header>
 
 <div class="wrap">
 
-  <div class="tab-panel" id="tab-plan">
+  <section class="tab-panel" data-tab="learn" id="tab-learn">
     <div class="hero">
       <h1>Welcome</h1>
       <p class="glossary-zone">Replace this with your study plan overview. Wrap subject-matter vocabulary in a <span class="glossary-zone">glossary-zone</span> element so terms defined in <code>data/glossary.js</code> get tooltips automatically.</p>
     </div>
-  </div>
+  </section>
 
-  <div class="tab-panel" id="tab-d1">
+  <section class="tab-panel" data-tab="lesson" id="tab-lesson">
     <h2 class="section-title">Domain 1</h2>
     <p class="section-desc">Replace with a short description of this domain.</p>
 
@@ -39,23 +41,16 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="tab-panel" id="tab-quizzes">
-    <h2 class="section-title">Quizzes</h2>
-    <p class="section-desc">Replace with a short description of the quiz set.</p>
+  <section class="tab-panel" data-tab="quiz" id="tab-quiz">
+    <div id="quizCards"></div>
+  </section>
 
-    <div class="quiz-grid">
-      <div class="quiz-card">
-        <div class="quiz-card-head">
-          <h3>Quiz 1</h3>
-          <span class="quiz-badge">Practice</span>
-        </div>
-        <p>Replace with a short description of this quiz.</p>
-        <a class="quiz-start" href="quizzes/quiz1.html">Start Quiz 1 →</a>
-      </div>
-    </div>
-  </div>
+  <section class="tab-panel" data-tab="tip" id="tab-tip">
+    <h2 class="section-title">Tip</h2>
+    <div class="tip-placeholder">Replace with tips content, or leave as a placeholder.</div>
+  </section>
 
   <footer>Replace with your own footer</footer>
 </div>
@@ -66,5 +61,6 @@
 <script src="../../core/js/site-nav.js"></script>
 <script src="../../core/js/theme-toggle.js"></script>
 <script src="../../core/js/app.js"></script>
+<script src="../../core/js/quiz-cards.js"></script>
 </body>
 </html>

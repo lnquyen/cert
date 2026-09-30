@@ -1,0 +1,4 @@
+/* Content-presentation rules for this certification go here.
+   core/css/style.css only supplies chrome (nav, tab mechanics, tooltips,
+   dark mode) — everything for the 4 tab-panels below (.hero, .plan-grid,
+   .domain-block, .principle, .quiz-grid, etc.) is owned by this file. */

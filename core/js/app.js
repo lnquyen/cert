@@ -168,7 +168,7 @@
   function activateTab(id, opts){
     opts = opts || {};
     var panel = document.getElementById('tab-' + id);
-    if(!panel) return;
+    if(!panel || (window.certTabVisible && !window.certTabVisible(id))) return;
     hideTermTooltip();
     document.querySelectorAll('.tab-panel').forEach(function(p){ p.classList.toggle('active', p.id === 'tab-' + id); });
     var activeBtn = null;
@@ -197,17 +197,19 @@
   // core/js/site-nav.js (which must run before this script); initTabs()
   // only decides which tab-panel to show first.
   function initTabs(){
-    var initial = 'plan';
+    var initial = window.certDefaultTab || 'learn';
+    var isVisible = function(id){ return !window.certTabVisible || window.certTabVisible(id); };
     var hash = location.hash.replace('#', '');
     if(hash){
-      if(document.getElementById('tab-' + hash)){
+      if(document.getElementById('tab-' + hash) && isVisible(hash)){
         initial = hash;
       } else {
-        var m = hash.match(/^(d[1-5])-p/);
-        if(m) initial = m[1];
+        var target = document.getElementById(hash);
+        var panel = target && target.closest('.tab-panel[data-tab]');
+        if(panel && isVisible(panel.getAttribute('data-tab'))) initial = panel.getAttribute('data-tab');
       }
     } else {
-      try{ var saved = localStorage.getItem(activeTabStorageKey()); if(saved && document.getElementById('tab-' + saved)) initial = saved; }catch(e){}
+      try{ var saved = localStorage.getItem(activeTabStorageKey()); if(saved && document.getElementById('tab-' + saved) && isVisible(saved)) initial = saved; }catch(e){}
     }
     activateTab(initial, {silent:true});
     if(hash){
@@ -218,13 +220,17 @@
     }
   }
 
-  // badges/links that point at #dN-pM must switch to that domain's tab first
+  // in-page anchor links (badges, cross-reference links) must switch to
+  // whichever tab-panel contains their target before the browser scrolls to it
   document.addEventListener('click', function(e){
-    var a = e.target.closest('a[href^="#d"]');
+    var a = e.target.closest('a[href^="#"]');
     if(!a) return;
-    var hash = a.getAttribute('href').replace('#', '');
-    var m = hash.match(/^(d[1-5])/);
-    if(m) activateTab(m[1], {silent:true});
+    var hash = a.getAttribute('href').slice(1);
+    if(!hash) return;
+    var target = document.getElementById(hash);
+    if(!target) return;
+    var panel = target.closest('.tab-panel[data-tab]');
+    if(panel && !panel.classList.contains('active')) activateTab(panel.getAttribute('data-tab'), {silent:true});
   }, true);
 
   document.addEventListener('DOMContentLoaded', function(){

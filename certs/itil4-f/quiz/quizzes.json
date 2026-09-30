@@ -1,0 +1,32 @@
+{
+  "domains": {},
+  "quizzes": [
+    {
+      "id": "vip1",
+      "mode": "practice",
+      "title": "Quiz VIP 1",
+      "badge": "100 questions",
+      "description": "Part 1 of the curated ITIL 4 Foundation VIP question bank. Pick an answer and see whether it's right, plus the explanation, right away.",
+      "file": "vip1.json",
+      "randomSubsetSize": 50
+    },
+    {
+      "id": "vip2",
+      "mode": "practice",
+      "title": "Quiz VIP 2",
+      "badge": "100 questions",
+      "description": "Part 2 of the curated ITIL 4 Foundation VIP question bank.",
+      "file": "vip2.json",
+      "randomSubsetSize": 50
+    },
+    {
+      "id": "vip3",
+      "mode": "practice",
+      "title": "Quiz VIP 3",
+      "badge": "145 questions",
+      "description": "Part 3 of the curated ITIL 4 Foundation VIP question bank.",
+      "file": "vip3.json",
+      "randomSubsetSize": 50
+    }
+  ]
+}

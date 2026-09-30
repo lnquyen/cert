@@ -61,14 +61,12 @@
 
     return Object.keys(groups).map(function(root){
       var members = groups[root];
-      var primary = members.filter(function(q){ return q.quizFile.indexOf('practice-exam') > -1; })[0] || members[0];
+      var primary = members.filter(function(q){ return q.quiz === 'exam'; })[0] || members[0];
       var sources = members.slice().sort(function(a, b){
-        var aExam = a.quizFile.indexOf('practice-exam') > -1;
-        var bExam = b.quizFile.indexOf('practice-exam') > -1;
+        var aExam = a.quiz === 'exam';
+        var bExam = b.quiz === 'exam';
         if (aExam !== bExam) return aExam ? -1 : 1;
-        var aNum = parseInt((a.quizLabel.match(/(\d+)$/) || [0, 0])[1], 10);
-        var bNum = parseInt((b.quizLabel.match(/(\d+)$/) || [0, 0])[1], 10);
-        return aNum - bNum;
+        return a.number - b.number;
       });
       return { primary: primary, sources: sources };
     });
@@ -140,14 +138,11 @@
     var q = cluster.primary;
     var sources = cluster.sources;
     var letters = Object.keys(q.options).sort();
-    var isSetA = q.quizFile.indexOf('practice-exam') > -1;
-    var focusId = q.uid.replace(/^b\d+-/, '');
 
-    var viSetA = isSetA ? (window.VI_TRANSLATIONS_A || {})[focusId] : null;
-    var viSetB = !isSetA ? (window.VI_TRANSLATIONS_B || {})[focusId] : null;
-    var questionVi = isSetA ? (viSetA ? viSetA.q : '') : (viSetB ? viSetB.q : '');
-    var explanationVi = viSetA ? viSetA.e : '';
-    var optionsVi = isSetA ? (viSetA ? viSetA.o : null) : (viSetB ? viSetB.o : null);
+    var vi = q.vi || null;
+    var questionVi = vi ? (vi.q || '') : '';
+    var explanationVi = vi ? (vi.e || '') : '';
+    var optionsVi = vi ? (vi.o || null) : null;
 
     var explainText = q.explanation ? q.explanation : ('Correct answer: ' + q.correct + '.');
 
@@ -204,7 +199,6 @@
     item.appendChild(revealBtn);
 
     sources.forEach(function(src, idx){
-      var srcFocusId = src.uid.replace(/^b\d+-/, '');
       if (idx > 0) {
         var sep = document.createElement('span');
         sep.style.fontSize = '0.78rem';
@@ -213,7 +207,7 @@
         item.appendChild(sep);
       }
       var openLink = document.createElement('a');
-      openLink.href = src.quizFile + '?focus=' + encodeURIComponent(srcFocusId);
+      openLink.href = '../../core/quiz.html?cert=cca-f&quiz=' + encodeURIComponent(src.quiz) + '&focus=' + encodeURIComponent(src.number);
       openLink.target = '_blank';
       openLink.rel = 'noopener';
       // include the quiz label (not just the quiz name) so multiple sources
@@ -228,8 +222,7 @@
     return item;
   }
 
-  function renderAll(){
-    var questions = window.CERT_QUESTIONS || [];
+  function renderAll(questions){
     if (!questions.length) return;
     var byPid = groupByPrinciple(questions);
 
@@ -270,5 +263,60 @@
     });
   }
 
-  document.addEventListener('DOMContentLoaded', renderAll);
+  // The bank of "related questions" per principle is stored as lightweight
+  // references (quiz id + question number) in related.json, resolved here
+  // against the same per-quiz JSON files core/quiz.html itself reads — so
+  // there is exactly one copy of each question's text/options/translation.
+  function loadRelatedQuestions(){
+    return fetch('quiz/quizzes.json')
+      .then(function(res){ if (!res.ok) throw new Error('manifest'); return res.json(); })
+      .then(function(manifest){
+        var quizMeta = {};
+        (manifest.quizzes || []).forEach(function(q){ quizMeta[q.id] = q; });
+
+        return fetch('quiz/related.json')
+          .then(function(res){ if (!res.ok) throw new Error('related'); return res.json(); })
+          .then(function(related){
+            var neededFiles = {};
+            related.forEach(function(rel){
+              if (quizMeta[rel.quiz]) neededFiles[rel.quiz] = quizMeta[rel.quiz].file;
+            });
+            var quizIds = Object.keys(neededFiles);
+
+            return Promise.all(quizIds.map(function(id){
+              return fetch('quiz/' + neededFiles[id])
+                .then(function(res){ if (!res.ok) throw new Error('quiz file ' + id); return res.json(); })
+                .then(function(questions){ return { id: id, questions: questions }; });
+            })).then(function(results){
+              var byQuizNumber = {};
+              results.forEach(function(r){
+                byQuizNumber[r.id] = {};
+                r.questions.forEach(function(q){ byQuizNumber[r.id][q.number] = q; });
+              });
+
+              return related.map(function(rel){
+                var bank = byQuizNumber[rel.quiz];
+                var q = bank && bank[rel.number];
+                if (!q) return null;
+                var title = quizMeta[rel.quiz] ? quizMeta[rel.quiz].title : rel.quiz;
+                return {
+                  principles: rel.principles,
+                  quiz: rel.quiz,
+                  number: rel.number,
+                  quizLabel: title + ' Q' + rel.number,
+                  question: q.question,
+                  options: q.options,
+                  correct: q.correct,
+                  explanation: q.explanation,
+                  vi: q.vi || null
+                };
+              }).filter(Boolean);
+            });
+          });
+      });
+  }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    loadRelatedQuestions().then(renderAll).catch(function(){ /* no related-questions panel if data can't be loaded */ });
+  });
 })();

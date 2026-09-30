@@ -1,0 +1,3192 @@
+[
+  {
+    "number": 1,
+    "question": "What type of charge is often used for resolving incidents or implementing security patches?",
+    "options": {
+      "A": "Standard change",
+      "B": "Normal change",
+      "C": "Emergency change",
+      "D": "Change model"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Loại thay đổi nào thường được sử dụng để giải quyết sự cố hoặc triển khai các bản vá bảo mật?",
+      "o": {
+        "A": "Standard change",
+        "B": "Normal change",
+        "C": "Emergency change",
+        "D": "Change model"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 2,
+    "question": "Which of the following includes configuring components and activities to facilitate outcomes for stakeholders?",
+    "options": {
+      "A": "Service relationship management",
+      "B": "Service consumption",
+      "C": "The service value system",
+      "D": "The 'release management' practice"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào sau đây bao gồm việc cấu hình các thành phần và hoạt động để tạo điều kiện thuận lợi cho Outcome đối với các bên liên quan?",
+      "o": {
+        "A": "Service relationship management",
+        "B": "Service consumption",
+        "C": "Service value system",
+        "D": "Thực tiễn 'Release management'"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 3,
+    "question": "Which statement about outcomes is CORRECT?",
+    "options": {
+      "A": "Outcomes enable products to be delivered to a stakeholder",
+      "B": "An outcome defines the amount of money spent on technology for a service",
+      "C": "An outcome depends on at least one output to deliver a result",
+      "D": "Outcomes provide assurance to stakeholders on how a service performs"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào về Outcome là ĐÚNG?",
+      "o": {
+        "A": "Outcome giúp Product được chuyển giao đến một bên liên quan",
+        "B": "Một Outcome xác định số tiền chi cho công nghệ đối với một dịch vụ",
+        "C": "Một Outcome phụ thuộc vào ít nhất một Output để mang lại kết quả",
+        "D": "Outcome đảm bảo với các bên liên quan về cách một dịch vụ vận hành"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 4,
+    "question": "Which phase of problem management includes the regular re-assessment of the effectiveness of workarounds?",
+    "options": {
+      "A": "Problem identification",
+      "B": "Problem control",
+      "C": "Error control",
+      "D": "Problem analysis"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Giai đoạn nào của Problem management bao gồm việc đánh giá lại định kỳ tính hiệu quả của workaround?",
+      "o": {
+        "A": "Problem identification",
+        "B": "Problem control",
+        "C": "Error control",
+        "D": "Problem analysis"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 5,
+    "question": "Which practice performs reviews to ensure that services continue to meet the needs of the customers?",
+    "options": {
+      "A": "Monitoring and event management",
+      "B": "Service level management",
+      "C": "Change enablement",
+      "D": "Service desk"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào thực hiện các buổi đánh giá để đảm bảo dịch vụ tiếp tục đáp ứng nhu cầu của khách hàng?",
+      "o": {
+        "A": "Monitoring and event management",
+        "B": "Service level management",
+        "C": "Change enablement",
+        "D": "Service desk"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 6,
+    "question": "Which service value chain activity relates with buying new products?",
+    "options": {
+      "A": "Engage",
+      "B": "Obtain/build",
+      "C": "Plan",
+      "D": "Improve"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Value chain activity nào liên quan đến việc mua Product mới?",
+      "o": {
+        "A": "Engage",
+        "B": "Obtain/build",
+        "C": "Plan",
+        "D": "Improve"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 7,
+    "question": "Which of the following is included in the purpose of the 'continual improvement' practice?",
+    "options": {
+      "A": "The restoration of normal service operation as quickly as possible",
+      "B": "The establishment of links between the organization and its stakeholders at strategic and tactical levels",
+      "C": "The alignment of the organization's practices and services with changing business needs",
+      "D": "The reduction of the likelihood and impact of incidents"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào sau đây nằm trong mục đích của thực tiễn 'Continual improvement'?",
+      "o": {
+        "A": "Khôi phục hoạt động dịch vụ bình thường nhanh nhất có thể",
+        "B": "Thiết lập các mối liên kết giữa tổ chức và các bên liên quan của tổ chức ở cấp chiến lược và chiến thuật",
+        "C": "Sự liên kết giữa các thực tiễn và dịch vụ của tổ chức với nhu cầu kinh doanh đang thay đổi",
+        "D": "Giảm khả năng xảy ra và tác động của sự cố"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 8,
+    "question": "Which of the following statements is included in the ‘improve’ value chain activity’s purpose?",
+    "options": {
+      "A": "Ensure the continual improvement of practices across all value chain activities",
+      "B": "Ensure services continually meet expectations for quality, costs, and time to market",
+      "C": "Ensure a shared understanding of the improvement direction for services across the organization",
+      "D": "Ensure continual engagement and good relationships with all stakeholders"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào sau đây nằm trong mục đích của value chain activity 'Improve'?",
+      "o": {
+        "A": "Đảm bảo Continual improvement cho các thực tiễn trên toàn bộ value chain activity",
+        "B": "Đảm bảo dịch vụ liên tục đáp ứng kỳ vọng về chất lượng, cost và thời gian đưa ra thị trường",
+        "C": "Đảm bảo có sự hiểu biết chung về định hướng cải tiến cho các dịch vụ trên toàn tổ chức",
+        "D": "Đảm bảo sự gắn kết liên tục và mối quan hệ tốt với tất cả các bên liên quan"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 9,
+    "question": "Which is the BEST type of resource for investigating complex incidents?",
+    "options": {
+      "A": "Self-help systems",
+      "B": "Knowledgeable support staff",
+      "C": "Detailed work instructions",
+      "D": "Disaster recovery plans"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Loại nguồn lực nào TỐT NHẤT để điều tra các sự cố phức tạp?",
+      "o": {
+        "A": "Các hệ thống tự trợ giúp (self-help)",
+        "B": "Nhân viên hỗ trợ có kiến thức chuyên sâu",
+        "C": "Hướng dẫn công việc chi tiết",
+        "D": "Kế hoạch khôi phục sau thảm họa"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 10,
+    "question": "Which term is used to define “any component that needs to be managed in order to deliver an IT service”?",
+    "options": {
+      "A": "An event",
+      "B": "An IT asset",
+      "C": "A configuration item",
+      "D": "A change"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Thuật ngữ nào được dùng để định nghĩa “bất kỳ thành phần nào cần được quản lý để cung cấp một dịch vụ IT”?",
+      "o": {
+        "A": "Một sự kiện (event)",
+        "B": "Một IT asset",
+        "C": "Một Configuration item",
+        "D": "Một thay đổi (change)"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 11,
+    "question": "Which TWO of the following statements are MOST associated with the 'optimize and automate' guiding principle? 1. It is important to assess which method of communication is appropriate for each type of stakeholder. 2. Complex systems should be designed with an understanding of how the components' parts are related. 3. Organizations should consider whether technology could improve the efficiency of manual processes. 4. It is important to understand the organization's objectives when assessing the impact of potential improvements",
+    "options": {
+      "A": "1 and 2",
+      "B": "2 and 3",
+      "C": "3 and 4",
+      "D": "1 and 4"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "HAI phát biểu nào sau đây LIÊN QUAN NHIỀU NHẤT đến guiding principle 'Optimize and automate'? 1. Điều quan trọng là đánh giá phương pháp giao tiếp nào phù hợp với từng loại bên liên quan. 2. Các hệ thống phức tạp nên được thiết kế với sự hiểu biết về cách các thành phần liên quan với nhau. 3. Tổ chức nên xem xét liệu công nghệ có thể cải thiện hiệu quả của các quy trình thủ công hay không. 4. Điều quan trọng là hiểu các mục tiêu của tổ chức khi đánh giá tác động của các cải tiến tiềm năng",
+      "o": {
+        "A": "1 và 2",
+        "B": "2 và 3",
+        "C": "3 và 4",
+        "D": "1 và 4"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 12,
+    "question": "Which statement about emergency changes is CORRECT?",
+    "options": {
+      "A": "Emergency changes are low risk and well understood",
+      "B": "Authorization of emergency changes may be deferred until after implementation",
+      "C": "It is necessary to complete all documentation before an emergency change is implemented",
+      "D": "Emergency changes are not usually recorded in the change schedule"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào về emergency change là ĐÚNG?",
+      "o": {
+        "A": "Emergency change có rủi ro thấp và được hiểu rõ",
+        "B": "Việc phê duyệt emergency change có thể được hoãn lại đến sau khi triển khai",
+        "C": "Cần phải hoàn thành tất cả tài liệu trước khi một emergency change được triển khai",
+        "D": "Emergency change thường không được ghi lại trong change schedule"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 13,
+    "question": "Which is the definition of an IT asset?",
+    "options": {
+      "A": "Any financially valuable component that contributes to a service",
+      "B": "Any request from a user that is a normal part of service delivery",
+      "C": "Any component that needs to be managed to deliver a service",
+      "D": "Any change of state that has significance for the management of a service"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Định nghĩa của IT asset là gì?",
+      "o": {
+        "A": "Bất kỳ thành phần có giá trị tài chính nào góp phần vào một dịch vụ",
+        "B": "Bất kỳ yêu cầu nào từ người dùng là một phần bình thường của việc cung cấp dịch vụ",
+        "C": "Bất kỳ thành phần nào cần được quản lý để cung cấp một dịch vụ",
+        "D": "Bất kỳ thay đổi trạng thái nào có ý nghĩa đối với việc quản lý một dịch vụ"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 14,
+    "question": "When considering the type of relationship required with other organizations involved in the design and delivery of services, which dimension of service management are you utilizing?",
+    "options": {
+      "A": "Organizations and people",
+      "B": "Information and technology",
+      "C": "Partners and suppliers",
+      "D": "Value streams and processes"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Khi xem xét loại mối quan hệ cần thiết với các tổ chức khác tham gia vào việc thiết kế và cung cấp dịch vụ, bạn đang xét đến dimension nào của service management?",
+      "o": {
+        "A": "Organizations and people",
+        "B": "Information and technology",
+        "C": "Partners and suppliers",
+        "D": "Value streams and processes"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 15,
+    "question": "What is defined as 'the role that uses services'?",
+    "options": {
+      "A": "Service consumer",
+      "B": "Customer",
+      "C": "User",
+      "D": "Sponsor"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì được định nghĩa là 'vai trò sử dụng dịch vụ'?",
+      "o": {
+        "A": "Service consumer",
+        "B": "Customer",
+        "C": "User",
+        "D": "Sponsor"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 16,
+    "question": "Which is an example of a problem control activity?",
+    "options": {
+      "A": "Reviewing incident records to identify trends",
+      "B": "Implementing a technical fix to resolve an issue",
+      "C": "Re-assessing a known error to understand the ongoing impact",
+      "D": "Documenting the steps in a workaround"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Đâu là một ví dụ về hoạt động trong problem control?",
+      "o": {
+        "A": "Xem xét các bản ghi sự cố để xác định xu hướng",
+        "B": "Triển khai một bản sửa lỗi kỹ thuật để giải quyết vấn đề",
+        "C": "Đánh giá lại một known error để hiểu tác động đang diễn ra",
+        "D": "Ghi lại các bước trong một workaround"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 17,
+    "question": "What should remain constant within an organization, even when the organizations objectives change?",
+    "options": {
+      "A": "Outputs",
+      "B": "Guiding principles",
+      "C": "Service offerings",
+      "D": "Outcomes"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì nên giữ nguyên trong một tổ chức, ngay cả khi mục tiêu của tổ chức thay đổi?",
+      "o": {
+        "A": "Outputs",
+        "B": "Guiding principles",
+        "C": "Service offerings",
+        "D": "Outcomes"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 18,
+    "question": "Which is a key element of the 'think and work holistically' guiding principle?",
+    "options": {
+      "A": "Assessing which procedures can be re-used when improving a service",
+      "B": "Understanding the methods applicable to complex systems",
+      "C": "Eliminating metrics which do not contribute to achieving an objective",
+      "D": "Using technology for standard tasks to give people time for complex activities"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Đâu là một yếu tố chính của guiding principle 'Think and work holistically'?",
+      "o": {
+        "A": "Đánh giá quy trình nào có thể tái sử dụng khi cải tiến một dịch vụ",
+        "B": "Hiểu các phương pháp áp dụng cho các hệ thống phức tạp",
+        "C": "Loại bỏ các số đo không góp phần đạt được mục tiêu",
+        "D": "Sử dụng công nghệ cho các công việc tiêu chuẩn để con người có thời gian cho các hoạt động phức tạp"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 19,
+    "question": "Which practice has a purpose that includes managing authentication and non-repudiation?",
+    "options": {
+      "A": "Information security management",
+      "B": "Supplier management",
+      "C": "Service configuration management",
+      "D": "Relationship management"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào có mục đích bao gồm việc quản lý xác thực (authentication) và chống chối bỏ (non-repudiation)?",
+      "o": {
+        "A": "Information security management",
+        "B": "Supplier management",
+        "C": "Service configuration management",
+        "D": "Relationship management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 20,
+    "question": "Which of the following is the MOST important for effective incident management?",
+    "options": {
+      "A": "Collaboration tools and techniques",
+      "B": "Balanced scorecard review",
+      "C": "Automated pipelines",
+      "D": "A variety of access channels"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào sau đây QUAN TRỌNG NHẤT đối với Incident management hiệu quả?",
+      "o": {
+        "A": "Công cụ và kỹ thuật cộng tác",
+        "B": "Đánh giá bằng balanced scorecard",
+        "C": "Các pipeline tự động",
+        "D": "Nhiều kênh truy cập khác nhau"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 21,
+    "question": "Which practice handles all pre-defined user-initiated service actions?",
+    "options": {
+      "A": "Deployment management",
+      "B": "Incident management",
+      "C": "Service level management",
+      "D": "Service request management"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào xử lý tất cả các hành động dịch vụ được xác định trước và do người dùng khởi tạo?",
+      "o": {
+        "A": "Deployment management",
+        "B": "Incident management",
+        "C": "Service level management",
+        "D": "Service request management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 22,
+    "question": "Which is the MOST important stakeholder group that a service provider needs to collaborate with?",
+    "options": {
+      "A": "Suppliers",
+      "B": "Customers",
+      "C": "Relationship managers",
+      "D": "Developers"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Nhóm bên liên quan nào QUAN TRỌNG NHẤT mà một service provider cần hợp tác cùng?",
+      "o": {
+        "A": "Suppliers",
+        "B": "Customers",
+        "C": "Relationship managers",
+        "D": "Developers"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 23,
+    "question": "Which activity is NOT recommended by the 'start where you are' guiding principle?",
+    "options": {
+      "A": "Involving people who are not familiar with a service when observing and assessing its activities",
+      "B": "Applying risk management when considering to introduce new processes",
+      "C": "Using source data to avoid any unintentional data distortion round in reports",
+      "D": "Discarding existing processes before assessing their usefulness"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Hoạt động nào KHÔNG được khuyến nghị bởi guiding principle 'Start where you are'?",
+      "o": {
+        "A": "Cho những người không quen thuộc với một dịch vụ tham gia khi quan sát và đánh giá các hoạt động của dịch vụ đó",
+        "B": "Áp dụng risk management khi cân nhắc việc đưa vào các quy trình mới",
+        "C": "Sử dụng dữ liệu nguồn (source data) để tránh biến dạng dữ liệu không chủ ý trong báo cáo",
+        "D": "Loại bỏ các quy trình hiện có trước khi đánh giá tính hữu ích của chúng"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 24,
+    "question": "For which purpose would the continual improvement practice use a SWOT analysis?",
+    "options": {
+      "A": "Understanding the current state",
+      "B": "Defining the future desired state",
+      "C": "Tracking and managing ideas",
+      "D": "Ensuring everyone actively participates"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn Continual improvement sử dụng phân tích SWOT cho mục đích nào?",
+      "o": {
+        "A": "Hiểu trạng thái hiện tại",
+        "B": "Xác định trạng thái mong muốn trong tương lai",
+        "C": "Theo dõi và quản lý các ý tưởng",
+        "D": "Đảm bảo mọi người tham gia tích cực"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 25,
+    "question": "Which TWO types of competence are MOST important for service desk staff? 1. Knowledge of business processes 2. Collaboration skills 3. Advanced technical knowledge 4. Workflow design skills",
+    "options": {
+      "A": "1 and 2",
+      "B": "2 and 3",
+      "C": "3 and 4",
+      "D": "1 and 4"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "HAI loại năng lực nào QUAN TRỌNG NHẤT đối với nhân viên Service desk? 1. Kiến thức về quy trình kinh doanh 2. Kỹ năng cộng tác 3. Kiến thức kỹ thuật nâng cao 4. Kỹ năng thiết kế quy trình làm việc",
+      "o": {
+        "A": "1 và 2",
+        "B": "2 và 3",
+        "C": "3 và 4",
+        "D": "1 và 4"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 26,
+    "question": "Which is CORRECT about change authorization?",
+    "options": {
+      "A": "A change authority is assigned each time a standard change is requested",
+      "B": "Emergency changes are authorized by the technician making the change",
+      "C": "Assignment of the change authority is based on the change type and model",
+      "D": "The change authority will ensure changes are authorized after they are deployed"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào ĐÚNG về việc phê duyệt thay đổi (change authorization)?",
+      "o": {
+        "A": "Một change authority được chỉ định mỗi khi một standard change được yêu cầu",
+        "B": "Emergency change được phê duyệt bởi chính kỹ thuật viên thực hiện thay đổi đó",
+        "C": "Việc chỉ định change authority dựa trên loại thay đổi và change model",
+        "D": "Change authority sẽ đảm bảo các thay đổi được phê duyệt sau khi chúng đã được triển khai"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 27,
+    "question": "Which of the following terms is more suitable to describe the functionality of a service?",
+    "options": {
+      "A": "Output",
+      "B": "Outcome",
+      "C": "Utility",
+      "D": "Warranty"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Thuật ngữ nào sau đây phù hợp hơn để mô tả chức năng của một dịch vụ?",
+      "o": {
+        "A": "Output",
+        "B": "Outcome",
+        "C": "Utility",
+        "D": "Warranty"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 28,
+    "question": "Which practice ensures that a variety of access channels are available for users to report issues?",
+    "options": {
+      "A": "Service desk",
+      "B": "Service level management",
+      "C": "Incident management",
+      "D": "Change enablement"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào đảm bảo có nhiều kênh truy cập khác nhau để người dùng báo cáo vấn đề?",
+      "o": {
+        "A": "Service desk",
+        "B": "Service level management",
+        "C": "Incident management",
+        "D": "Change enablement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 29,
+    "question": "Identify the missing word(s) in the following sentence: The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and [?].",
+    "options": {
+      "A": "events",
+      "B": "changes",
+      "C": "IT assets",
+      "D": "known errors"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Xác định (các) từ còn thiếu trong câu sau: Mục đích của thực tiễn Problem management là giảm khả năng xảy ra và tác động của sự cố bằng cách xác định nguyên nhân thực tế và tiềm ẩn của sự cố, và quản lý workaround và [?].",
+      "o": {
+        "A": "sự kiện",
+        "B": "thay đổi",
+        "C": "IT asset",
+        "D": "known error"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 30,
+    "question": "Which of the following is a necessity to a successful service level agreement (SLAs)?",
+    "options": {
+      "A": "The language and terms used in the SLA should be commonly understood by all parties",
+      "B": "Base the SLA on system-based metrics that are useful to the service provider",
+      "C": "In order to promote consistent service, they should be carried forward, unchanged, from one year to the next",
+      "D": "Vague targets, such as those related to user experience, should be avoided"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào sau đây là cần thiết để có một service level agreement (SLA) thành công?",
+      "o": {
+        "A": "Ngôn ngữ và thuật ngữ được sử dụng trong SLA nên được tất cả các bên hiểu chung",
+        "B": "Xây dựng SLA dựa trên các số đo theo hệ thống hữu ích cho service provider",
+        "C": "Để thúc đẩy sự nhất quán của dịch vụ, chúng nên được giữ nguyên, không thay đổi, từ năm này sang năm khác",
+        "D": "Nên tránh các mục tiêu mơ hồ, chẳng hạn như những mục tiêu liên quan đến trải nghiệm người dùng"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 31,
+    "question": "Which is an example of a service request?",
+    "options": {
+      "A": "A request for normal operation to be restored",
+      "B": "A request to implement a security patch",
+      "C": "A request for access to a file",
+      "D": "A request to investigate the cause of an incident"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Đâu là một ví dụ về service request?",
+      "o": {
+        "A": "Một yêu cầu khôi phục hoạt động bình thường",
+        "B": "Một yêu cầu triển khai một bản vá bảo mật",
+        "C": "Một yêu cầu truy cập vào một tệp",
+        "D": "Một yêu cầu điều tra nguyên nhân của một sự cố"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 32,
+    "question": "Which of the four dimensions focuses on managing data in compliance with industry regulations?",
+    "options": {
+      "A": "Partners and suppliers",
+      "B": "Organizations and people",
+      "C": "Value streams and processes",
+      "D": "Information and technology"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Dimension nào trong bốn dimension tập trung vào việc quản lý dữ liệu tuân thủ các quy định của ngành?",
+      "o": {
+        "A": "Partners and suppliers",
+        "B": "Organizations and people",
+        "C": "Value streams and processes",
+        "D": "Information and technology"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 33,
+    "question": "When using the ITIL continual improvement model, which information should be produced by an organization in order to understand where the organization is now?",
+    "options": {
+      "A": "Business objectives",
+      "B": "Improvement plans",
+      "C": "Assessment results",
+      "D": "KPI reports"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Khi sử dụng continual improvement model của ITIL, thông tin nào nên được tổ chức tạo ra để hiểu tổ chức đang ở đâu hiện tại?",
+      "o": {
+        "A": "Mục tiêu kinh doanh",
+        "B": "Kế hoạch cải tiến",
+        "C": "Kết quả đánh giá",
+        "D": "Báo cáo KPI"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 34,
+    "question": "Which guiding principle leads to a faster response to customer needs by timeboxing activities and learning from the outputs of previous activities?",
+    "options": {
+      "A": "Focus on value",
+      "B": "Progress iteratively with feedback",
+      "C": "Collaborate and promote visibility",
+      "D": "Optimize and automate"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Guiding principle nào giúp phản hồi nhanh hơn đối với nhu cầu của khách hàng bằng cách giới hạn thời gian cho các hoạt động và học hỏi từ Output của các hoạt động trước đó?",
+      "o": {
+        "A": "Focus on value",
+        "B": "Progress iteratively with feedback",
+        "C": "Collaborate and promote visibility",
+        "D": "Optimize and automate"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 35,
+    "question": "Which practice has a purpose that includes maximizing the number of successful additions, modifications, or removals of anything that could have an effect on a service? Service request management Incident management Service desk Change enablement 237 In which situation will incident management USUALLY use a separate process?",
+    "options": {
+      "A": "Where no target resolution time exists",
+      "B": "For low impact incidents",
+      "C": "Where the cause must be diagnosed",
+      "D": "For information security incidents"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào có mục đích bao gồm việc tối đa hóa số lượng các bổ sung, sửa đổi hoặc loại bỏ thành công đối với bất kỳ điều gì có thể ảnh hưởng đến một dịch vụ? Service request management Incident management Service desk Change enablement 237 Trong tình huống nào thì Incident management THƯỜNG sử dụng một quy trình riêng biệt?",
+      "o": {
+        "A": "Khi không tồn tại thời gian giải quyết mục tiêu (target resolution time)",
+        "B": "Đối với các sự cố có tác động thấp",
+        "C": "Khi nguyên nhân cần được chẩn đoán",
+        "D": "Đối với các sự cố liên quan đến bảo mật thông tin"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 36,
+    "question": "Which practice minimizes the impact on normal service operation by managing resources in response to unplanned reductions in service quality?",
+    "options": {
+      "A": "Incident management",
+      "B": "Change enablement",
+      "C": "Service level management",
+      "D": "Continual improvement"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào giảm thiểu tác động đến hoạt động dịch vụ bình thường bằng cách quản lý nguồn lực để ứng phó với sự suy giảm chất lượng dịch vụ ngoài kế hoạch?",
+      "o": {
+        "A": "Incident management",
+        "B": "Change enablement",
+        "C": "Service level management",
+        "D": "Continual improvement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 37,
+    "question": "Which practice makes use of methods from Lean, Agile and DevOps?",
+    "options": {
+      "A": "Service desk",
+      "B": "Continual improvement",
+      "C": "Problem management",
+      "D": "Incident management"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào sử dụng các phương pháp từ Lean, Agile và DevOps?",
+      "o": {
+        "A": "Service desk",
+        "B": "Continual improvement",
+        "C": "Problem management",
+        "D": "Incident management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 38,
+    "question": "Identify the missing word in the following sentence: Sponsor is the role that authorizes budget for service [?].",
+    "options": {
+      "A": "value",
+      "B": "consumption",
+      "C": "management",
+      "D": "provision"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Xác định từ còn thiếu trong câu sau: Sponsor là vai trò phê duyệt ngân sách cho service [?].",
+      "o": {
+        "A": "value",
+        "B": "consumption",
+        "C": "management",
+        "D": "provision"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 39,
+    "question": "Which statement about service offerings is CORRECT?",
+    "options": {
+      "A": "The same product can be used as a basis for more than one service offering",
+      "B": "Service offerings include the transfer of goods from the consumer to the provider",
+      "C": "Service offerings describe how providers and consumers cooperate to co-create value",
+      "D": "Each service should be described to consumers as a single service offering"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào về Service offering là ĐÚNG?",
+      "o": {
+        "A": "Cùng một Product có thể được sử dụng làm cơ sở cho nhiều hơn một Service offering",
+        "B": "Service offering bao gồm việc chuyển giao hàng hóa từ bên tiêu dùng sang nhà cung cấp",
+        "C": "Service offering mô tả cách nhà cung cấp và bên tiêu dùng hợp tác để cùng tạo ra Value",
+        "D": "Mỗi dịch vụ nên được mô tả cho bên tiêu dùng như một Service offering duy nhất"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 40,
+    "question": "Which can a change schedule be used for?",
+    "options": {
+      "A": "Speeding up the planning and authorization of emergency changes",
+      "B": "Providing information about deployed changes to help manage incidents and problems",
+      "C": "Providing a means of initiating and assessing normal changes",
+      "D": "Tracking and managing improvement ideas from identification through to final action"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Change schedule có thể được sử dụng để làm gì?",
+      "o": {
+        "A": "Đẩy nhanh việc lập kế hoạch và phê duyệt các emergency change",
+        "B": "Cung cấp thông tin về các thay đổi đã triển khai để hỗ trợ quản lý sự cố và vấn đề",
+        "C": "Cung cấp một phương tiện để khởi tạo và đánh giá các normal change",
+        "D": "Theo dõi và quản lý các ý tưởng cải tiến từ khi xác định cho đến hành động cuối cùng"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 41,
+    "question": "Which is part of the value proposition of a service?",
+    "options": {
+      "A": "Costs removed from the consumer by the service",
+      "B": "Costs imposed on the consumer by the service",
+      "C": "Outputs of the service received by the consumer",
+      "D": "Risks imposed on the consumer by the service"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào là một phần của value proposition của một dịch vụ?",
+      "o": {
+        "A": "Cost được loại bỏ khỏi bên tiêu dùng nhờ dịch vụ",
+        "B": "Cost áp đặt lên bên tiêu dùng bởi dịch vụ",
+        "C": "Output của dịch vụ mà bên tiêu dùng nhận được",
+        "D": "Risk áp đặt lên bên tiêu dùng bởi dịch vụ"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 42,
+    "question": "Why should a service level manager carry out regular service reviews?",
+    "options": {
+      "A": "To ensure that agreements are written simply and are easy to understand",
+      "B": "To collect information about service consumer goals and objectives",
+      "C": "To capture information about service issues and performance against agreed goals",
+      "D": "To ensure continual improvement of services, so that they meet the evolving needs of service consumers"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Tại sao một service level manager nên thực hiện các buổi đánh giá dịch vụ định kỳ?",
+      "o": {
+        "A": "Để đảm bảo các thỏa thuận được viết đơn giản và dễ hiểu",
+        "B": "Để thu thập thông tin về mục tiêu và mục đích của service consumer",
+        "C": "Để nắm bắt thông tin về các vấn đề của dịch vụ và hiệu suất so với các mục tiêu đã thống nhất",
+        "D": "Để đảm bảo Continual improvement của dịch vụ, nhằm đáp ứng nhu cầu ngày càng thay đổi của service consumer"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 43,
+    "question": "A flaw in an application could cause a service to fail. IT staff are actively analyzing the application to try and understand what is going on. What is the correct name for this type of flaw?",
+    "options": {
+      "A": "Problem",
+      "B": "Incident",
+      "C": "Event",
+      "D": "Known error"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Một lỗi trong một ứng dụng có thể khiến dịch vụ gặp sự cố. Nhân viên IT đang tích cực phân tích ứng dụng để tìm hiểu chuyện gì đang xảy ra. Tên gọi đúng cho loại lỗi này là gì?",
+      "o": {
+        "A": "Vấn đề (problem)",
+        "B": "Sự cố (incident)",
+        "C": "Sự kiện (event)",
+        "D": "Known error"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 44,
+    "question": "Which value chain activity ensures that ongoing service activity meets user expectations?",
+    "options": {
+      "A": "Plan",
+      "B": "Engage",
+      "C": "Obtain/build",
+      "D": "Deliver and support"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Value chain activity nào đảm bảo hoạt động dịch vụ đang diễn ra đáp ứng kỳ vọng của người dùng?",
+      "o": {
+        "A": "Plan",
+        "B": "Engage",
+        "C": "Obtain/build",
+        "D": "Deliver and support"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 45,
+    "question": "Which practice has a purpose that involves creating closer, more collaborative relationships?",
+    "options": {
+      "A": "Supplier management",
+      "B": "Information security management",
+      "C": "Release management",
+      "D": "Service configuration management"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào có mục đích liên quan đến việc xây dựng các mối quan hệ gần gũi và hợp tác hơn?",
+      "o": {
+        "A": "Supplier management",
+        "B": "Information security management",
+        "C": "Release management",
+        "D": "Service configuration management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 46,
+    "question": "Which TWO are inputs to the service value system? 1. Demand 2. Products 3. Value 4. Opportunity",
+    "options": {
+      "A": "1 and 2",
+      "B": "2 and 3",
+      "C": "3 and 4",
+      "D": "1 and 4"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "HAI yếu tố nào là đầu vào của Service value system? 1. Demand 2. Product 3. Value 4. Opportunity",
+      "o": {
+        "A": "1 và 2",
+        "B": "2 và 3",
+        "C": "3 và 4",
+        "D": "1 và 4"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 47,
+    "question": "What role would be MOST suitable for someone with experience of managing relationships with various stakeholders, including suppliers and business managers?",
+    "options": {
+      "A": "Service level manager",
+      "B": "Service desk agent",
+      "C": "Change authority",
+      "D": "Problem analyst"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Vai trò nào phù hợp NHẤT cho một người có kinh nghiệm quản lý mối quan hệ với nhiều bên liên quan khác nhau, bao gồm nhà cung cấp và quản lý kinh doanh?",
+      "o": {
+        "A": "Service level manager",
+        "B": "Service desk agent",
+        "C": "Change authority",
+        "D": "Problem analyst"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 48,
+    "question": "Which is the addition, modification or removal of anything that could have an effect on services?",
+    "options": {
+      "A": "A change",
+      "B": "An event",
+      "C": "A service request",
+      "D": "A problem"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì là việc bổ sung, sửa đổi hoặc loại bỏ bất kỳ điều gì có thể ảnh hưởng đến dịch vụ?",
+      "o": {
+        "A": "Thay đổi (change)",
+        "B": "Sự kiện (event)",
+        "C": "Service request",
+        "D": "Vấn đề (problem)"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 49,
+    "question": "Which guiding principle recommends consideration of the four dimensions in order to make something as effective and as useful as it needs to be?",
+    "options": {
+      "A": "Focus on value",
+      "B": "Start where you are",
+      "C": "Think and work holistically",
+      "D": "Optimize and automate"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Guiding principle nào khuyến nghị xem xét bốn dimension để làm cho một điều gì đó hiệu quả và hữu ích như mức cần thiết?",
+      "o": {
+        "A": "Focus on value",
+        "B": "Start where you are",
+        "C": "Think and work holistically",
+        "D": "Optimize and automate"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 50,
+    "question": "Which practice is MOST LIKELY to make use of artificial intelligence, robotic process automation, and chatbots?",
+    "options": {
+      "A": "Service desk",
+      "B": "Continual improvement",
+      "C": "Problem management",
+      "D": "Incident management"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào NHIỀU KHẢ NĂNG NHẤT sử dụng trí tuệ nhân tạo, tự động hóa quy trình bằng robot (RPA), và chatbot?",
+      "o": {
+        "A": "Service desk",
+        "B": "Continual improvement",
+        "C": "Problem management",
+        "D": "Incident management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 51,
+    "question": "What is a problem that has been analyzed but has not been resolved?",
+    "options": {
+      "A": "Workaround",
+      "B": "Incident",
+      "C": "Known error",
+      "D": "Risk"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì là một vấn đề đã được phân tích nhưng chưa được giải quyết?",
+      "o": {
+        "A": "Workaround",
+        "B": "Sự cố (incident)",
+        "C": "Known error",
+        "D": "Risk"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 52,
+    "question": "Which is described by the 'organizations and people' dimension of service management?",
+    "options": {
+      "A": "Workflows and controls",
+      "B": "Communication and collaboration",
+      "C": "Inputs and outputs",
+      "D": "Contracts and agreements"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì được mô tả bởi dimension 'Organizations and people' của service management?",
+      "o": {
+        "A": "Quy trình làm việc và kiểm soát",
+        "B": "Giao tiếp và cộng tác",
+        "C": "Đầu vào và đầu ra",
+        "D": "Hợp đồng và thỏa thuận"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 53,
+    "question": "Which facilitates outcomes that customers want to achieve?",
+    "options": {
+      "A": "Service",
+      "B": "Warranty",
+      "C": "Organization",
+      "D": "IT asset"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì tạo điều kiện cho Outcome mà khách hàng muốn đạt được?",
+      "o": {
+        "A": "Service",
+        "B": "Warranty",
+        "C": "Organization",
+        "D": "IT asset"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 54,
+    "question": "Which of the following practices suggests that organizations should develop competencies in methodologies and techniques, like SWOT (strength, weakness, opportunity and threat) analysis and balanced scorecard review, in order to meet their needs?",
+    "options": {
+      "A": "Incident management",
+      "B": "Continual improvement",
+      "C": "Service request management",
+      "D": "Change enablement"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào sau đây đề xuất rằng tổ chức nên phát triển năng lực trong các phương pháp và kỹ thuật, như phân tích SWOT (strength, weakness, opportunity and threat) và đánh giá balanced scorecard, để đáp ứng nhu cầu của mình?",
+      "o": {
+        "A": "Incident management",
+        "B": "Continual improvement",
+        "C": "Service request management",
+        "D": "Change enablement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 55,
+    "question": "Which ITIL concept helps an organization to make good decisions?",
+    "options": {
+      "A": "Four dimensions of service management",
+      "B": "Guiding principles",
+      "C": "Service value chain",
+      "D": "Practices"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Khái niệm ITIL nào giúp một tổ chức đưa ra quyết định tốt?",
+      "o": {
+        "A": "Four dimensions of service management",
+        "B": "Guiding principles",
+        "C": "Service value chain",
+        "D": "Practices"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 56,
+    "question": "Which is a recommendation applying the guiding principle 'keep it simple and practical'?",
+    "options": {
+      "A": "Communicate in a way the audience can hear",
+      "B": "Sometimes nothing from the current state can be re-used",
+      "C": "If a practice is easier to follow it is more likely to be adopted",
+      "D": "Fast does not mean incomplete"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào là một khuyến nghị khi áp dụng guiding principle 'Keep it simple and practical'?",
+      "o": {
+        "A": "Giao tiếp theo cách mà khán giả có thể tiếp nhận",
+        "B": "Đôi khi không có gì từ trạng thái hiện tại có thể được tái sử dụng",
+        "C": "Nếu một thực tiễn dễ tuân theo hơn thì khả năng nó được áp dụng sẽ cao hơn",
+        "D": "Nhanh không có nghĩa là chưa hoàn chỉnh"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 57,
+    "question": "Which practice has a purpose that includes responding to conditions that could lead to potential faults or incidents?",
+    "options": {
+      "A": "Incident management",
+      "B": "Service request management",
+      "C": "Monitoring and event management",
+      "D": "Change enablement"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào có mục đích bao gồm việc phản hồi các điều kiện có thể dẫn đến lỗi hoặc sự cố tiềm ẩn?",
+      "o": {
+        "A": "Incident management",
+        "B": "Service request management",
+        "C": "Monitoring and event management",
+        "D": "Change enablement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 58,
+    "question": "What role would be MOST suitable for a new graduate with great levels of empathy and understanding of business issues?",
+    "options": {
+      "A": "Service level manager",
+      "B": "Service desk agent",
+      "C": "Change authority",
+      "D": "Problem analyst"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Vai trò nào phù hợp NHẤT cho một sinh viên mới tốt nghiệp có mức độ đồng cảm cao và hiểu biết về các vấn đề kinh doanh?",
+      "o": {
+        "A": "Service level manager",
+        "B": "Service desk agent",
+        "C": "Change authority",
+        "D": "Problem analyst"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 59,
+    "question": "Which practice nurtures links with stakeholders at strategic and tactical levels?",
+    "options": {
+      "A": "Supplier management",
+      "B": "Relationship management",
+      "C": "Continual improvement",
+      "D": "Service level management"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào nuôi dưỡng các mối liên kết với các bên liên quan ở cấp chiến lược và chiến thuật?",
+      "o": {
+        "A": "Supplier management",
+        "B": "Relationship management",
+        "C": "Continual improvement",
+        "D": "Service level management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 60,
+    "question": "Which is a way of applying the guiding principle ‘focus on value’?",
+    "options": {
+      "A": "Understanding how service consumers use services",
+      "B": "Comprehending the whole, but doing something",
+      "C": "Recognizing the complexity of systems",
+      "D": "Doing fewer things, but doing them better"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào là một cách áp dụng guiding principle 'Focus on value'?",
+      "o": {
+        "A": "Hiểu cách service consumer sử dụng dịch vụ",
+        "B": "Hiểu được toàn cảnh, nhưng vẫn hành động",
+        "C": "Nhận thức được sự phức tạp của các hệ thống",
+        "D": "Làm ít việc hơn, nhưng làm tốt hơn"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 61,
+    "question": "Which of the following is NOT recommended by the guiding principle ‘start where you are’?",
+    "options": {
+      "A": "Asking questions that appear to be stupid",
+      "B": "Identifying what is available to be leveraged",
+      "C": "Building something completely new",
+      "D": "Collecting data directly from the source"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào sau đây KHÔNG được khuyến nghị bởi guiding principle 'Start where you are'?",
+      "o": {
+        "A": "Đặt những câu hỏi có vẻ ngớ ngẩn",
+        "B": "Xác định những gì có sẵn để có thể tận dụng",
+        "C": "Xây dựng một thứ hoàn toàn mới",
+        "D": "Thu thập dữ liệu trực tiếp từ nguồn"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 62,
+    "question": "Which statement about a ‘continual improvement register (CIR)’ is TRUE?",
+    "options": {
+      "A": "Used to help plan changes, assist in communication, avoid conflicts, and assign resources",
+      "B": "Used to select the right method, model or technique for identifying improvements",
+      "C": "Used to track and manage improvement ideas from identification through to final action",
+      "D": "Used to provide a formal description of one or more services, designed to address the needs of a target consumer group"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào về 'continual improvement register (CIR)' là ĐÚNG?",
+      "o": {
+        "A": "Được sử dụng để hỗ trợ lập kế hoạch thay đổi, hỗ trợ giao tiếp, tránh xung đột và phân bổ nguồn lực",
+        "B": "Được sử dụng để lựa chọn phương pháp, mô hình hoặc kỹ thuật phù hợp để xác định các cải tiến",
+        "C": "Được sử dụng để theo dõi và quản lý các ý tưởng cải tiến từ khi xác định cho đến hành động cuối cùng",
+        "D": "Được sử dụng để cung cấp mô tả chính thức về một hoặc nhiều dịch vụ, được thiết kế để đáp ứng nhu cầu của một nhóm bên tiêu dùng mục tiêu"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 63,
+    "question": "Which practice uses pre-defined, standardized procedures to enable fulfilment times to be clearly communicated?",
+    "options": {
+      "A": "Incident management",
+      "B": "Service level management",
+      "C": "Problem management",
+      "D": "Service request management"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào sử dụng các quy trình được xác định trước, tiêu chuẩn hóa để có thể truyền đạt rõ ràng thời gian thực hiện?",
+      "o": {
+        "A": "Incident management",
+        "B": "Service level management",
+        "C": "Problem management",
+        "D": "Service request management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 64,
+    "question": "Which TWO of the following are considerations of change enablement? 1. Managing the people aspects of change 2. Ensuring that organizational transformations are successful 3. Maximizing the number of successful service changes 4. Ensuring that changes are properly assessed",
+    "options": {
+      "A": "1 and 2",
+      "B": "2 and 3",
+      "C": "3 and 4",
+      "D": "1 and 4"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "HAI điều nào sau đây là những cân nhắc của Change enablement? 1. Quản lý khía cạnh con người của thay đổi 2. Đảm bảo các chuyển đổi của tổ chức thành công 3. Tối đa hóa số lượng thay đổi dịch vụ thành công 4. Đảm bảo các thay đổi được đánh giá đúng cách",
+      "o": {
+        "A": "1 và 2",
+        "B": "2 và 3",
+        "C": "3 và 4",
+        "D": "1 và 4"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 65,
+    "question": "How can a service consumer contribute to the reduction of risk?",
+    "options": {
+      "A": "By providing the service in accordance with requirements",
+      "B": "By ensuring that the service provider's resources are correctly configured",
+      "C": "By fully understanding their own requirements for the service",
+      "D": "By managing the detailed level of risk on behalf of the service provider"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Service consumer có thể đóng góp như thế nào vào việc giảm risk?",
+      "o": {
+        "A": "Bằng cách cung cấp dịch vụ theo đúng yêu cầu",
+        "B": "Bằng cách đảm bảo nguồn lực của service provider được cấu hình đúng cách",
+        "C": "Bằng cách hiểu đầy đủ yêu cầu của chính mình đối với dịch vụ",
+        "D": "Bằng cách quản lý mức độ chi tiết của risk thay cho service provider"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 66,
+    "question": "In which case would a problem be logged as part of the problem identification?",
+    "options": {
+      "A": "When the cause is identified but not resolved",
+      "B": "After receiving of error information from a supplier",
+      "C": "When a user reports an unplanned service interruption",
+      "D": "After a workaround is identified and documented"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Trong trường hợp nào thì một vấn đề sẽ được ghi nhận như một phần của problem identification?",
+      "o": {
+        "A": "Khi nguyên nhân đã được xác định nhưng chưa được giải quyết",
+        "B": "Sau khi nhận được thông tin lỗi từ nhà cung cấp",
+        "C": "Khi người dùng báo cáo một sự gián đoạn dịch vụ ngoài kế hoạch",
+        "D": "Sau khi một workaround được xác định và ghi lại"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 67,
+    "question": "A good way to apply the ITIL guiding principle 'keep it simple and practical' is to:",
+    "options": {
+      "A": "Communicate so that the audience will hear",
+      "B": "Re-use nothing from the current state",
+      "C": "Adopt a practice which is easy to follow",
+      "D": "Understand that fast does not mean incomplete"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Một cách tốt để áp dụng guiding principle 'Keep it simple and practical' của ITIL là:",
+      "o": {
+        "A": "Giao tiếp sao cho khán giả có thể tiếp nhận",
+        "B": "Không tái sử dụng bất cứ điều gì từ trạng thái hiện tại",
+        "C": "Áp dụng một thực tiễn dễ tuân theo",
+        "D": "Hiểu rằng nhanh không có nghĩa là chưa hoàn chỉnh"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 68,
+    "question": "Which practice helps to ensure that the services delivered to customers are aligned with their needs?",
+    "options": {
+      "A": "Service level management",
+      "B": "Change enablement",
+      "C": "Problem management",
+      "D": "Service request management"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào giúp đảm bảo các dịch vụ được cung cấp cho khách hàng phù hợp với nhu cầu của họ?",
+      "o": {
+        "A": "Service level management",
+        "B": "Change enablement",
+        "C": "Problem management",
+        "D": "Service request management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 69,
+    "question": "Which service request management decisions require that policies are established?",
+    "options": {
+      "A": "Deciding how degradations of service are resolved",
+      "B": "Deciding how to handle service requests where the steps are unknown",
+      "C": "Deciding which service requests require approval",
+      "D": "Deciding when workarounds should be used"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Quyết định nào của Service request management yêu cầu phải thiết lập các chính sách?",
+      "o": {
+        "A": "Quyết định cách xử lý các suy giảm dịch vụ",
+        "B": "Quyết định cách xử lý service request khi các bước thực hiện chưa được biết rõ",
+        "C": "Quyết định service request nào cần được phê duyệt",
+        "D": "Quyết định khi nào nên sử dụng workaround"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 70,
+    "question": "Which dimension of service management considers how activities are coordinated?",
+    "options": {
+      "A": "Organizations and people",
+      "B": "Information and technology",
+      "C": "Partners and suppliers",
+      "D": "Value streams and processes"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Dimension nào của service management xem xét cách các hoạt động được điều phối?",
+      "o": {
+        "A": "Organizations and people",
+        "B": "Information and technology",
+        "C": "Partners and suppliers",
+        "D": "Value streams and processes"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 71,
+    "question": "A user contacts the service desk to ask how they can create a report. Which practice is MOST LIKELY to contribute to resolving this issue?",
+    "options": {
+      "A": "Incident management",
+      "B": "Service level management",
+      "C": "Service request management",
+      "D": "Change enablement"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Một người dùng liên hệ với Service desk để hỏi cách tạo báo cáo. Thực tiễn nào NHIỀU KHẢ NĂNG NHẤT góp phần giải quyết vấn đề này?",
+      "o": {
+        "A": "Incident management",
+        "B": "Service level management",
+        "C": "Service request management",
+        "D": "Change enablement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 72,
+    "question": "Which practice has a purpose that includes the management of financially valuable components that can contribute to the delivery of an IT service?",
+    "options": {
+      "A": "Service configuration management",
+      "B": "IT asset management",
+      "C": "Change enablement",
+      "D": "Deployment management"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào có mục đích bao gồm việc quản lý các thành phần có giá trị tài chính có thể góp phần vào việc cung cấp một dịch vụ IT?",
+      "o": {
+        "A": "Service configuration management",
+        "B": "IT asset management",
+        "C": "Change enablement",
+        "D": "Deployment management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 73,
+    "question": "Which practice MOST requires staff who demonstrate skills such as empathy and emotional intelligence?",
+    "options": {
+      "A": "Service request management",
+      "B": "Continual improvement",
+      "C": "Problem management",
+      "D": "Service desk"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào YÊU CẦU NHIỀU NHẤT nhân viên thể hiện các kỹ năng như sự đồng cảm và trí tuệ cảm xúc?",
+      "o": {
+        "A": "Service request management",
+        "B": "Continual improvement",
+        "C": "Problem management",
+        "D": "Service desk"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 74,
+    "question": "What is the customer of a service responsible for?",
+    "options": {
+      "A": "Defining the requirements for the service",
+      "B": "Provisioning the service",
+      "C": "Using the service",
+      "D": "Authorizing the budget for the service"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Khách hàng của một dịch vụ chịu trách nhiệm về điều gì?",
+      "o": {
+        "A": "Xác định các yêu cầu cho dịch vụ",
+        "B": "Cung cấp (provision) dịch vụ",
+        "C": "Sử dụng dịch vụ",
+        "D": "Phê duyệt ngân sách cho dịch vụ"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 75,
+    "question": "When using the ‘continual improvement model’, which information should be produced by an organization in order to understand where the organization is now?",
+    "options": {
+      "A": "Business objectives",
+      "B": "Improvement plans",
+      "C": "Assessment results",
+      "D": "Measurable targets"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Khi sử dụng 'continual improvement model', thông tin nào nên được tổ chức tạo ra để hiểu tổ chức đang ở đâu hiện tại?",
+      "o": {
+        "A": "Mục tiêu kinh doanh",
+        "B": "Kế hoạch cải tiến",
+        "C": "Kết quả đánh giá",
+        "D": "Mục tiêu có thể đo lường được"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 76,
+    "question": "Which statement about value streams is CORRECT?",
+    "options": {
+      "A": "Each value stream must include all six value chain activities",
+      "B": "Each value stream must include suppliers or partners",
+      "C": "Each value stream must be designed for a specific scenario",
+      "D": "Each value stream must include all 34 ITIL practices"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào về value stream là ĐÚNG?",
+      "o": {
+        "A": "Mỗi value stream phải bao gồm tất cả sáu value chain activity",
+        "B": "Mỗi value stream phải bao gồm nhà cung cấp hoặc đối tác",
+        "C": "Mỗi value stream phải được thiết kế cho một tình huống cụ thể",
+        "D": "Mỗi value stream phải bao gồm tất cả 34 thực tiễn ITIL"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 77,
+    "question": "Which guiding principle recommends using ideas from ITIL, Lean, DevOps, Kanban, and other sources to help drive improvements?",
+    "options": {
+      "A": "Optimize and automate",
+      "B": "Think and work holistically",
+      "C": "Start where you are",
+      "D": "Focus on value"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Guiding principle nào khuyến nghị sử dụng ý tưởng từ ITIL, Lean, DevOps, Kanban, và các nguồn khác để thúc đẩy cải tiến?",
+      "o": {
+        "A": "Optimize and automate",
+        "B": "Think and work holistically",
+        "C": "Start where you are",
+        "D": "Focus on value"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 78,
+    "question": "Which is an activity in the 'problem control' phase of problem management?",
+    "options": {
+      "A": "Re-assessing a known error to manage the ongoing impact",
+      "B": "Implementing a technical fix to resolve an issue",
+      "C": "Documenting the steps in a workaround",
+      "D": "Reviewing incident records to identify trends"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào là một hoạt động trong giai đoạn 'Problem control' của Problem management?",
+      "o": {
+        "A": "Đánh giá lại một known error để quản lý tác động đang diễn ra",
+        "B": "Triển khai một bản sửa lỗi kỹ thuật để giải quyết vấn đề",
+        "C": "Ghi lại các bước trong một workaround",
+        "D": "Xem xét các bản ghi sự cố để xác định xu hướng"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 79,
+    "question": "Which practice nurtures links with stakeholders at strategic and tactical levels?",
+    "options": {
+      "A": "Supplier management",
+      "B": "Relationship management",
+      "C": "Service desk",
+      "D": "Service level management"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào nuôi dưỡng các mối liên kết với các bên liên quan ở cấp chiến lược và chiến thuật?",
+      "o": {
+        "A": "Supplier management",
+        "B": "Relationship management",
+        "C": "Service desk",
+        "D": "Service level management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 80,
+    "question": "Which practice has a purpose that includes managing authentication and non-repudiation?",
+    "options": {
+      "A": "Information security management",
+      "B": "Change enablement",
+      "C": "Service configuration management",
+      "D": "IT asset management"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào có mục đích bao gồm việc quản lý xác thực (authentication) và chống chối bỏ (non-repudiation)?",
+      "o": {
+        "A": "Information security management",
+        "B": "Change enablement",
+        "C": "Service configuration management",
+        "D": "IT asset management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 81,
+    "question": "Which statement about service offerings is CORRECT?",
+    "options": {
+      "A": "The same product can be used as a basis for more than one service offering",
+      "B": "Service offerings include the transfer of goods from the consumer to the provider",
+      "C": "Service offerings describe service actions performed by users",
+      "D": "Each service should be described to consumers as a single service offering"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào về Service offering là ĐÚNG?",
+      "o": {
+        "A": "Cùng một Product có thể được sử dụng làm cơ sở cho nhiều hơn một Service offering",
+        "B": "Service offering bao gồm việc chuyển giao hàng hóa từ bên tiêu dùng sang nhà cung cấp",
+        "C": "Service offering mô tả các hành động dịch vụ do người dùng thực hiện",
+        "D": "Mỗi dịch vụ nên được mô tả cho bên tiêu dùng như một Service offering duy nhất"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 82,
+    "question": "What is a problem that has been analyzed but has not been resolved?",
+    "options": {
+      "A": "Workaround",
+      "B": "Incident",
+      "C": "Known error",
+      "D": "Event"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì là một vấn đề đã được phân tích nhưng chưa được giải quyết?",
+      "o": {
+        "A": "Workaround",
+        "B": "Sự cố (incident)",
+        "C": "Known error",
+        "D": "Sự kiện (event)"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 83,
+    "question": "What ensures that a service provider and a service consumer continually co-create value?",
+    "options": {
+      "A": "Service consumption",
+      "B": "Service offerings",
+      "C": "Service relationship management",
+      "D": "Service level management"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì đảm bảo rằng service provider và service consumer liên tục cùng tạo ra Value?",
+      "o": {
+        "A": "Service consumption",
+        "B": "Service offerings",
+        "C": "Service relationship management",
+        "D": "Service level management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 84,
+    "question": "When working on an improvement iteration, which concept helps to ensure that the iteration activities remain appropriate in changing circumstances?",
+    "options": {
+      "A": "Minimum viable product",
+      "B": "Feedback loop",
+      "C": "Analysis paralysis",
+      "D": "Direct observation"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Khi thực hiện một iteration cải tiến, khái niệm nào giúp đảm bảo các hoạt động trong iteration đó vẫn phù hợp khi hoàn cảnh thay đổi?",
+      "o": {
+        "A": "Minimum viable product",
+        "B": "Feedback loop",
+        "C": "Analysis paralysis",
+        "D": "Quan sát trực tiếp"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 85,
+    "question": "What is the definition of ‘service management’?",
+    "options": {
+      "A": "A result for a stakeholder enabled by one or more outputs",
+      "B": "A formal description of one or more services, designed to address the needs of a target consumer group",
+      "C": "Joint activities performed by a service provider and a service consumer to ensure continual value co-creation",
+      "D": "A set of specialized organizational capabilities for enabling value for customers in the form of services"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Định nghĩa của 'Service management' là gì?",
+      "o": {
+        "A": "Một kết quả cho một bên liên quan được tạo điều kiện bởi một hoặc nhiều Output",
+        "B": "Một mô tả chính thức về một hoặc nhiều dịch vụ, được thiết kế để đáp ứng nhu cầu của một nhóm bên tiêu dùng mục tiêu",
+        "C": "Các hoạt động chung được thực hiện bởi service provider và service consumer để đảm bảo việc cùng tạo ra Value liên tục",
+        "D": "Một tập hợp các năng lực chuyên biệt của tổ chức nhằm tạo ra Value cho khách hàng dưới dạng dịch vụ"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 86,
+    "question": "Which is a description of service provision?",
+    "options": {
+      "A": "A way to help create value by facilitating outcomes that service consumers need",
+      "B": "Activities that an organization performs to deliver services",
+      "C": "A formal description of one or more services, designed to address the needs of a service consumer",
+      "D": "Cooperation between two organizations to ensure that a service delivers value"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào là một mô tả của Service provision?",
+      "o": {
+        "A": "Một cách giúp tạo ra Value bằng cách tạo điều kiện cho Outcome mà service consumer cần",
+        "B": "Các hoạt động mà một tổ chức thực hiện để cung cấp dịch vụ",
+        "C": "Một mô tả chính thức về một hoặc nhiều dịch vụ, được thiết kế để đáp ứng nhu cầu của một service consumer",
+        "D": "Sự hợp tác giữa hai tổ chức để đảm bảo một dịch vụ mang lại Value"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 87,
+    "question": "How is a ‘continual improvement register’ used?",
+    "options": {
+      "A": "To provide a structured approach to implementing improvements",
+      "B": "To authorize changes to implement improvement initiatives",
+      "C": "To organize past, present, and future improvement ideas",
+      "D": "To record requests for provision of a resource or service"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "'Continual improvement register' được sử dụng như thế nào?",
+      "o": {
+        "A": "Để cung cấp một phương pháp tiếp cận có cấu trúc cho việc triển khai các cải tiến",
+        "B": "Để phê duyệt các thay đổi nhằm triển khai các sáng kiến cải tiến",
+        "C": "Để sắp xếp các ý tưởng cải tiến trong quá khứ, hiện tại và tương lai",
+        "D": "Để ghi lại các yêu cầu cung cấp một nguồn lực hoặc dịch vụ"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 88,
+    "question": "Which is an input to the service value system?",
+    "options": {
+      "A": "A need from consumers for new or changed services.",
+      "B": "The system of directing and controlling an organization",
+      "C": "A model to help meet stakeholders’ expectations",
+      "D": "Recommendations to help an organization in all aspects of its work"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào là một đầu vào của Service value system?",
+      "o": {
+        "A": "Một nhu cầu từ bên tiêu dùng đối với các dịch vụ mới hoặc đã thay đổi.",
+        "B": "Hệ thống chỉ đạo và kiểm soát một tổ chức",
+        "C": "Một mô hình giúp đáp ứng kỳ vọng của các bên liên quan",
+        "D": "Các khuyến nghị giúp một tổ chức trong mọi khía cạnh công việc của mình"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 89,
+    "question": "Which organization delivers outputs or outcomes of a service?",
+    "options": {
+      "A": "A service consumer delivers outcomes of the service",
+      "B": "A service consumer delivers outputs of the service",
+      "C": "A service provider delivers outcomes of the service",
+      "D": "A service provider delivers outputs of the service"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Tổ chức nào cung cấp Output hoặc Outcome của một dịch vụ?",
+      "o": {
+        "A": "Service consumer cung cấp Outcome của dịch vụ",
+        "B": "Service consumer cung cấp Output của dịch vụ",
+        "C": "Service provider cung cấp Outcome của dịch vụ",
+        "D": "Service provider cung cấp Output của dịch vụ"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 90,
+    "question": "Which practice requires focus and effort to engage and listen to the requirements, issues, concerns, and daily needs of customers?",
+    "options": {
+      "A": "Service request management",
+      "B": "Service desk",
+      "C": "Supplier management",
+      "D": "Service level management"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào đòi hỏi sự tập trung và nỗ lực để gắn kết và lắng nghe yêu cầu, vấn đề, mối quan tâm và nhu cầu hàng ngày của khách hàng?",
+      "o": {
+        "A": "Service request management",
+        "B": "Service desk",
+        "C": "Supplier management",
+        "D": "Service level management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 91,
+    "question": "Identify the missing word(s) in the following sentence. A(n) [?] is the cause, or potential cause, of one or more incidents.",
+    "options": {
+      "A": "Known error",
+      "B": "Change",
+      "C": "Event",
+      "D": "Problem"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Xác định (các) từ còn thiếu trong câu sau. Một [?] là nguyên nhân, hoặc nguyên nhân tiềm ẩn, của một hoặc nhiều sự cố.",
+      "o": {
+        "A": "Known error",
+        "B": "Thay đổi (change)",
+        "C": "Sự kiện (event)",
+        "D": "Vấn đề (problem)"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 92,
+    "question": "Which value chain activity is concerned with the availability of service components?",
+    "options": {
+      "A": "Obtain/build",
+      "B": "Design and transition",
+      "C": "Deliver and support",
+      "D": "Plan"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Value chain activity nào liên quan đến tính sẵn sàng của các thành phần dịch vụ?",
+      "o": {
+        "A": "Obtain/build",
+        "B": "Design and transition",
+        "C": "Deliver and support",
+        "D": "Plan"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 93,
+    "question": "Which is the FIRST action when optimizing a service?",
+    "options": {
+      "A": "Assess the current state",
+      "B": "Understand the organizational context",
+      "C": "Agree the future state",
+      "D": "Implement the improvements"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Hành động ĐẦU TIÊN khi tối ưu hóa một dịch vụ là gì?",
+      "o": {
+        "A": "Đánh giá trạng thái hiện tại",
+        "B": "Hiểu bối cảnh của tổ chức",
+        "C": "Thống nhất trạng thái tương lai",
+        "D": "Triển khai các cải tiến"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 94,
+    "question": "Which practice would be MOST involved in assessing the risk to services when a supplier modifies the contract they offer to the organization?",
+    "options": {
+      "A": "Service request management",
+      "B": "Change enablement",
+      "C": "Incident management",
+      "D": "Service level management"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào SẼ THAM GIA NHIỀU NHẤT vào việc đánh giá risk đối với dịch vụ khi một nhà cung cấp thay đổi hợp đồng mà họ cung cấp cho tổ chức?",
+      "o": {
+        "A": "Service request management",
+        "B": "Change enablement",
+        "C": "Incident management",
+        "D": "Service level management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 95,
+    "question": "Which is a financially valuable component that can contribute to the delivery of a service?",
+    "options": {
+      "A": "Sponsor",
+      "B": "Configuration item",
+      "C": "IT asset",
+      "D": "Service offering"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào là một thành phần có giá trị tài chính có thể góp phần vào việc cung cấp một dịch vụ?",
+      "o": {
+        "A": "Sponsor",
+        "B": "Configuration item",
+        "C": "IT asset",
+        "D": "Service offering"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 96,
+    "question": "Which term is used to describe removing something that could have an effect on a service?",
+    "options": {
+      "A": "A change",
+      "B": "An incident",
+      "C": "A problem",
+      "D": "An IT asset"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thuật ngữ nào được dùng để mô tả việc loại bỏ điều gì đó có thể ảnh hưởng đến một dịch vụ?",
+      "o": {
+        "A": "Thay đổi (change)",
+        "B": "Sự cố (incident)",
+        "C": "Vấn đề (problem)",
+        "D": "IT asset"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 97,
+    "question": "Which TWO BEST describe the guiding principles? 1. Short-term 2. Standards 3. Recommendations 4. Long-term",
+    "options": {
+      "A": "1 and 4",
+      "B": "2 and 3",
+      "C": "3 and 4",
+      "D": "1 and 2"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "HAI điều nào MÔ TẢ TỐT NHẤT về guiding principle? 1. Ngắn hạn 2. Tiêu chuẩn 3. Khuyến nghị 4. Dài hạn",
+      "o": {
+        "A": "1 và 4",
+        "B": "2 và 3",
+        "C": "3 và 4",
+        "D": "1 và 2"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 98,
+    "question": "Which BEST describes the focus of the ‘think and work holistically’ principle?",
+    "options": {
+      "A": "Breaking down large initiatives into smaller pieces of work",
+      "B": "Integrating an organization’s activities to deliver value",
+      "C": "Eliminating unnecessary steps to deliver valuable outcomes",
+      "D": "Considering the existing organizational assets before building something new"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào MÔ TẢ TỐT NHẤT trọng tâm của principle 'Think and work holistically'?",
+      "o": {
+        "A": "Chia nhỏ các sáng kiến lớn thành các phần công việc nhỏ hơn",
+        "B": "Tích hợp các hoạt động của tổ chức để mang lại Value",
+        "C": "Loại bỏ các bước không cần thiết để mang lại Outcome có giá trị",
+        "D": "Xem xét các tài sản hiện có của tổ chức trước khi xây dựng một thứ mới"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 99,
+    "question": "Which is the FIRST thing to consider when focusing on value?",
+    "options": {
+      "A": "Defining customer experience and user experience",
+      "B": "Understanding what is valuable to the service consumer",
+      "C": "Ensuring value is co-created by improvement initiatives",
+      "D": "Identifying the service consumer who will receive value"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Điều ĐẦU TIÊN cần xem xét khi tập trung vào Value là gì?",
+      "o": {
+        "A": "Xác định trải nghiệm khách hàng và trải nghiệm người dùng",
+        "B": "Hiểu điều gì có giá trị đối với service consumer",
+        "C": "Đảm bảo Value được cùng tạo ra bởi các sáng kiến cải tiến",
+        "D": "Xác định service consumer sẽ nhận được Value"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 100,
+    "question": "Identify the missing word in the following sentence. An organization which is undertaking an improvement initiative should [?] the existing methods and services when building for the future.",
+    "options": {
+      "A": "Discard",
+      "B": "Improve",
+      "C": "Consider",
+      "D": "Re-use"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Xác định từ còn thiếu trong câu sau. Một tổ chức đang thực hiện một sáng kiến cải tiến nên [?] các phương pháp và dịch vụ hiện có khi xây dựng cho tương lai.",
+      "o": {
+        "A": "Loại bỏ",
+        "B": "Cải tiến",
+        "C": "Xem xét",
+        "D": "Tái sử dụng"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 101,
+    "question": "What is the difference between the ‘incident management’ and ‘service desk’ practices?",
+    "options": {
+      "A": "Incident management resolves issues, service desk investigates the underlying causes of issues",
+      "B": "Incident management restores service operation, service desk provides communication with users",
+      "C": "Incident management manages interruptions to services, service desk monitors achieved service quality",
+      "D": "Incident management resolves complex issues, service desk resolves simpler issues"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Sự khác biệt giữa thực tiễn 'Incident management' và 'Service desk' là gì?",
+      "o": {
+        "A": "Incident management giải quyết vấn đề, Service desk điều tra nguyên nhân gốc rễ của vấn đề",
+        "B": "Incident management khôi phục hoạt động dịch vụ, Service desk cung cấp kênh giao tiếp với người dùng",
+        "C": "Incident management quản lý các gián đoạn dịch vụ, Service desk giám sát chất lượng dịch vụ đạt được",
+        "D": "Incident management giải quyết các vấn đề phức tạp, Service desk giải quyết các vấn đề đơn giản hơn"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 102,
+    "question": "Which step of the ‘continual management model’ defines measurable targets?",
+    "options": {
+      "A": "Where do we want to be?",
+      "B": "What is the vision?",
+      "C": "How do we get there?",
+      "D": "Where are we now?"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Bước nào của 'continual management model' xác định các mục tiêu có thể đo lường được?",
+      "o": {
+        "A": "Where do we want to be?",
+        "B": "What is the vision?",
+        "C": "How do we get there?",
+        "D": "Where are we now?"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 103,
+    "question": "What is included in the purpose of the ‘release management’ practice?",
+    "options": {
+      "A": "Authorizing changes to proceed",
+      "B": "Making new features available for use",
+      "C": "Moving new software to live environments",
+      "D": "Ensuring information about services is available"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì nằm trong mục đích của thực tiễn 'Release management'?",
+      "o": {
+        "A": "Phê duyệt cho các thay đổi được tiến hành",
+        "B": "Đưa các tính năng mới vào sử dụng",
+        "C": "Di chuyển phần mềm mới sang môi trường thực tế (live)",
+        "D": "Đảm bảo thông tin về dịch vụ luôn sẵn có"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 104,
+    "question": "Why should a service level agreement include bundles of metrics?",
+    "options": {
+      "A": "To reduce the number of metrics that need to be measured and reported",
+      "B": "To help focus on business outcomes, rather than operational results",
+      "C": "To ensure that the service levels have been agreed with customers",
+      "D": "To ensure that all services are included in the service reports"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Tại sao một service level agreement nên bao gồm các nhóm số đo (metric)?",
+      "o": {
+        "A": "Để giảm số lượng số đo cần được đo lường và báo cáo",
+        "B": "Để giúp tập trung vào Outcome kinh doanh, thay vì kết quả vận hành",
+        "C": "Để đảm bảo các mức dịch vụ đã được thống nhất với khách hàng",
+        "D": "Để đảm bảo tất cả các dịch vụ được đưa vào báo cáo dịch vụ"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 105,
+    "question": "Which of the four dimensions contributes MOST to defining activities needed to deliver services?",
+    "options": {
+      "A": "Partners and suppliers",
+      "B": "Organizations and people",
+      "C": "Value streams and processes",
+      "D": "Information and technology"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Dimension nào trong bốn dimension ĐÓNG GÓP NHIỀU NHẤT vào việc xác định các hoạt động cần thiết để cung cấp dịch vụ?",
+      "o": {
+        "A": "Partners and suppliers",
+        "B": "Organizations and people",
+        "C": "Value streams and processes",
+        "D": "Information and technology"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 106,
+    "question": "Which practice balances management of risk with maximizing throughput?",
+    "options": {
+      "A": "Problem management",
+      "B": "Incident management",
+      "C": "Continual improvement",
+      "D": "Change enablement"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào cân bằng việc quản lý risk với việc tối đa hóa thông lượng (throughput)?",
+      "o": {
+        "A": "Problem management",
+        "B": "Incident management",
+        "C": "Continual improvement",
+        "D": "Change enablement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 107,
+    "question": "Which is recommended as part of the ‘progress iteratively with feedback’ guiding principle?",
+    "options": {
+      "A": "Analyze the whole situation in detail before taking any action",
+      "B": "Reduce the number of steps that produce tangible results",
+      "C": "Prohibit changes to plans after they have been finalized",
+      "D": "Organize work into small manageable units"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào được khuyến nghị như một phần của guiding principle 'Progress iteratively with feedback'?",
+      "o": {
+        "A": "Phân tích toàn bộ tình huống một cách chi tiết trước khi thực hiện bất kỳ hành động nào",
+        "B": "Giảm số bước tạo ra kết quả hữu hình",
+        "C": "Cấm thay đổi kế hoạch sau khi đã được hoàn thiện",
+        "D": "Tổ chức công việc thành các đơn vị nhỏ, dễ quản lý"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 108,
+    "question": "What is included in the purpose of the ‘continual improvement’ practice?",
+    "options": {
+      "A": "Creating collaborative relationships with key suppliers to realize new value",
+      "B": "Aligning the organization’s practices and services with changing business needs",
+      "C": "Identifying and continually improving relationships with and between stakeholders",
+      "D": "Ensuring that delivery of services is properly assessed, monitored, and improved against targets"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì nằm trong mục đích của thực tiễn 'Continual improvement'?",
+      "o": {
+        "A": "Xây dựng mối quan hệ hợp tác với các nhà cung cấp chủ chốt để hiện thực hóa Value mới",
+        "B": "Điều chỉnh các thực tiễn và dịch vụ của tổ chức phù hợp với nhu cầu kinh doanh đang thay đổi",
+        "C": "Xác định và liên tục cải thiện mối quan hệ với và giữa các bên liên quan",
+        "D": "Đảm bảo việc cung cấp dịch vụ được đánh giá, giám sát và cải tiến đúng cách theo các mục tiêu"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 109,
+    "question": "How does the ‘incident management’ practice set user expectations?",
+    "options": {
+      "A": "By using collaboration tools to communicate effectively",
+      "B": "By agreeing, and communicating target resolution times",
+      "C": "By assigning resources to ensure that all incidents are resolved as quickly as possible",
+      "D": "By automated matching of incidents to known errors"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn 'Incident management' thiết lập kỳ vọng của người dùng như thế nào?",
+      "o": {
+        "A": "Bằng cách sử dụng công cụ cộng tác để giao tiếp hiệu quả",
+        "B": "Bằng cách thống nhất và truyền đạt thời gian giải quyết mục tiêu",
+        "C": "Bằng cách phân bổ nguồn lực để đảm bảo tất cả sự cố được giải quyết nhanh nhất có thể",
+        "D": "Bằng cách tự động khớp sự cố với known error"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 110,
+    "question": "What is a user?",
+    "options": {
+      "A": "The role that defines the requirements for a service",
+      "B": "The role that directs and controls an organization",
+      "C": "The role that uses services",
+      "D": "The role that authorizes budget for service consumption"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Người dùng là gì?",
+      "o": {
+        "A": "Vai trò xác định yêu cầu cho một dịch vụ",
+        "B": "Vai trò chỉ đạo và kiểm soát một tổ chức",
+        "C": "Vai trò sử dụng dịch vụ",
+        "D": "Vai trò phê duyệt ngân sách cho Service consumption"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 111,
+    "question": "How do ‘continual improvement registers’ help to create value?",
+    "options": {
+      "A": "By making improvements visible",
+      "B": "By monitoring achievement against service level targets",
+      "C": "By assigning change authorities for change requests",
+      "D": "By documenting all improvement ideas in a single place"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "'Continual improvement register' giúp tạo ra Value như thế nào?",
+      "o": {
+        "A": "Bằng cách làm cho các cải tiến trở nên rõ ràng, dễ thấy",
+        "B": "Bằng cách giám sát mức độ đạt được so với các mục tiêu mức dịch vụ",
+        "C": "Bằng cách chỉ định change authority cho các yêu cầu thay đổi",
+        "D": "Bằng cách ghi lại tất cả các ý tưởng cải tiến ở một nơi duy nhất"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 112,
+    "question": "Which statement about the inputs and outputs of the value chain activities is CORRECT?",
+    "options": {
+      "A": "Each value chain activity receives inputs and provides outputs",
+      "B": "The organization’s governance will determine the inputs and outputs of each value chain activity",
+      "C": "Some value chain activities only have inputs, whereas others only have outputs",
+      "D": "Inputs and outputs are fixed for each value chain activity"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào về đầu vào và đầu ra của các value chain activity là ĐÚNG?",
+      "o": {
+        "A": "Mỗi value chain activity nhận đầu vào và tạo ra đầu ra",
+        "B": "Governance của tổ chức sẽ quyết định đầu vào và đầu ra của mỗi value chain activity",
+        "C": "Một số value chain activity chỉ có đầu vào, trong khi những cái khác chỉ có đầu ra",
+        "D": "Đầu vào và đầu ra là cố định đối với mỗi value chain activity"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 113,
+    "question": "What is the value of a service?",
+    "options": {
+      "A": "A tangible or intangible deliverable of the service",
+      "B": "The amount of money that is created or saved for the service consumers by using the service",
+      "C": "The benefits, usefulness, or importance of the service, as perceived by the stakeholders",
+      "D": "A result for a stakeholder enabled by the outputs of the service"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Value của một dịch vụ là gì?",
+      "o": {
+        "A": "Một sản phẩm bàn giao hữu hình hoặc vô hình của dịch vụ",
+        "B": "Số tiền được tạo ra hoặc tiết kiệm được cho service consumer khi sử dụng dịch vụ",
+        "C": "Lợi ích, tính hữu ích hoặc tầm quan trọng của dịch vụ, theo nhận thức của các bên liên quan",
+        "D": "Một kết quả cho một bên liên quan được tạo điều kiện bởi Output của dịch vụ"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 114,
+    "question": "Which is the MOST LIKELY way of resolving major incidents?",
+    "options": {
+      "A": "A support team following detailed procedures for investigating the incident",
+      "B": "Users establishing a resolution using self-help",
+      "C": "A temporary team working together to identify a resolution",
+      "D": "The service desk identifying the cause and a resolution"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Cách NHIỀU KHẢ NĂNG NHẤT để giải quyết các sự cố lớn là gì?",
+      "o": {
+        "A": "Một đội hỗ trợ tuân theo các quy trình chi tiết để điều tra sự cố",
+        "B": "Người dùng tự xác định giải pháp bằng self-help",
+        "C": "Một đội tạm thời cùng nhau làm việc để xác định giải pháp",
+        "D": "Service desk xác định nguyên nhân và giải pháp"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 115,
+    "question": "What is the CORRECT order for the three phases of problem management?",
+    "options": {
+      "A": "Problem control, error control, problem identification",
+      "B": "Problem identification, problem control, error control",
+      "C": "Error control, problem control, problem identification",
+      "D": "Problem identification, error control, problem control"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thứ tự ĐÚNG của ba giai đoạn trong Problem management là gì?",
+      "o": {
+        "A": "Problem control, Error control, Problem identification",
+        "B": "Problem identification, Problem control, Error control",
+        "C": "Error control, Problem control, Problem identification",
+        "D": "Problem identification, Error control, Problem control"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 116,
+    "question": "What is included in the purpose of the 'IT asset management’ practice?",
+    "options": {
+      "A": "Supporting decision-making about purchase, re-use, retirement, and disposal of assets",
+      "B": "Providing information on how assets are configured and the relationships between them",
+      "C": "Making new and changed assets available for use",
+      "D": "Moving assets to live or other environments for testing or staging"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì nằm trong mục đích của thực tiễn 'IT asset management'?",
+      "o": {
+        "A": "Hỗ trợ việc ra quyết định về mua sắm, tái sử dụng, ngừng sử dụng và thanh lý tài sản",
+        "B": "Cung cấp thông tin về cách các tài sản được cấu hình và mối quan hệ giữa chúng",
+        "C": "Đưa các tài sản mới và đã thay đổi vào sử dụng",
+        "D": "Di chuyển tài sản sang môi trường thực tế (live) hoặc các môi trường khác để kiểm thử hoặc dàn dựng"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 117,
+    "question": "Which component is focused on the activities needed by an organization to help it co-create value?",
+    "options": {
+      "A": "Guiding principles",
+      "B": "Service value chain",
+      "C": "Continual improvement",
+      "D": "Practices"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thành phần nào tập trung vào các hoạt động mà một tổ chức cần để giúp cùng tạo ra Value?",
+      "o": {
+        "A": "Guiding principles",
+        "B": "Service value chain",
+        "C": "Continual improvement",
+        "D": "Practices"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 118,
+    "question": "Why and how is a user MOST LIKELY to contact the service desk?",
+    "options": {
+      "A": "To discuss the cause of an incident via a phone call",
+      "B": "To report a problem using a mobile app",
+      "C": "To request access to a resource via a self-service portal",
+      "D": "To authorize an emergency change via live chat"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Tại sao và bằng cách nào người dùng NHIỀU KHẢ NĂNG NHẤT liên hệ với Service desk?",
+      "o": {
+        "A": "Để thảo luận về nguyên nhân của một sự cố qua điện thoại",
+        "B": "Để báo cáo một vấn đề bằng ứng dụng di động",
+        "C": "Để yêu cầu truy cập vào một nguồn lực thông qua cổng tự phục vụ (self-service portal)",
+        "D": "Để phê duyệt một emergency change qua live chat"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 119,
+    "question": "What is used as a tool to help define and measure performance?",
+    "options": {
+      "A": "A change schedule",
+      "B": "An incident record",
+      "C": "A continual improvement register",
+      "D": "A service level agreement"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Công cụ nào được sử dụng để giúp xác định và đo lường hiệu suất?",
+      "o": {
+        "A": "Change schedule",
+        "B": "Bản ghi sự cố (incident record)",
+        "C": "Continual improvement register",
+        "D": "Service level agreement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 120,
+    "question": "Which of the four dimensions contributes is concerned with service integration and management?",
+    "options": {
+      "A": "Partners and suppliers",
+      "B": "Organizations and people",
+      "C": "Value streams and processes",
+      "D": "Information and technology"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Dimension nào trong bốn dimension liên quan đến việc tích hợp và quản lý dịch vụ?",
+      "o": {
+        "A": "Partners and suppliers",
+        "B": "Organizations and people",
+        "C": "Value streams and processes",
+        "D": "Information and technology"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 121,
+    "question": "What may form part of a service request procedure?",
+    "options": {
+      "A": "The timescale for restoration of service",
+      "B": "The method of diagnosing the cause",
+      "C": "Authorization in accordance with a security policy",
+      "D": "Escalation to the appropriate change authority"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì có thể là một phần của quy trình service request?",
+      "o": {
+        "A": "Khung thời gian để khôi phục dịch vụ",
+        "B": "Phương pháp chẩn đoán nguyên nhân",
+        "C": "Phê duyệt theo một chính sách bảo mật",
+        "D": "Chuyển cấp lên change authority phù hợp"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 122,
+    "question": "When applying the ‘collaborate and promote visibility’ principle to an organization’s initiative, which is NOT a necessary action?",
+    "options": {
+      "A": "Basing decisions about the initiative on visible data",
+      "B": "Communicating information about the initiative to other parts of the organization",
+      "C": "Ensuring everyone involved in the initiative is in agreement about it before starting",
+      "D": "Considering different methods of communication for the different audiences"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Khi áp dụng principle 'Collaborate and promote visibility' vào một sáng kiến của tổ chức, điều nào KHÔNG phải là một hành động cần thiết?",
+      "o": {
+        "A": "Dựa các quyết định về sáng kiến trên dữ liệu có thể nhìn thấy được",
+        "B": "Truyền đạt thông tin về sáng kiến đến các bộ phận khác của tổ chức",
+        "C": "Đảm bảo mọi người tham gia sáng kiến đều đồng thuận về nó trước khi bắt đầu",
+        "D": "Xem xét các phương pháp giao tiếp khác nhau cho các đối tượng khác nhau"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 123,
+    "question": "Which practice identifies changes of state related to infrastructure, services, and business processes?",
+    "options": {
+      "A": "Monitoring and event management",
+      "B": "Service configuration management",
+      "C": "Change enablement",
+      "D": "Information security management"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào xác định các thay đổi trạng thái liên quan đến cơ sở hạ tầng, dịch vụ và các quy trình kinh doanh?",
+      "o": {
+        "A": "Monitoring and event management",
+        "B": "Service configuration management",
+        "C": "Change enablement",
+        "D": "Information security management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 124,
+    "question": "Identity the missing word(s) in the following sentence. When an organization is assessing its current state, it should use [?] to obtain accurate measurements.",
+    "options": {
+      "A": "Reports",
+      "B": "Assumptions",
+      "C": "Source data",
+      "D": "Risk management techniques"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Xác định (các) từ còn thiếu trong câu sau. Khi một tổ chức đang đánh giá trạng thái hiện tại của mình, tổ chức đó nên sử dụng [?] để có được các phép đo chính xác.",
+      "o": {
+        "A": "Báo cáo",
+        "B": "Giả định",
+        "C": "Dữ liệu nguồn (source data)",
+        "D": "Kỹ thuật quản lý risk"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 125,
+    "question": "How should a process design allow for exceptional situations?",
+    "options": {
+      "A": "Create rules to handle exceptions generally",
+      "B": "Remove the option for process exceptions",
+      "C": "Create an additional process for each exception",
+      "D": "Include all exception steps in the main process"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Việc thiết kế một quy trình nên cho phép xử lý các tình huống ngoại lệ như thế nào?",
+      "o": {
+        "A": "Tạo ra các quy tắc để xử lý ngoại lệ một cách chung",
+        "B": "Loại bỏ khả năng có ngoại lệ trong quy trình",
+        "C": "Tạo thêm một quy trình riêng cho mỗi ngoại lệ",
+        "D": "Đưa tất cả các bước xử lý ngoại lệ vào quy trình chính"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 126,
+    "question": "Which practice needs the right culture to be embedded across the entire organization?",
+    "options": {
+      "A": "Service request management",
+      "B": "Service level management",
+      "C": "Change enablement",
+      "D": "Continual improvement"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào cần có văn hóa phù hợp được thấm nhuần trên toàn bộ tổ chức?",
+      "o": {
+        "A": "Service request management",
+        "B": "Service level management",
+        "C": "Change enablement",
+        "D": "Continual improvement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 127,
+    "question": "Which term could be used to refer to a single person who has independently subscribed to a service?",
+    "options": {
+      "A": "Supplier",
+      "B": "Service desk",
+      "C": "Service provider",
+      "D": "Organization"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Thuật ngữ nào có thể được dùng để chỉ một cá nhân đã tự đăng ký sử dụng một dịch vụ một cách độc lập?",
+      "o": {
+        "A": "Supplier",
+        "B": "Service desk",
+        "C": "Service provider",
+        "D": "Organization"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 128,
+    "question": "What is the MOST LIKELY reason that incident management would need a temporary team to work together?",
+    "options": {
+      "A": "To escalate an incident to a supplier or partner",
+      "B": "So customers and users are provided with timely updates",
+      "C": "To resolve a complex or major incident",
+      "D": "So users can resolve their own incidents with self-help"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Lý do NHIỀU KHẢ NĂNG NHẤT khiến Incident management cần một đội tạm thời cùng làm việc là gì?",
+      "o": {
+        "A": "Để chuyển cấp một sự cố lên nhà cung cấp hoặc đối tác",
+        "B": "Để khách hàng và người dùng được cập nhật kịp thời",
+        "C": "Để giải quyết một sự cố phức tạp hoặc sự cố lớn",
+        "D": "Để người dùng có thể tự giải quyết sự cố của mình bằng self-help"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 129,
+    "question": "Which is MOST LIKELY to be achieved by following a detailed procedure?",
+    "options": {
+      "A": "Assessing a change",
+      "B": "Resolving an incident",
+      "C": "Managing a service request",
+      "D": "Investigating a problem"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì NHIỀU KHẢ NĂNG NHẤT đạt được bằng cách tuân theo một quy trình chi tiết?",
+      "o": {
+        "A": "Đánh giá một thay đổi",
+        "B": "Giải quyết một sự cố",
+        "C": "Quản lý một service request",
+        "D": "Điều tra một vấn đề"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 130,
+    "question": "Which of the four dimensions focuses on roles, responsibilities, and systems of authority?",
+    "options": {
+      "A": "Value streams and processes",
+      "B": "Partners and suppliers",
+      "C": "Organizations and people",
+      "D": "Information and technology"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Dimension nào trong bốn dimension tập trung vào vai trò, trách nhiệm và hệ thống thẩm quyền?",
+      "o": {
+        "A": "Value streams and processes",
+        "B": "Partners and suppliers",
+        "C": "Organizations and people",
+        "D": "Information and technology"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 131,
+    "question": "What is CORRECT about service request management?",
+    "options": {
+      "A": "Service requests can be used to restore service",
+      "B": "Complex service request procedures should be avoided",
+      "C": "Compliments can be handled as service requests",
+      "D": "A new procedure is required for each new service request"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào ĐÚNG về Service request management?",
+      "o": {
+        "A": "Service request có thể được dùng để khôi phục dịch vụ",
+        "B": "Nên tránh các quy trình service request phức tạp",
+        "C": "Lời khen có thể được xử lý như service request",
+        "D": "Cần một quy trình mới cho mỗi service request mới"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 132,
+    "question": "What ensures that service providers and service consumers continue to create value together?",
+    "options": {
+      "A": "Service consumption",
+      "B": "Service offerings",
+      "C": "Service level management",
+      "D": "Service relationship management"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì đảm bảo rằng service provider và service consumer tiếp tục cùng tạo ra Value?",
+      "o": {
+        "A": "Service consumption",
+        "B": "Service offerings",
+        "C": "Service level management",
+        "D": "Service relationship management"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 133,
+    "question": "What are the KEY stakeholder groups that service providers should cooperate with?",
+    "options": {
+      "A": "Suppliers",
+      "B": "Customers",
+      "C": "Relationship managers",
+      "D": "Developers"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Những nhóm bên liên quan CHÍNH nào mà service provider nên hợp tác cùng?",
+      "o": {
+        "A": "Suppliers",
+        "B": "Customers",
+        "C": "Relationship managers",
+        "D": "Developers"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 134,
+    "question": "Which statement about the purpose of the Monitoring and event management practice is TRUE?",
+    "options": {
+      "A": "Minimize the negative impact of incidents by restoring normal service operation as quickly as possible",
+      "B": "Support the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner",
+      "C": "Systematically observe services and service components, and record and report selected changes of state identified as events",
+      "D": "Maximize the number of successful service and product changes by ensuring that risks have been properly assessed, authorized and managed within a schedule"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào về mục đích của thực tiễn Monitoring and event management là ĐÚNG?",
+      "o": {
+        "A": "Giảm thiểu tác động tiêu cực của sự cố bằng cách khôi phục hoạt động dịch vụ bình thường nhanh nhất có thể",
+        "B": "Hỗ trợ chất lượng dịch vụ đã thống nhất bằng cách xử lý tất cả các service request được xác định trước, do người dùng khởi tạo một cách hiệu quả và thân thiện với người dùng",
+        "C": "Quan sát một cách có hệ thống các dịch vụ và thành phần dịch vụ, đồng thời ghi nhận và báo cáo các thay đổi trạng thái được chọn lọc, được xác định là sự kiện (event)",
+        "D": "Tối đa hóa số lượng thay đổi dịch vụ và Product thành công bằng cách đảm bảo các risk đã được đánh giá, phê duyệt và quản lý đúng cách trong một lịch trình"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 135,
+    "question": "Identify the missing word(s) in the following sentence. The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing [?] and known errors.",
+    "options": {
+      "A": "events",
+      "B": "changes",
+      "C": "configuration items",
+      "D": "workarounds"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Xác định (các) từ còn thiếu trong câu sau. Mục đích của thực tiễn Problem management là giảm khả năng xảy ra và tác động của sự cố bằng cách xác định nguyên nhân thực tế và tiềm ẩn của sự cố, và quản lý [?] và known error.",
+      "o": {
+        "A": "sự kiện",
+        "B": "thay đổi",
+        "C": "configuration item",
+        "D": "workaround"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 136,
+    "question": "Which describes an unresolved problem which has been already analysed?",
+    "options": {
+      "A": "A workaround",
+      "B": "An incident",
+      "C": "A known error",
+      "D": "A risk"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Điều nào mô tả một vấn đề chưa được giải quyết nhưng đã được phân tích?",
+      "o": {
+        "A": "Workaround",
+        "B": "Sự cố (incident)",
+        "C": "Known error",
+        "D": "Risk"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 137,
+    "question": "Which practice conducts reviews to validate that services are covering the needs of the customer?",
+    "options": {
+      "A": "Monitoring and event management",
+      "B": "Service level management",
+      "C": "Change enablement",
+      "D": "Service desk"
+    },
+    "correct": "B",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào thực hiện các buổi đánh giá để xác nhận rằng dịch vụ đang đáp ứng nhu cầu của khách hàng?",
+      "o": {
+        "A": "Monitoring and event management",
+        "B": "Service level management",
+        "C": "Change enablement",
+        "D": "Service desk"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 138,
+    "question": "What is MOST LIKELY to be handled as a service request?",
+    "options": {
+      "A": "Managing an interruption to a service",
+      "B": "An emergency change to apply a security patch",
+      "C": "The implementation of a workaround",
+      "D": "Providing a virtual server for a development team"
+    },
+    "correct": "D",
+    "explanation": "",
+    "vi": {
+      "q": "Điều gì NHIỀU KHẢ NĂNG NHẤT được xử lý như một service request?",
+      "o": {
+        "A": "Quản lý một sự gián đoạn dịch vụ",
+        "B": "Một emergency change để áp dụng bản vá bảo mật",
+        "C": "Việc triển khai một workaround",
+        "D": "Cung cấp một máy chủ ảo cho một đội phát triển"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 139,
+    "question": "Which practice guarantees that users have a range of access channels to choose from to report problems?",
+    "options": {
+      "A": "Service desk",
+      "B": "Service level management",
+      "C": "Incident management",
+      "D": "Change enablement"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Thực tiễn nào đảm bảo rằng người dùng có nhiều kênh truy cập khác nhau để lựa chọn nhằm báo cáo vấn đề?",
+      "o": {
+        "A": "Service desk",
+        "B": "Service level management",
+        "C": "Incident management",
+        "D": "Change enablement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 140,
+    "question": "A user wants to know how to create a report, so they come into contact with the service desk. Which practice is MOST LIKELY to help with the solution of this issue?",
+    "options": {
+      "A": "Incident management",
+      "B": "Service level management",
+      "C": "Service request management",
+      "D": "Change enablement"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Một người dùng muốn biết cách tạo báo cáo, nên họ liên hệ với Service desk. Thực tiễn nào NHIỀU KHẢ NĂNG NHẤT giúp giải quyết vấn đề này?",
+      "o": {
+        "A": "Incident management",
+        "B": "Service level management",
+        "C": "Service request management",
+        "D": "Change enablement"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 141,
+    "question": "How can service consumers contribute to risk mitigation?",
+    "options": {
+      "A": "Through the provision of services according to predefined needs",
+      "B": "By ensuring that the service provider has configured correctly its resources",
+      "C": "By being fully aware of their own requirements for the service",
+      "D": "By controlling the specific level of risk on the service provider’s behalf"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Service consumer có thể đóng góp như thế nào vào việc giảm thiểu risk?",
+      "o": {
+        "A": "Thông qua việc cung cấp dịch vụ theo các nhu cầu đã xác định trước",
+        "B": "Bằng cách đảm bảo service provider đã cấu hình đúng cách các nguồn lực của mình",
+        "C": "Bằng cách nhận thức đầy đủ về yêu cầu của chính mình đối với dịch vụ",
+        "D": "Bằng cách kiểm soát mức độ risk cụ thể thay cho service provider"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 142,
+    "question": "A good way to apply the ITIL guiding principle ‘focus on value’ is to:",
+    "options": {
+      "A": "Understand why services are used by service consumers",
+      "B": "Understand the whole, but do something",
+      "C": "Be aware of system complexity",
+      "D": "Do less tasks but in a better way with higher quality"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Một cách tốt để áp dụng guiding principle 'Focus on value' của ITIL là:",
+      "o": {
+        "A": "Hiểu tại sao dịch vụ được sử dụng bởi service consumer",
+        "B": "Hiểu được toàn cảnh, nhưng vẫn hành động",
+        "C": "Nhận thức được sự phức tạp của hệ thống",
+        "D": "Làm ít việc hơn nhưng theo cách tốt hơn với chất lượng cao hơn"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 143,
+    "question": "Which of the following guiding principles proposes the elimination of unnecessary work?",
+    "options": {
+      "A": "Keep it simple and practical",
+      "B": "Think and work holistically",
+      "C": "Start where you are",
+      "D": "Progress iteratively with feedback"
+    },
+    "correct": "A",
+    "explanation": "",
+    "vi": {
+      "q": "Guiding principle nào sau đây đề xuất việc loại bỏ công việc không cần thiết?",
+      "o": {
+        "A": "Keep it simple and practical",
+        "B": "Think and work holistically",
+        "C": "Start where you are",
+        "D": "Progress iteratively with feedback"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 144,
+    "question": "Which of the following statements about change authorization is CORRECT?",
+    "options": {
+      "A": "Every time a standard change is requested a change authority is assigned",
+      "B": "The technician making an emergency change can authorize such changes",
+      "C": "The change type and model is the basis for assigning the change authority",
+      "D": "Ensuring that changes are authorized after their deployment is done by the change authority"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào sau đây về việc phê duyệt thay đổi là ĐÚNG?",
+      "o": {
+        "A": "Mỗi khi một standard change được yêu cầu, một change authority sẽ được chỉ định",
+        "B": "Kỹ thuật viên thực hiện một emergency change có thể tự phê duyệt thay đổi đó",
+        "C": "Loại thay đổi và change model là cơ sở để chỉ định change authority",
+        "D": "Việc đảm bảo các thay đổi được phê duyệt sau khi triển khai là do change authority thực hiện"
+      },
+      "e": ""
+    }
+  },
+  {
+    "number": 145,
+    "question": "Which of the following statements about 'outcomes' is TRUE?",
+    "options": {
+      "A": "The delivery of products to a stakeholder is enabled by outcomes",
+      "B": "The level of expenses regarding a technology for a service is defined by an outcome",
+      "C": "An outcome depends on at least one output to deliver a result",
+      "D": "Outcomes provide assurance to stakeholders regarding the performance of a service"
+    },
+    "correct": "C",
+    "explanation": "",
+    "vi": {
+      "q": "Phát biểu nào sau đây về 'Outcome' là ĐÚNG?",
+      "o": {
+        "A": "Việc chuyển giao Product đến một bên liên quan được tạo điều kiện bởi Outcome",
+        "B": "Mức chi phí liên quan đến công nghệ cho một dịch vụ được xác định bởi một Outcome",
+        "C": "Một Outcome phụ thuộc vào ít nhất một Output để mang lại kết quả",
+        "D": "Outcome đảm bảo với các bên liên quan về hiệu suất của một dịch vụ"
+      },
+      "e": ""
+    }
+  }
+]

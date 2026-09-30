@@ -1,8 +1,4 @@
 (function(){
-  var config = window.QUIZ_CONFIG || {};
-  var mode = config.mode === 'exam' ? 'exam' : 'practice';
-  document.body.classList.add('quiz-' + mode);
-
   function copyTextToClipboard(text, onDone){
     function legacyCopy(){
       var ok = false;
@@ -64,12 +60,11 @@
     });
   }
 
-  function runPractice(questions){
-    var viMap = config.viTranslations ? (window[config.viTranslations] || {}) : {};
+  function runPractice(config, questions){
     var randomSubsetSize = config.randomSubsetSize || 50;
 
     var ALL_QUESTIONS = questions.map(function(q){
-      var vi = viMap[q.number] || {};
+      var vi = q.vi || {};
       return {
         number: q.number,
         question: q.question,
@@ -375,15 +370,14 @@
     })();
   }
 
-  function runExam(questions){
+  function runExam(config, questions){
     var PAGE_SIZE = config.pageSize || 25;
     var GRAND_TOTAL = questions.length;
-    var viMap = config.viTranslations ? (window[config.viTranslations] || {}) : {};
     var domainNames = config.domainNames || {};
     var DOMAIN_LIST = config.domainList || Array.from(new Set(questions.map(function(q){ return q.domain; }))).sort();
 
     var QUESTIONS_RAW = questions.map(function(q){
-      return { id: q.number, domain: q.domain, question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '' };
+      return { id: q.number, domain: q.domain, question: q.question, options: q.options, correct: q.correct, explanation: q.explanation || '', vi: q.vi || {} };
     });
 
     var DOMAIN_COUNTS = {};
@@ -413,7 +407,7 @@
           var newLetter = newLetterLabels[idx];
           newOptions.push({ display: newLetter, text: q.options[origLetter], isCorrect: origLetter === q.correct, orig: origLetter });
         });
-        var vi = viMap[q.id] || {};
+        var vi = q.vi || {};
         return {
           id: q.id, domain: q.domain, question: q.question, explanation: q.explanation,
           question_vi: vi.q || '', explanation_vi: vi.e || '', options_vi: vi.o || {},
@@ -428,7 +422,7 @@
         var newOptions = letters.map(function(origLetter){
           return { display: origLetter, text: q.options[origLetter], isCorrect: origLetter === q.correct, orig: origLetter };
         });
-        var vi = viMap[q.id] || {};
+        var vi = q.vi || {};
         return {
           id: q.id, domain: q.domain, question: q.question, explanation: q.explanation,
           question_vi: vi.q || '', explanation_vi: vi.e || '', options_vi: vi.o || {},
@@ -644,8 +638,16 @@
             '<span class="domain-fullname">' + escapeHtml(domainNames[q.domain] || q.domain) + '</span>' +
             '<span class="qstatus ' + statusClass + '">' + statusText + '</span>' +
           '</div>' +
-          '<span class="qtext">' + escapeHtml(q.question) + '</span>' +
-          '<button type="button" class="copy-btn" data-copy="' + escapeHtml(q.question + '\n\n' + q.options.map(function(o){ return o.display + '. ' + o.text; }).join('\n')) + '">📋 Copy</button>';
+          '<span class="qtext">' + escapeHtml(q.question) + '</span>';
+        // Built as a real element (not string-concatenated innerHTML) because
+        // escapeHtml() only escapes text-node entities, not quotes — unsafe to
+        // use for an HTML attribute value like data-copy.
+        var qCopyBtn = document.createElement('button');
+        qCopyBtn.type = 'button';
+        qCopyBtn.className = 'copy-btn';
+        qCopyBtn.setAttribute('data-copy', q.question + '\n\n' + q.options.map(function(o){ return o.display + '. ' + o.text; }).join('\n'));
+        qCopyBtn.textContent = '📋 Copy';
+        qhead.appendChild(qCopyBtn);
         card.appendChild(qhead);
 
         if (q.question_vi) {
@@ -862,15 +864,12 @@
     })();
   }
 
-  function start(){
-    var questions = window.CERT_QUESTIONS || [];
-    if (mode === 'exam') runExam(questions);
-    else runPractice(questions);
+  function run(config, questions){
+    var mode = config.mode === 'exam' ? 'exam' : 'practice';
+    document.body.classList.add('quiz-' + mode);
+    if (mode === 'exam') runExam(config, questions);
+    else runPractice(config, questions);
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', start);
-  } else {
-    start();
-  }
+  window.QuizEngine = { run: run };
 })();

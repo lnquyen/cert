@@ -1,0 +1,14 @@
+{
+  "domains": {},
+  "quizzes": [
+    {
+      "id": "quiz1",
+      "mode": "practice",
+      "title": "Quiz 1",
+      "badge": "Practice",
+      "description": "Replace with a short description of this quiz.",
+      "file": "quiz1.json",
+      "randomSubsetSize": 50
+    }
+  ]
+}

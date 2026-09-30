@@ -1,0 +1,15 @@
+[
+  {
+    "number": 1,
+    "question": "Example question — replace with real content?",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "correct": "A",
+    "explanation": "Why A is correct.",
+    "domain": "D1"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "domains": {
+    "D1": "Agentic Architecture & Orchestration",
+    "D2": "Tool Design & MCP Integration",
+    "D3": "Claude Code Configuration & Workflows",
+    "D4": "Prompt Engineering & Structured Output",
+    "D5": "Context Management & Reliability"
+  },
+  "quizzes": [
+    {
+      "id": "quiz1",
+      "mode": "practice",
+      "title": "Quiz 1",
+      "badge": "77 questions",
+      "description": "One question at a time, with an instant right/wrong check and a running score as you go. Best for your first pass through the question bank.",
+      "file": "quiz1.json",
+      "randomSubsetSize": 50
+    },
+    {
+      "id": "quiz2",
+      "mode": "practice",
+      "title": "Interactive Quiz",
+      "badge": "147 questions",
+      "description": "A larger, expanded pool with extra scenario variations. Pick a custom question range to drill, and review every wrong answer at the end.",
+      "file": "quiz2.json",
+      "randomSubsetSize": 60
+    },
+    {
+      "id": "exam",
+      "mode": "exam",
+      "title": "Practice Exam",
+      "badge": "77 questions",
+      "description": "The full mock exam: every question on one scrollable page, with domain filters and a final score broken down by domain — the closest simulation of test day.",
+      "file": "exam.json",
+      "pageSize": 25
+    }
+  ]
+}
